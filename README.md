@@ -4,7 +4,7 @@
 
 **作者：Jweokk** · 联系邮箱：weokk2025@gmail.com
 
-**在线阅读**：[aiorg.fly2ai.top](https://aiorg.fly2ai.top)（移动端友好） · **整本下载**：[AI原生组织 v1.0.0.pdf](https://aiorg.fly2ai.top/ai-native-organization-v1.0.0.pdf)
+**在线阅读**：[aiorg.fly2ai.top](https://aiorg.fly2ai.top)（移动端友好） · **整本下载**：[AI原生组织 PDF](https://aiorg.fly2ai.top/ai-native-organization.pdf)（每周更新，最新版）
 
 ---
 

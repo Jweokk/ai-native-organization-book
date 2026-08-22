@@ -5,7 +5,7 @@
 **作者：Jweokk** · 联系邮箱：weokk2025@gmail.com
 
 <div style="text-align:center; margin: 2em 0;">
-<a class="md-button md-button--primary" href="ai-native-organization-v1.0.0.pdf">📥 下载整本 PDF（v1.0.0）</a>
+<a class="md-button md-button--primary" href="ai-native-organization.pdf">📥 下载整本 PDF（每周更新，最新版）</a>
 </div>
 
 ---
