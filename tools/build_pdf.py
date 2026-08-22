@@ -13,7 +13,8 @@ from datetime import datetime
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK_DIR = os.path.join(BASE, "book")
-OUT_DIR = os.path.join(BASE, "site")
+# PDF 输出到 book/（docs_dir 内），mkdocs build 时会自动复制到 site/
+OUT_DIR = os.path.join(BASE, "book")
 
 def read_version():
     vf = os.path.join(BASE, "VERSION")
@@ -244,6 +245,11 @@ def build():
 
     import weasyprint
     weasyprint.HTML(string=html).write_pdf(pdf_path)
+
+    # 生成不带版本号的固定名（README/首页下载链接用，每周覆盖）
+    fixed_path = os.path.join(OUT_DIR, "ai-native-organization.pdf")
+    import shutil
+    shutil.copy(pdf_path, fixed_path)
 
     # 验证
     txt = subprocess.run(["pdftotext", pdf_path, "-"], capture_output=True, text=True).stdout

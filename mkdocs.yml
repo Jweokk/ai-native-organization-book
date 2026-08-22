@@ -1,6 +1,8 @@
 site_name: AI 原生组织
 site_description: AI-Native Organization — 免费公开、持续更新的开源书籍
 site_url: https://aiorg.fly2ai.top
+docs_dir: book
+site_dir: site
 repo_url: https://github.com/Jweokk/ai-native-organization-book
 repo_name: GitHub
 

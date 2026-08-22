@@ -85,15 +85,8 @@ def main():
     with open(APPENDIX_C, "a", encoding="utf-8") as f:
         f.write("\n" + appendix_entry)
 
-    # 4. 重新生成 PDF（用固定输出名 + 版本号名，方便下载链接稳定）
+    # 4. 重新生成 PDF（build_pdf.py 同时产出版本名 + 固定名，供 mkdocs 复制）
     subprocess.run([sys.executable, "tools/build_pdf.py", new_version], cwd=BASE, check=True, timeout=300)
-    # 同时生成不带版本号的固定名（README/首页下载链接用）
-    fixed = os.path.join(BASE, "site", "ai-native-organization.pdf")
-    vfile = os.path.join(BASE, "site", f"ai-native-organization-v{new_version}.pdf")
-    if os.path.exists(vfile) and not os.path.exists(fixed):
-        import shutil; shutil.copy(vfile, fixed)
-    elif os.path.exists(vfile):
-        os.replace(vfile, fixed) if False else None
 
     # 5. mkdocs build
     subprocess.run([os.path.join(BASE, ".venv", "bin", "mkdocs"), "build"], cwd=BASE, check=True, timeout=300)
