@@ -213,6 +213,8 @@ def build():
     white-space: pre-wrap;
   }}
   a {{ color: #1a237e; text-decoration: none; }}
+  /* PDF 中显示链接完整 URL（正文链接极少，主要为致谢与附录出处） */
+  a::after {{ content: " (" attr(href) ")"; font-size: 8pt; color: #666; }}
   .footnote {{ font-size: 8.5pt; color: #666; }}
   hr {{ border: none; border-top: 1px solid #ccc; margin: 14pt 0; }}
 </style>
