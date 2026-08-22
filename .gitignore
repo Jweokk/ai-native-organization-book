@@ -1,0 +1,5 @@
+.venv/
+site/
+__pycache__/
+*.pyc
+.last-update.json
