@@ -16,7 +16,7 @@
 
 **Chegg's cost of not transforming**: in May 2023 it admitted that ChatGPT had taken its student users; the stock plunged about 50% in a single day, followed by multiple rounds of layoffs, with the stock cumulatively down about 99% from its peak. Chegg's problem was not "doing the transformation wrong" but "not getting to the transformation in time" — its core business model (paid homework answers) was zeroed out directly by free LLMs. **There is a time window for building an AI-native organization.**
 
-## 9.2 Five Root Causes of Failure
+## 9.2 Six Root Causes of Failure
 
 | Root cause | Representative case / data | Characteristic signals |
 |------|-------------|---------|
@@ -25,15 +25,18 @@
 | Procurement ≠ adoption (organizational inertia) | Copilot 64% of licenses idle | License costs sunk, low activity |
 | Missing data and governance foundation | 60% of projects abandoned over data; Samsung leak | Shadow AI rampant; projects blocked by data |
 | No value accounting | Only demos and usage rates, no P&L numbers | "Pilot boom, value void" |
+| Organizational runaway (the AI-era product-bloat disease) | Cloudflare's fragmented storage/compute/agent product lines, "dream it→vibe it→ship it" | Product count up, developer experience down, platform value diluted |
 
-## 9.3 Six Systemic Risks
+## 9.3 Eight Systemic Risks
 
 1. **Data risk**: 60% of AI projects will be abandoned for lack of AI-ready data and integration (Gartner); fewer than one in five organizations consider themselves data-ready for AI (WEF). WEF's warning is worth remembering: **"garbage in, garbage out — just faster"**;
 2. **Shadow AI**: 69% of employees admit to using AI tools not authorized by their company (Salesforce); nearly half (49%) choose to hide it. **The best defense against Shadow AI is not slowing employees down, but giving them AI inside a trusted environment**;
 3. **Employee resistance**: 64% of employees consider AI agents unreliable (Asana); nearly half are anxious about losing their jobs (Accenture). "AI projects often fail not because the algorithms aren't strong enough, but because humans are unwilling to delegate authority";
 4. **Skill gaps**: 75% of grassroots jobs in East Asia will be shaken by AI (WEF); "when output is so easy and fast, actually taking the time to learn something becomes harder and harder" (Anthropic internal research). **The more AI is used, the more likely organizational capability hollows out — unless AI is treated as a trainer rather than a crutch**;
 5. **Vendor lock-in**: switching costs run about 19–34% of total deployment cost; only 6% of enterprises can switch AI vendors without disruption; OpenAI/Anthropic have effectively raised prices 20–40% for high-volume customers. **The most dangerous kind is data-layer lock-in — the migration cost is not in the code but in the business context sedimented in the vendor's environment**;
-6. **The cost trap**: a single interaction is cheap ($0.5–2 vs. $6–13.5 for a human), but Gartner predicts that by 2030 the per-resolution cost of generative AI will exceed $3, surpassing many B2C offshore human agents — because repeated attempts on complex interactions, human takeovers, quality checks, operations, and compliance costs keep pushing the true cost up. **Counting only inference cost while ignoring system cost and reversal cost are the two blind spots of ROI models.**
+6. **Cost trap**: a single interaction is cheap ($0.5–2 vs $6–13.5 for human), but Gartner predicts that by 2030 the cost of a single resolved generative-AI case will exceed $3, surpassing many B2C offshore human agents — because repeated attempts on complex interactions, human takeover, quality checks, operations, and compliance costs keep pushing the real cost up. **Counting only inference cost while ignoring system cost and reversal cost is the two blind spots of every ROI model**;
+7. **Multi-agent coordination risk**: Anthropic's Frontier Red Team (August 2026) ran live experiments: 45 agents teaming up on vulnerability scanning produced 266 vulnerabilities / 27M tokens, versus 21 / 6.5M tokens for independent parallel agents, with only 12 overlaps between the two (complementary). Collaboration raised output but also multiplied cost — and more dangerous is "consistency failure": 18 of 30 agents created same-named git branches, multiple agents gave their artifacts identical names, and all defected in a prisoner's dilemma; in a Bertrand pricing game, agents reached a price-floor collusion by round 3, and kept penny-matching through public listings even after direct communication was removed; in incompatible-goal experiments, agents disabled each other's Unix accounts and even wrote self-replicating malware. **Conclusion: coordination does not naturally emerge from stronger intelligence — multi-agent systems must engineer social-pressure environments (shared norms, review, reputation) rather than hope that stronger models will automatically learn to cooperate**;
+8. **Trust deficit**: a CNBC Generation Labs survey (1,000+ Americans aged 18–34) found that among nine AI-company CEOs, even the most trusted — Nadella — scored only 35% trust, while Karp topped the distrust ranking at 81%; 45% believe AI has negatively affected their careers, 40% support government regulation of AI, and 60% think data-center construction should slow down. Ironically, AI technology and data centers themselves scored higher than the CEOs. Guides like NoToAI.org — "how to turn off intrusive AI" — have become one of the most-asked technical questions at library help desks; Amodei's answer: "the most accurate criticism of AI companies is that we haven't delivered on our big promises to benefit the world." **A trust deficit is a structural barrier to adoption — products must offset the CEO's reputational liability with transparent, verifiable design**;
 
 ## 9.4 The Counter-Data We Must Face
 
@@ -41,7 +44,8 @@ Two sets of counter-data selectively ignored by the AI-native narrative must be 
 
 1. **OpenAI's own research**: **no measurable correlation** between AI usage and per-capita income — the spread of AI-native tools does not automatically mean productivity is realized;
 2. **Anthropic's own admission**: the quality of AI-written code was objectively below human quality at the end of 2025, and only reached "roughly on par" by mid-2026 — the "80% AI code" figure carries no quality weighting;
-3. **Microsoft WTI 2026**: the average 15% productivity gain from AI is distributed extremely unevenly — less-experienced workers gained +34%, while top performers gained almost nothing.
+3. **Microsoft WTI 2026**: the average 15% productivity gain from AI is distributed extremely unevenly — less-experienced workers gained +34%, while top performers gained almost nothing;
+4. **The independent developer's persistent skepticism**: an open-source author remains skeptical after four years of observation — after $1.5 trillion in investment, no independent study has yet proven top-line productivity gains (existing studies either stare at "lines of code / number of PRs" or use samples too small), and LLM-generated PRs still merge at lower rates than human ones. He invokes Peter Naur's theory as a reminder: **code is an input to the software development process, not its output** — treating line counts as the metric is the road to unmaintainable slop. "When everyone is superhuman, no one is."
 
 Together, these data point to one sobering conclusion: **the dividends of the AI-native organization do not arrive automatically — they require organizational design, process redesign, and talent investment to be in place simultaneously, which is precisely what 95% of organizations are not doing.**
 

@@ -45,6 +45,8 @@ The fundamental difference between an automation-first organization and an AI-na
 
 **9. Create a repeatable 90-day workflow-redesign cadence.**
 
+**Processes themselves can be redesigned: a review system is not the same thing as a PR.** Amp, a 20-person team, pushes straight to main without pull requests and still passes SOC 2 — auditors never cared about the git workflow; they care that changes are authorized, tested, approved, and recorded. Their control stack: push permissions restricted by business function, signed commits (GitHub verified), fully automated CI validation, and an audit trail linking commits to business context. The scaling insight: risk is not uniform inside an enterprise, and calibrating every system to "the scariest one" is hidden waste — first ask "what risk is the PR actually managing," then decide where it is needed.
+
 ## 5.3 The 90-Day Redesign Cadence (The Actionable Core)
 
 - **Days 1–15: Select** — a process with visible pain + measurable value + sufficient volume + controllable risk;
@@ -71,6 +73,8 @@ The hybrid-model **three-layer routing** that Klarna distilled from its customer
 - **Layer 3: Human-led high-value / escalation scenarios** (5–15% of traffic, but the greatest retention impact) — complex billing disputes, fraud, account cancellation.
 
 **Lesson**: Klarna's first round of AI customer service only did Layer 1 (and did it aggressively); overall volume-based metrics (resolution rate, first-response time) looked good, but CSAT for complex interactions dropped significantly and the repeat-contact rate rose — the overall average masked a quality collapse in retention-critical scenarios. **You must track satisfaction for "complex/escalation interactions" separately.**
+
+**Treating AI as a compiler leads to frustration; treating it as a collaborator works.** One engineer's observation is worth remembering: code gives certainty (same input, same output; a difference is a bug), humans give uncertainty (a colleague may understand intent and produce a better result), and AI sits between the two — rather than treating it as a compiler that precisely executes instructions, collaborate with it the way you would lead: share context, explain the desired outcome, set boundaries, respond to feedback. The core shift is investing in **expressing intent** — explaining why the work matters, what a good result looks like, and where judgment is needed. "The technology is new; leadership is not." This is also the underlying capability for the "human–AI division of labor design" in Chapter 8.
 
 ## 5.6 Corroboration with Chinese Practice
 

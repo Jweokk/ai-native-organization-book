@@ -43,7 +43,7 @@ The previous chapters answered "what" and "why"; this chapter answers "how." We 
 | 2.4 | **Design for production from day one**: shared context layer, standardized action layer, governance embedded in the system — rather than "bolting on productionization after pilot success" (these are the three decisions of the 5% who succeed) |
 | 2.5 | **Value accounting**: after launch, account using real business data (CFO-led validation succeeds at a 76% rate vs 53% for technology departments vs 32% for business departments) |
 
-**Common mistakes**: pilots that perform through "expert fine-tuning + human fallback" (such a pilot is not a product, it is a performance); pilot success without value accounting; human fallback workload hidden during the pilot and costs underestimated.
+**Common mistakes**: pilots that perform through "expert fine-tuning + human fallback" (such a pilot is not a product, it is a performance); pilot success without value accounting; human fallback workload hidden during the pilot and costs underestimated. **A subtle one: letting the agent change production code and tests at the same time — the tests lose their evidentiary power (the agent can redefine "correct" in the same breath); production and tests must be changed in separate phases** (a practical lesson from Yadda 3.0).
 
 ## Stage 3: Scale (3–12 Months)
 
@@ -57,6 +57,7 @@ The previous chapters answered "what" and "why"; this chapter answers "how." We 
 | 3.4 | **Incentives and trust**: clearly communicate that "AI liberates employees rather than replacing them" (see Transn's Energy Gold); enablement strategies can raise retention by about 32% |
 | 3.5 | **Organizational design keeps pace**: as the number of agents rises, establish agent operations / admission / accountability roles; monitor agent behavior, and ensure rollback and auditability (98% of enterprises have experienced disruptive events related to AI agents) |
 | 3.6 | **Cost governance**: monitor on a "cost per resolved case / full-cycle cost" basis (rather than per-inference cost); cost is the #1 reason 40%+ of agentic projects get cancelled |
+| 3.7 | **Trust-building and observability**: delegate authority in tiers using a "concentric-circle" model — inner circle: agents self-verify and auto-merge; middle circle: pre-annotated human review with observability context; outer circle: deep human intervention. Detect agent drift via tool-call trajectories (e.g., 15 calls without converging = stuck) and SLO burn-rate alerts; black-box tools that expose no telemetry should be vetoed in vendor selection; bounded tasks with frequent control hand-backs are the best practice (Honeycomb) |
 
 **Common mistakes**: scaling tools without scaling processes (technology does addition while processes stand still); no supporting training and incentives (the cause of 64% of Copilot licenses sitting idle); going full release the moment promotion starts.
 

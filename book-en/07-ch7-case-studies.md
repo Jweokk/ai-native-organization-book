@@ -33,9 +33,21 @@ Injecting the highest cognition into the front line: AI Chief of Staff + decisio
 
 OPC model (Human judgment / AI code / Manager macro-decisions) + Soul Team (personality and emotional output) + unified repository as AI context + the rhythm of front-load thinking and back-load review. (See Chapter 4.)
 
+### Mininglamp Technology (Chinese: 明略科技) — Six Modes of Enterprise Multi-Agent Collaboration
+
+Mininglamp is one of the first Chinese vendors to productize "multi-agent collaboration." Its publicly released 2026 architecture guide offers one of the most complete enterprise-level multi-agent collaboration design frameworks to date, mutually corroborating with Anthropic's multi-agent research.
+
+**Three layers of infrastructure**: a unified identity registry (every agent has a unique identity and permissions); a shared-context mechanism (converging unstructured IM discussions into structured knowledge: briefs, timelines, deliverables, rejection records, acceptance status); and a task-orchestration engine (decomposition / serial / parallel / competition).
+
+**Information topology controls visibility** — "see each other when they should; stay blind when they should": a payroll-calculation agent should not broadcast intermediate results to a weekly-report agent. Chat-group information architecture can only achieve "everyone sees everything"; it cannot deliver programmable visibility boundaries.
+
+**Six collaboration modes** (nestable and composable): **Solo** (work alone); **Roundtable** (all agents share context and see each other); **Critic** (generation–review system, where the reviewer holds veto power); **Pipeline** (strictly serial; upstream output = downstream input); **Split** (divide-and-conquer in parallel; subtasks are mutually blind and merged after each delivers); **Swarm** (competitive selection; multiple candidates produce in parallel, redundancy traded for quality).
+
+The implication for organizations: multi-agent is not "opening a few more windows" — decide the information topology and collaboration modes first, then talk about model capability. This matches the conclusion of the Anthropic multi-agent experiments in Chapter 9: **coordination does not naturally emerge from stronger intelligence.**
+
 ### More Chinese Practices (Continuously Being Collected)
 
-Jimo (Chinese: 积墨; AI-native organizational design), Moka (AI-native HR: 3 AI colleagues), Mininglamp Technology (multi-agent collaboration), Atlassian's China practice (AI-native PM) — details on these cases are being continuously added to updated versions of this book through daily information collection.
+Jimo (Chinese: 积墨; AI-native organizational design), Moka (AI-native HR: 3 AI colleagues), Atlassian's China practice (AI-native PM) — details on these cases are being continuously added to updated versions of this book through daily information collection.
 
 ## 7.2 International Cases
 
@@ -75,6 +87,8 @@ In April 2025, CEO Tobi Lutke's memo required employees to first prove "AI can't
 **On-the-ground practices** (official economic research, *How Agents Are Transforming Work*): Codex has become the primary work tool in every department (including legal, finance, and recruiting), accounting for **99.8%** of the company's weekly output tokens; the average engineer routes 99% of output tokens through Codex; the heaviest user orchestrates 60+ hours of agent work in a single day (parallel multi-agent); 80.6% of sampled users have asked Codex to execute tasks estimated to require over 30 minutes of human work.
 
 **The most important counter-evidence**: Fortune (August 2026) reported that OpenAI's own economic research shows **"no measurable correlation between AI usage and revenue per employee"** — the proliferation of AI-native tools does not automatically mean productivity is realized. This is the most authoritative case of the "claims vs facts" tension this book keeps returning to: even the producer of AI tools itself cannot produce evidence that "the more you use it, the more you earn."
+
+**Latest developments** (Wired, August 2026): OpenAI put Codex lead Thibault Sottiaux in charge of the entire ChatGPT product line. ChatGPT is to become a "personalized agent super-app," powered underneath by Codex (a 40-person team, to be merged into ChatGPT within weeks). Its self-attribution is worth noting: the earlier failures of Operator / ChatGPT Agent were blamed on "too early, models unreliable" plus users not knowing what to do with agents; the new strategy is small, fast releases — "you can't do one big splash and get it wrong." **Even the most aggressive agent-ification sample is hedging agent-product uncertainty with small, fast releases.**
 
 ### Notion — A Thousand People, No Layoffs, AI as a Second Growth Curve
 
