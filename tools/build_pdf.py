@@ -1,20 +1,45 @@
 #!/usr/bin/env python3
-"""生成《AI 原生组织》整本 PDF（中文）。
+"""生成《AI 原生组织》整本 PDF（中英双语）。
 
 流程：book/*.md (按文件名排序) → python-markdown → HTML → weasyprint → PDF
 验证：pdftotext 检查页数与非空。
 
 用法：
-    .venv/bin/python tools/build_pdf.py [版本号]
+    .venv/bin/python tools/build_pdf.py [版本号] [--lang zh|en]
     版本号缺省从 VERSION 文件读取。
+    --lang en 生成英文版：读取 book-en/，输出到 repo 根目录（仅 GitHub 分发，不进域名站点）。
 """
-import sys, os, re, glob, subprocess
+import sys, os, re, glob, subprocess, shutil
 from datetime import datetime
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOK_DIR = os.path.join(BASE, "book")
-# PDF 输出到 book/（docs_dir 内），mkdocs build 时会自动复制到 site/
-OUT_DIR = os.path.join(BASE, "book")
+
+LANGS = {
+    "zh": {
+        "dir": "book",
+        "out": "book",      # docs_dir 内，mkdocs 自动复制到 site/（域名站点）
+        "fname": "ai-native-organization",
+        "title": "AI 原生组织",
+        "subtitle": "AI-Native Organization：让组织长出 AI 基因",
+        "meta": "Jweokk 著 · {today} · v{version}",
+        "blurb": "模型已经不稀缺了，能把模型长进组织里的人，才稀缺。<br>从 95% 的项目失败率，到 DeepSeek 160 人的创新密度——<br>这本书讲清楚：什么是 AI 原生组织，证据怎么说，以及怎么打造。",
+        "disclaimer": "本书著作权归作者 Jweokk 所有，免费阅读与非商业性分享，商业用途须事先获得书面许可。<br>联系方式：weokk2025@gmail.com",
+        "font": '"WenQuanYi Zen Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif',
+        "toc_title": "目录",
+    },
+    "en": {
+        "dir": "book-en",
+        "out": ".",         # repo 根目录，仅 GitHub 分发（域名只面向中文读者）
+        "fname": "ai-native-organization-en",
+        "title": "AI-Native Organization",
+        "subtitle": "Growing AI into the Organization's DNA",
+        "meta": "Jweokk · {today} · v{version}",
+        "blurb": "Models are no longer scarce. People who can grow models into their organizations are.<br>From the 95% project failure rate to DeepSeek's 160-person innovation density —<br>this book explains what an AI-native organization is, what the evidence says, and how to build one.",
+        "disclaimer": "Copyright © Jweokk. Free for reading and non-commercial sharing; commercial use requires prior written permission.<br>Contact: weokk2025@gmail.com",
+        "font": '"DejaVu Sans", "Noto Sans", sans-serif',
+        "toc_title": "Contents",
+    },
+}
 
 def read_version():
     vf = os.path.join(BASE, "VERSION")
@@ -26,23 +51,25 @@ def md_to_html(md_text):
     import markdown
     return markdown.markdown(md_text, extensions=["tables", "toc", "admonition", "fenced_code", "footnotes"])
 
-def chapter_files():
-    fs = sorted(glob.glob(os.path.join(BOOK_DIR, "*.md")))
-    # index.md 是站点首页，不进 PDF
-    return [f for f in fs if os.path.basename(f) != "index.md"]
+def chapter_files(book_dir):
+    fs = sorted(glob.glob(os.path.join(book_dir, "*.md")))
+    # index.md 是站点首页、README.md 是仓库说明，均不进 PDF
+    return [f for f in fs if os.path.basename(f) not in ("index.md", "README.md")]
 
 def build():
-    version = sys.argv[1] if len(sys.argv) > 1 else read_version()
-    today = datetime.now().strftime("%Y年%m月%d日")
+    lang = "en" if "--lang" in sys.argv and sys.argv[sys.argv.index("--lang") + 1] == "en" else "zh"
+    L = LANGS[lang]
+    book_dir = os.path.join(BASE, L["dir"])
+    out_dir = os.path.join(BASE, L["out"])
+    version = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1] != "--lang" else read_version()
+    today = datetime.now().strftime("%Y-%m-%d") if lang == "en" else datetime.now().strftime("%Y年%m月%d日")
 
     # 收集章节
     chapters = []
-    for f in chapter_files():
+    for f in chapter_files(book_dir):
         name = os.path.basename(f)
         text = open(f, encoding="utf-8").read()
-        # 去掉 frontmatter
         text = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
-        # 第一个 # 标题作为章节标题
         m = re.search(r"^#\s+(.+)$", text, flags=re.M)
         title = m.group(1).strip() if m else name
         body = md_to_html(text)
@@ -59,8 +86,11 @@ def build():
     for i, (title, body) in enumerate(chapters):
         body_html += f'<h2 class="chapter-title" id="ch{i+1}">{title}</h2>\n{body}\n'
 
+    meta = L["meta"].format(today=today, version=version)
+    font = L["font"]
+
     html = f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="{'en' if lang == 'en' else 'zh-CN'}">
 <head>
 <meta charset="utf-8">
 <style>
@@ -69,7 +99,7 @@ def build():
     margin: 2.2cm 2.5cm 2.2cm 2.5cm;
     @bottom-center {{
       content: counter(page);
-      font-family: "WenQuanYi Zen Hei", sans-serif;
+      font-family: {font};
       font-size: 9pt;
       color: #999;
     }}
@@ -78,7 +108,7 @@ def build():
     @bottom-center {{ content: none; }}
   }}
   body {{
-    font-family: "WenQuanYi Zen Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif;
+    font-family: {font};
     font-size: 10.5pt;
     line-height: 1.75;
     color: #222;
@@ -221,44 +251,38 @@ def build():
 </head>
 <body>
   <div class="cover">
-    <h1>AI 原生组织</h1>
-    <div class="subtitle">AI-Native Organization：让组织长出 AI 基因</div>
-    <div class="meta">Jweokk 著 · {today} · v{version}</div>
+    <h1>{L['title']}</h1>
+    <div class="subtitle">{L['subtitle']}</div>
+    <div class="meta">{meta}</div>
     <div class="blurb">
-      模型已经不稀缺了，能把模型长进组织里的人，才稀缺。<br>
-      从 95% 的项目失败率，到 DeepSeek 160 人的创新密度——<br>
-      这本书讲清楚：什么是 AI 原生组织，证据怎么说，以及怎么打造。
+      {L['blurb']}
     </div>
     <div class="disclaimer">
-      本书著作权归作者 Jweokk 所有，免费阅读与非商业性分享，商业用途须事先获得书面许可。<br>
-      联系方式：weokk2025@gmail.com
+      {L['disclaimer']}
     </div>
   </div>
   <div class="toc-page">
-    <h2>目录</h2>
+    <h2>{L['toc_title']}</h2>
     {toc_items}
   </div>
   {body_html}
 </body>
 </html>
 """
-    os.makedirs(OUT_DIR, exist_ok=True)
-    pdf_path = os.path.join(OUT_DIR, f"ai-native-organization-v{version}.pdf")
+    os.makedirs(out_dir, exist_ok=True)
+    pdf_path = os.path.join(out_dir, f"{L['fname']}-v{version}.pdf")
+    fixed_path = os.path.join(out_dir, f"{L['fname']}.pdf")
 
     import weasyprint
     weasyprint.HTML(string=html).write_pdf(pdf_path)
-
-    # 生成不带版本号的固定名（README/首页下载链接用，每周覆盖）
-    fixed_path = os.path.join(OUT_DIR, "ai-native-organization.pdf")
-    import shutil
     shutil.copy(pdf_path, fixed_path)
 
     # 验证
-    txt = subprocess.run(["pdftotext", pdf_path, "-"], capture_output=True, text=True).stdout
+    txt = subprocess.run(["pdftotext", fixed_path, "-"], capture_output=True, text=True).stdout
     pages = len(txt.split("\f")) - 1 if txt else 0
     nonempty = len(txt.strip()) > 2000
     garbled = txt.count("□") + txt.count("�") > 5
-    print(f"PDF: {pdf_path}")
+    print(f"PDF({lang}): {pdf_path}")
     print(f"pages={pages} text_chars={len(txt.strip())} nonempty={nonempty} garbled={garbled}")
     if pages < 20 or not nonempty or garbled:
         sys.exit("验证失败：PDF 异常")

@@ -85,8 +85,9 @@ def main():
     with open(APPENDIX_C, "a", encoding="utf-8") as f:
         f.write("\n" + appendix_entry)
 
-    # 4. 重新生成 PDF（build_pdf.py 同时产出版本名 + 固定名，供 mkdocs 复制）
+    # 4. 重新生成 PDF（build_pdf.py 同时产出版本名 + 固定名，供 mkdocs 复制；英文版输出到 repo 根仅 GitHub 分发）
     subprocess.run([sys.executable, "tools/build_pdf.py", new_version], cwd=BASE, check=True, timeout=300)
+    subprocess.run([sys.executable, "tools/build_pdf.py", new_version, "--lang", "en"], cwd=BASE, check=True, timeout=300)
 
     # 5. mkdocs build
     subprocess.run([os.path.join(BASE, ".venv", "bin", "mkdocs"), "build"], cwd=BASE, check=True, timeout=300)
