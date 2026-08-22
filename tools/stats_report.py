@@ -18,8 +18,26 @@ HISTORY = os.path.join(BASE, "tools", "stats_history.json")
 REPO = "Jweokk/ai-native-organization-book"
 ZONE = "a79e9241a26834e33effd858a68ee828"  # fly2ai.top
 
+def gh_token():
+    env_path = os.path.expanduser("~/.hermes/tokens.env")
+    if os.path.exists(env_path):
+        for line in open(env_path):
+            line = line.strip()
+            if line.startswith("GITHUB_TOKEN="):
+                return line.split("=", 1)[1].strip().strip('"').strip("'")
+    return None
+
 def gh_json(path):
-    r = subprocess.run(["gh", "api", path], capture_output=True, text=True, timeout=30)
+    """用 curl + GITHUB_TOKEN 直连 GitHub API（不依赖 gh CLI 登录状态）"""
+    tok = gh_token()
+    if not tok:
+        return None
+    r = subprocess.run(
+        ["curl", "-s", "--max-time", "20",
+         "-H", "Authorization: Bearer " + tok,
+         "-H", "Accept: application/vnd.github+json",
+         "https://api.github.com/" + path],
+        capture_output=True, text=True, timeout=30)
     if r.returncode != 0:
         return None
     try:
