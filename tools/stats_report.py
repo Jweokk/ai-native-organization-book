@@ -28,7 +28,10 @@ def gh_json(path):
         return None
 
 def cf_analytics():
-    """尝试 CF GraphQL zone analytics；无权限返回 None 和原因。"""
+    """CF GraphQL zone analytics（fly2ai.top 全站总量）。
+    注：httpRequests1dGroups 的 filter 不支持按 host/路径过滤，
+    单站点精确统计需 CF Web Analytics（Dashboard 创建并查看）。
+    """
     import os as _os
     token = None
     env_path = os.path.expanduser("~/.hermes/tokens.env")
@@ -42,19 +45,17 @@ def cf_analytics():
         return None, "CF token 未找到"
     today = datetime.now().strftime("%Y-%m-%d")
     week_ago = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
-    query = {
-        "query": (
-            '{ viewer { zones(filter: {zoneTag: "%s"}) { '
-            "httpRequests1dGroups(limit: 8, filter: {date_geq: \"%s\"}) { "
-            "dimensions { date } sum { requests } uniq { uniques } } } } }"
-        ) % (ZONE, week_ago)
-    }
+    query = (
+        '{ viewer { zones(filter: {zoneTag: "%s"}) { '
+        "httpRequests1dGroups(limit: 8, filter: {date_geq: \"%s\"}) { "
+        "dimensions { date } sum { requests } uniq { uniques } } } } }"
+    ) % (ZONE, week_ago)
     r = subprocess.run(
         ["curl", "-s", "--max-time", "20", "-X", "POST",
          "https://api.cloudflare.com/client/v4/graphql",
          "-H", "Authorization: Bearer " + token,
          "-H", "Content-Type: application/json",
-         "--data", json.dumps(query)],
+         "--data", json.dumps({"query": query})],
         capture_output=True, text=True, timeout=40)
     try:
         d = json.loads(r.stdout)
@@ -65,6 +66,7 @@ def cf_analytics():
         return None, err
     groups = d["data"]["viewer"]["zones"][0]["httpRequests1dGroups"]
     return groups, None
+
 
 def load_history():
     if os.path.exists(HISTORY):
@@ -101,11 +103,12 @@ def main():
     if groups:
         total = sum(g["sum"]["requests"] for g in groups)
         uniq = sum(g["uniq"]["uniques"] for g in groups)
-        lines.append(f"**域名站点** [aiorg.fly2ai.top](https://aiorg.fly2ai.top)")
+        lines.append(f"**域名站点（fly2ai.top 全站，含全部子项目）** [aiorg.fly2ai.top](https://aiorg.fly2ai.top)")
         lines.append(f"- 🌐 近7天 HTTP 请求: {total:,} 次 / 唯一访客: {uniq:,}")
         # 按天明细
         daily = ", ".join(f"{g['dimensions']['date'][5:]}:{g['sum']['requests']}" for g in groups[-7:])
         lines.append(f"- 📈 按天: {daily}")
+        lines.append("- 📄 注：单站点/PDF 精确统计需 CF Web Analytics（Dashboard 查看）")
     else:
         reason = err or "未知"
         lines.append(f"**域名站点**：⚠️ CF 统计未启用（{reason[:80]}）")
