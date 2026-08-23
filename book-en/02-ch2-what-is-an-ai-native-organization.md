@@ -95,9 +95,9 @@ Ask yourself five questions:
 
 If all five answers point to the "old structure," you are applying a band-aid. If even one or two have begun to shift, you are already on the road to growing DNA. **An AI-native organization is not an "upgrade" but a "rebirth" — and it can be reborn in stages.** In the next chapter, we look at the evidence.
 
-## 2.9 Postscript: AI Adoption Is a Myth — The Barbell Distribution and "Let AI Retreat to the Background"
+## 2.9 AI Adoption Is a Myth — The Barbell Distribution and "Let AI Retreat to the Background"
 
-*(Added in v1.0.1.)* Vasuman Moza — a former Meta engineer and founder of Varick Agents, which deploys AI agents inside enterprises with $500M+ in annual revenue — spent a year inside large companies and kept seeing the same result. Hand the best AI tools to everyone, whether the team has 50 people or 5,000, and a "barbell" forms:
+Vasuman Moza — a former Meta engineer and founder of Varick Agents, which deploys AI agents inside enterprises with $500M+ in annual revenue — spent a year inside large companies and kept seeing the same result. Hand the best AI tools to everyone, whether the team has 50 people or 5,000, and a "barbell" forms:
 
 **5%–10% become power users, 20% use it occasionally but crudely, and the remaining 70% barely touch it.** One enterprise that had just signed an eight-figure annual AI contract even found that **10% of employees consumed 90% of the tokens.**
 
