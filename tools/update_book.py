@@ -7,7 +7,7 @@
 流程：
     1. VERSION patch+1（或 --version 指定完整版本号）
     2. CHANGELOG.md 头部插入新版本条目
-    3. book/13-附录C-版本历史与更新说明.md 追加条目
+    3. book/14-附录C-版本历史与更新说明.md 追加条目
     4. 重新生成整本 PDF（tools/build_pdf.py）
     5. mkdocs build（站点静态文件）
     6. git commit + push main（GitHub Actions 会自动部署 Pages）
