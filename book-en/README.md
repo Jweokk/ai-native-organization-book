@@ -43,10 +43,10 @@ The organization and open-publishing model of this book were inspired by XDash's
 - [Chapter 8](book-en/08-ch8-building-your-ai-native-organization.md) — Building your AI-native organization: an action playbook
 - [Chapter 9](book-en/09-ch9-challenges-risks-and-the-future.md) — Challenges, risks, and the future
 - [Chapter 10](book-en/10-ch10-industry-guide.md) — Industry guide: AI-native transformation across ten industries
-- [Afterword](book-en/10-afterword.md)
-- [Appendix A](book-en/11-appendix-a-sources.md) — Case index and sources
-- [Appendix B](book-en/12-appendix-b-metrics.md) — Key metrics
-- [Appendix C](book-en/13-appendix-c-changelog.md) — Version history and update notes
+- [Afterword](book-en/11-afterword.md)
+- [Appendix A](book-en/12-appendix-a-sources.md) — Case index and sources
+- [Appendix B](book-en/13-appendix-b-metrics.md) — Key metrics
+- [Appendix C](book-en/14-appendix-c-changelog.md) — Version history and update notes
 
 ## Copyright
 

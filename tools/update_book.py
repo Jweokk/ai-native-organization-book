@@ -23,7 +23,7 @@ from datetime import datetime
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VERSION_FILE = os.path.join(BASE, "VERSION")
 CHANGELOG = os.path.join(BASE, "CHANGELOG.md")
-APPENDIX_C = os.path.join(BASE, "book", "13-附录C-版本历史与更新说明.md")
+APPENDIX_C = os.path.join(BASE, "book", "14-附录C-版本历史与更新说明.md")
 MARK_FILE = os.path.join(BASE, ".last-update.json")
 
 def bump_version(current, patch_only=True):
