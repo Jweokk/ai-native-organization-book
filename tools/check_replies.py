@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""每日检查《AI 原生组织》宣传帖子的回复情况（通过 Airtap 云手机）。
+"""每日检查《AI 原生组织》X 宣传帖子的回复情况（通过 Airtap 云手机）。
 
-检查目标：
+检查目标（Reddit 已放弃 2026-08-23，r/artificial 帖子被版主移除）：
 - X 主帖: https://x.com/bobandersotayv/status/2091077591906103689
-- Reddit r/artificial: https://www.reddit.com/r/artificial/s/EGXPsdLZLu
 
 用法：
     python3 tools/check_replies.py [--timeout 600]
 
-输出：Airtap agent 的文本报告（互动数 + 回复内容 + 审核状态）。
+输出：Airtap agent 的文本报告（互动数 + 回复内容）。
 历史快照存 tools/replies_history.json（用于对比"较上次新增的回复"）。
 """
 import json, os, subprocess, sys, time
@@ -19,7 +18,6 @@ AIRTap_SKILL = os.path.expanduser("~/.hermes/skills/airtap")
 HISTORY = os.path.join(BASE, "tools", "replies_history.json")
 
 X_POST = "https://x.com/bobandersotayv/status/2091077591906103689"
-REDDIT_POST = "https://www.reddit.com/r/artificial/s/EGXPsdLZLu"
 
 def run(cmd, timeout=60):
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
@@ -68,23 +66,17 @@ def main():
 
     os.chdir(AIRTap_SKILL)
 
-    instruction = f"""On this phone, check TWO pages:
+    instruction = f"""On this phone, in the Chrome browser, check the X post:
 
-PAGE 1 — in Chrome: visit {X_POST}
+URL: {X_POST}
+
 Read and report (use the Android accessibility tree / UI dump, NOT OCR):
 (a) the reply count, repost/retweet count, and like count displayed on this post;
 (b) the text of any replies visible under the post (first 2-3).
 
-PAGE 2 — in the Reddit app (already logged in on this phone): find the post titled "I wrote a free open-source book on AI-native organizations — why 95% of AI projects fail and what the 5% do differently" in r/artificial.
-- Open the Reddit app, tap the search icon, search for the title text, filter to the r/artificial community, open the matching post.
-- Read and report (accessibility tree, NOT OCR):
-(a) whether the post is visible normally, or shows 'removed' / 'awaiting moderator approval' / moderation messages;
-(b) the comment count;
-(c) the text of any visible comments (first 2-3).
+Report as plain text. If the page fails to load, say so.
 
-Report everything as plain text with clear sections. If a page fails to load, say so.
-
-IMPORTANT: Do NOT use CDP or the chrome-browser-automation skill. Operate purely visually with AutoPilot (tap, type, scroll). Use the current Chrome window; type URLs in the address bar."""
+IMPORTANT: Do NOT use CDP or the chrome-browser-automation skill. Operate purely visually with AutoPilot (tap, type, scroll). Use the current Chrome window; type the URL in the address bar."""
 
     print(f"⏳ 创建检查任务（{datetime.now().strftime('%H:%M')}）...")
     task_id = create_task(instruction)
