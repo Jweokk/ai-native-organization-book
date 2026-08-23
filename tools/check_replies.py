@@ -92,7 +92,18 @@ IMPORTANT: Do NOT use CDP or the chrome-browser-automation skill. Operate purely
 
     d = poll_task(task_id, timeout=timeout)
     if d is None:
-        print("⚠️ 任务超时（poll 未完成），请手动检查云手机")
+        msg = "⚠️ 任务超时（poll 未完成），请手动检查云手机"
+        print(msg)
+        # 超时也写快照，避免 cron 运行丢记录
+        snap = {"date": datetime.now().isoformat(), "task": "TIMEOUT", "report": msg}
+        hist = []
+        if os.path.exists(HISTORY):
+            try:
+                hist = json.load(open(HISTORY))
+            except Exception:
+                pass
+        hist.append(snap)
+        json.dump(hist[-60:], open(HISTORY, "w"), ensure_ascii=False, indent=1)
         sys.exit(0)
 
     state = d.get("taskState")
