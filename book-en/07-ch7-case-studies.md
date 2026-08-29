@@ -45,6 +45,8 @@ Mininglamp was one of the first Chinese vendors to productize "multi-agent colla
 
 Implication for organizations: multi-agent is not "opening a few more windows" — you first decide the information topology and collaboration patterns, and only then talk about model capability. This aligns with the conclusion of the Anthropic multi-agent experiments in Chapter 9: **coordination does not naturally emerge from stronger intelligence.**
 
+New data from mid-2026 continues to confirm this direction: IDC reports that 68% of leading enterprises put autonomous agents on their IT procurement priority list, yet more than 60% of pilots remain stuck at the production stage; a CAICT (信通院) survey of 358 enterprises found 67% reporting "coordination costs higher than expected." In July 2026, Beijing issued the first provincial-level agent policy, setting three bottom lines — "traceable, auditable, controllable" — with up to CNY 100 million in industry support. Organization-level multi-agent collaboration is moving from vendor practice to a regulatory topic.
+
 ### More Chinese Practice
 
 Jimo (Chinese: 极摩) (AI-native organizational architecture), Moka (AI-native HR: 3 AI colleagues), Atlassian's China practice (AI-native PM) — case details in Chapter 4 and the appendices.

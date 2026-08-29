@@ -192,6 +192,19 @@
 - https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/
 - https://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html
 
+**Supplement (2026-08-30)**
+- 1. Moka: "Buying AI Features vs. Building AI-Native Capability: Why They Are Two Different Things in 2026" (vendor-reported, official-claims caliber) https://www.mokahr.com/blog/43826.html
+- 2. Moerso (莫尔索): "How AI Agents Land in Enterprises in 2026" (organizational inertia / Role Fusion / FDE→AI Engineer) https://zhuanlan.zhihu.com/p/2048422952681599250
+- 3. Zhaozhao (AI Startup Edition): "FDE Field Notes: How a Small Team Closes Its First Enterprise AI Deal" https://x.com/dzhao63405/status/2093653049755738200
+- 4. orangeburn / Thinkit Lab: "The 7 Big Pitfalls of Legacy-Enterprise AI Transformation" https://mp.weixin.qq.com/s/jn-_i32NCktdpxgJRJbRdw
+- 5. orangeburn / Thinkit Lab: "Chinese-Style FDE Is Doomed to Fail" https://mp.weixin.qq.com/s/8g-AAi2LJ8FDuR2L4hq6yA
+- 6. orangeburn / Thinkit Lab: "We Are Using FDE to Solve a Problem That Doesn't Exist" https://mp.weixin.qq.com/s/V45ycltvzHSxl5L0PgUFAw
+- 7. SMH: "This 'AI refuser' quit her dream job, and hopes others follow" https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html
+- 8. Lars Faye: "AI Coding will Prevent Expertise" (JetBrains' *The Widening Gap* / UPenn 2025 study) https://larsfaye.com/articles/ai-coding-will-prevent-expertise
+- 9. Tom Tunguz: "Most AI Work Can Wait" (routing over model choice; Coinbase cost data) https://tomtunguz.com/ai-execution-routing/
+- 10. Mininglamp (明略科技): "Enterprise efficiency drops after deploying multiple AI agents?" (IDC 2026Q2 / CAICT 358-enterprise survey / Beijing agent policy) https://www.mininglamp.com/news/8365/
+- 11. SenteLabsAI: "OpenExecutive — the 'AI CEO' open-sourced by laid-off developers" https://github.com/SenteLabsAI/OpenExecutive
+
 ## Wiki 知识库素材（本书内容来源之一）
 
 
