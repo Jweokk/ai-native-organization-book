@@ -5,6 +5,8 @@ docs_dir: book
 site_dir: site
 repo_url: https://github.com/Jweokk/ai-native-organization-book
 repo_name: GitHub
+hooks:
+  - tools/mkdocs_hooks.py
 
 theme:
   name: material
