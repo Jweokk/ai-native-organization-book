@@ -101,7 +101,7 @@ Vasuman Moza (a former Meta engineer and founder of Varick Agents, which deploys
 
 **5%–10% of people become power users, 20% use AI occasionally but crudely, and the remaining 70% barely use it at all.** One large enterprise that had just signed an eight-figure-dollar annual AI contract even found that **10% of its employees consumed 90% of its tokens.**
 
-This explains the paradox this book keeps returning to: McKinsey surveys show that 88% of organizations use AI in at least one business function, yet only 6%<sup>[1-03]</sup> of enterprises earn more than 5% of their EBIT from AI. Model capability jumps every few months; organizational productivity does not automatically keep up.
+This explains the paradox this book keeps returning to: McKinsey surveys show that 88% of organizations use AI in at least one business function, yet only 6%<sup><a href="12-appendix-a-sources.md#1-03">[1-03]</a></sup> of enterprises earn more than 5% of their EBIT from AI. Model capability jumps every few months; organizational productivity does not automatically keep up.
 
 Moza's more radical judgment is that this gap will not close by itself, and most employees will very likely never become AI-native users — because using AI well is a craft (knowing when to clear context, when to crystallize repetitive work into skills, when to hand judgment to the model, and when to write deterministic code). AI vendors' product roadmaps revolve around the most active frontier users, so the bar for "using AI well" keeps rising; the AI experts inside companies have no incentive to share — the gap itself is their advantage.
 
@@ -113,7 +113,7 @@ The same structural framing comes from Zilbix's *Enterprise Operating Models in 
 
 ## 2.10 Buying AI Features vs. Building AI-Native Capability
 
-A data point from HR technology puts this question on the table: more than 70% of Chinese enterprises claim to have deployed AI HR tools, but fewer than 15% have achieved an organizational capability leap. "Sticking an AI label on a legacy system" and "rebuilding the organization's memory hub and decision nerves" are two entirely different paths: the former is consumption — it compounds nothing; the latter is investment — the more it is used, the more it understands the enterprise.
+A data point from HR technology puts this question on the table: more than 70% of Chinese enterprises claim to have deployed AI HR tools, but fewer than 15% have achieved an organizational capability leap<sup><a href="12-appendix-a-sources.md#8-72">[8-72]</a></sup>. "Sticking an AI label on a legacy system" and "rebuilding the organization's memory hub and decision nerves" are two entirely different paths: the former is consumption — it compounds nothing; the latter is investment — the more it is used, the more it understands the enterprise.
 
 AI-native capability can be measured with a three-layer architecture:
 

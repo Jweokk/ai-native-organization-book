@@ -89,13 +89,13 @@ In a 2026 interview with LatePost (Chinese: 晚点), Yang Renbin (Chinese: 杨�
 
 ## 4.6 An International Comparison: The Changing Role of the Engineer
 
-Anthropic's internal practice confirms the direction of role reconstruction: the engineer's role shifts from "writing code" to "**architect + referee**" — AI-powered automated code review is embedded in CI/CD, and post-hoc analysis shows it intercepted about one-third of the production bugs in claude.ai's history that caused downtime<sup>[7-28]</sup>; one engineer used AI to auto-fix 800+ API errors that humans estimated would take four years. At OpenAI, Codex became the primary work tool of every department (including non-technical ones such as legal, finance, and recruiting), accounting for 99.8% of the company's weekly output tokens<sup>[7-38]</sup>.
+Anthropic's internal practice confirms the direction of role reconstruction: the engineer's role shifts from "writing code" to "**architect + referee**" — AI-powered automated code review is embedded in CI/CD, and post-hoc analysis shows it intercepted about one-third of the production bugs in claude.ai's history that caused downtime<sup><a href="12-appendix-a-sources.md#7-28">[7-28]</a></sup>; one engineer used AI to auto-fix 800+ API errors that humans estimated would take four years. At OpenAI, Codex became the primary work tool of every department (including non-technical ones such as legal, finance, and recruiting), accounting for 99.8% of the company's weekly output tokens<sup><a href="12-appendix-a-sources.md#7-38">[7-38]</a></sup>.
 
 ## 4.7 Three Paths: There Is No Single AI-Native Organization
 
 Putting this chapter's cases together with the international ones, there are three parallel paths to the AI-native organization:
 
-1. **The shrink path** (Klarna): hiring freeze + natural attrition, headcount −38%<sup>[7-01]</sup>, with AI replacing the headcount growth that demand would have required;
+1. **The shrink path** (Klarna): hiring freeze + natural attrition, headcount −38%<sup><a href="12-appendix-a-sources.md#7-01">[7-01]</a></sup>, with AI replacing the headcount growth that demand would have required;
 2. **The expansion path** (OpenAI/Anthropic): headcount and revenue grow together; AI-native is a growth engine, not a downsizing tool;
 3. **The steady-state leverage path** (Shopify/Duolingo/Airbnb): full-time headcount flat or slightly up, with AI raising per-capita output.
 

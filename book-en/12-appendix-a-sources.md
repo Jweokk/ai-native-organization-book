@@ -1,6 +1,8 @@
 # Appendix A: Case Index and Sources
 
 > This appendix lists the original sources for every data point, case, and claim in this book. Attribution convention: company official statements are marked as **official claims**; third-party sources such as media, analysts, and regulatory filings are marked as **third-party verified**. All data is timestamped as of August 2026.
+>
+> **Numbering system**: Superscript [numbers] in the body text (e.g., [10-25]) are direct citations — click to jump to the corresponding entry in this appendix. Entries are grouped by source theme ([1-xx] reports & data, [7-xx] international cases, [8-xx] methodology & failure cases, [10-xx] industry guide); any chapter may cite any group. Entries without a superscript in the body are further reading and verification sources on the same topic.
 
 ---
 
