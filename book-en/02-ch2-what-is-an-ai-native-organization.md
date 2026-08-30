@@ -101,7 +101,7 @@ Vasuman Moza (a former Meta engineer and founder of Varick Agents, which deploys
 
 **5%–10% of people become power users, 20% use AI occasionally but crudely, and the remaining 70% barely use it at all.** One large enterprise that had just signed an eight-figure-dollar annual AI contract even found that **10% of its employees consumed 90% of its tokens.**
 
-This explains the paradox this book keeps returning to: McKinsey surveys show that 88% of organizations use AI in at least one business function, yet only 6% of enterprises earn more than 5% of their EBIT from AI. Model capability jumps every few months; organizational productivity does not automatically keep up.
+This explains the paradox this book keeps returning to: McKinsey surveys show that 88% of organizations use AI in at least one business function, yet only 6%<sup>[1-03]</sup> of enterprises earn more than 5% of their EBIT from AI. Model capability jumps every few months; organizational productivity does not automatically keep up.
 
 Moza's more radical judgment is that this gap will not close by itself, and most employees will very likely never become AI-native users — because using AI well is a craft (knowing when to clear context, when to crystallize repetitive work into skills, when to hand judgment to the model, and when to write deterministic code). AI vendors' product roadmaps revolve around the most active frontier users, so the bar for "using AI well" keeps rising; the AI experts inside companies have no incentive to share — the gap itself is their advantage.
 
