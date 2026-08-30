@@ -1,0 +1,122 @@
+# 附录A 编号参考表：行业篇来源（第 10 章）
+
+- [10-01] ABA Formal Opinion 512（生成式 AI 伦理框架）：https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf
+- [10-02] Thomson Reuters《2026 AI in Professional Services Report》：https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/
+- [10-03] ABA《2025 Legal Industry Report》：https://www.americanbar.org/groups/law_practice/resources/law-technology-today/2025/the-legal-industry-report-2025/
+- [10-04] CNBC：Harvey 以 110 亿美元估值融资 2 亿美元（2026-03）：https://www.cnbc.com/2026/03/25/legal-ai-startup-harvey-raises-200-million-at-11-billion-valuation.html
+- [10-05] A&O Shearman 官方：与 Harvey 推出 agentic AI 智能体：https://www.aoshearman.com/en/news/ao-shearman-and-harvey-to-roll-out-agentic-ai-agents-targeting-complex-legal-workflows
+- [10-06] Harvey 官方客户案例：A&O Shearman 全所部署：https://www.harvey.ai/customers/a-and-o-shearman
+- [10-07] HFS Research：Accenture 再造分析：https://www.hfsresearch.com/research/big-bold-accenture-reinvention/
+- [10-08] CIO Dive：Accenture FY25 GenAI 收入与组织再造：https://www.ciodive.com/news/accenture-generative-ai-revenue-skills-training-data-modernization/761161/
+- [10-09] Australian Financial Review：Deloitte 澳洲 AI 事故报告：https://www.afr.com/companies/professional-services/deloitte-s-botched-ai-report-is-now-a-headache-for-the-big-four-20251007-p5n0pp
+- [10-10] FTC 终局裁定：DoNotPay 虚假宣传案：https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires
+- [10-11] HAQQ AI 幻觉制裁案例追踪（1,598 起）：https://www.haqq.ai/blog/ai-legal-hallucination-audit
+- [10-12] Computerworld/FT：四大招聘 AI 专家超过会计师：https://www.computerworld.com/article/4173296/the-big-four-accounting-firms-are-now-hiring-more-ai-specialists-than-accountants.html
+- [10-13] AIBase 新闻：《芒果》：https://news.aibase.com/zh/news/27182（芒果
+- [10-14] Unwire.pro 报道：《媒体AI转型与新闻业》：https://unwire.pro/2025/11/17/media-ai-transformation-journalism/news/（FT/BBC/卫报
+- [10-15] 搜狐 文章：《快手可灵》：https://www.sohu.com/a/919299995_362225（快手可灵
+- [10-16] ObservAI 分析：《NYT诉OpenAI判决》：https://observai.cn/nytimes-vs-openai-judgment/（NYT
+- [10-17] 腾讯云开发者 新闻：《Gannett/CNET》：https://cloud.tencent.com/developer/news/1175817（Gannett/CNET
+- [10-18] Poynter 评论：《人工智能在新闻编辑室的得失》：https://www.poynter.org/commentary/2025/artificial-intelligence-wins-fails-newsrooms/（Poynter
+- [10-19] NewsGuard 特别报告：《AI追踪中心》：https://www.newsguardtech.com/special-reports/ai-tracking-center/（NewsGuard
+- [10-20] 虎嗅 文章：《AI》：https://www.huxiu.com/article/4400869.html（AI
+- [10-21] 新华网 数字报道：《AI》：http://www1.xinhuanet.com/digital/20250902/d08b592223954340af8c02ac3d7161e1/c.html（AI
+- [10-22] 卫报新闻办公室：《卫报媒体集团宣布与OpenAI达成战略合作》：https://www.theguardian.com/gnm-press-office/2025/feb/14/guardian-media-group-announces-strategic-partnership-with-openai（卫报-OpenAI
+- [10-23] 腾讯新闻：《AI相关报道》：https://news.qq.com/rain/a/20251120A05SIM00（AI
+- [10-24] AI for Newsroom：《报告》：https://aifornewsroom.in/reports（State
+- [10-25] 科技日报：《微众银行：从数字银行迈向 AI 原生银行》：https://www.stdaily.com/web/gdxw/2025-03/13/content_309155.html
+- [10-26] 微众银行（官方）：《AI 算力去年增长 3.5 倍 服务个人客户超 4.4 亿》：https://www.webank.com/mediaCenter/mtbd/3141
+- [10-27] CNBC：JPMorgan Chase's blueprint to become the first fully AI-connected megabank：https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
+- [10-28] Tearsheet：JPMorgan Chase's GenAI implementation: 450 use cases and lessons learned：https://tearsheet.co/artificial-intelligence/jpmorgan-chases-gen-ai-implementation-450-use-cases-and-lessons-learned/
+- [10-29] 新加坡商业时报：《星展银行 2025 年人工智能价值将达 10 亿新元》：https://www.businesstimes.com.sg/zh-hans/companies-markets/dbs-unlocks-s1-billion-ai-value-2025
+- [10-30] 东方财富/金十：《踩雷"AI 股神"旗下对冲基金，华尔街巨头现 150 亿美元创纪录亏损》：https://finance.eastmoney.com/a/202608173843102441.html
+- [10-31] AINEXT：《从 7000 人砍到 3000 人：Klarna 用 AI 重塑组织的真实教训》：https://ainext.tw/posts/20260224-klarna-ai-workforce/
+- [10-32] 麦肯锡：《捕捉生成式 AI 新机遇——金融业 CEO 季刊》：https://www.mckinsey.com.cn
+- [10-33] 国家金融监督管理总局：《关于银行业保险业人工智能安全开发应用的指导意见》：https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1261708&itemId=917
+- [10-34] UK Finance：Navigating the EU AI Act: a strategic approach for financial services：https://www.ukfinance.org.uk/news-and-insight/blog/navigating-eu-ai-act-strategic-approach-financial-services
+- [10-35] 21 世纪经济报道：《"替代人工超千万小时"VS"一线体感温度低"：银行 AI 投入的"统计数字与落地温差"》：https://www.21jingji.com/article/20260512/herald/e90a66b55873092c73206c2ae774f338.html
+- [10-36] 36 氪：《银行 AI 的万亿投入，到了该"算账"的时候》：https://m.36kr.com/p/3776145485152771
+- [10-37] GSU 新闻中心：《Classroom Chatbot Improves Student Performance, Study Says》：https://news.gsu.edu/2022/03/21/classroom-chatbot-improves-student-performance-study-says/
+- [10-38] Mainstay（Pounce 供应商）：《How Georgia State University Uses Behavioral Intelligence to Improve Retention》：https://mainstay.com/case-study/how-georgia-state-university-uses-behavioral-intelligence-to-improve-student-retention-and-persistence/
+- [10-39] Khan Academy 官方博客：《How Khan Academy Is Building a Better AI Tutor》：https://blog.khanacademy.org/how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnings/
+- [10-40] Chalkbeat：《Sal Khan reflects on AI in schools and Khanmigo》：https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/
+- [10-41] ERIC（Journal of Teaching and Learning）：Khanmigo 大学物理课混合方法研究：https://eric.ed.gov/?id=EJ1487444
+- [10-42] The 74：《Study: Giving Kids Access to AI Tutors Doesn't Mean They'll Use Them》：https://www.the74million.org/article/study-giving-kids-access-to-ai-tutors-doesnt-mean-theyll-use-them/
+- [10-43] The 74：《LA Unified Faces Criticism After Collapse of Splashy AI Tool Ed》：https://www.the74million.org/article/la-unified-faces-criticism-after-collapse-of-splashy-ai-tool-ed/
+- [10-44] CNBC：《Chegg to lay off 22% of workforce as AI shakes up education tech industry》：https://www.cnbc.com/2025/05/12/chegg-to-lay-off-22percent-of-workforce-as-ai-shakes-up-education-tech-industry.html
+- [10-45] Higher Ed Dive：《2U files for Chapter 11 bankruptcy》：https://www.highereddive.com/news/2u-chapter-11-bankruptcy-restructuring/722358/
+- [10-46] 教育部官网：《教育部等五部门印发〈"人工智能+教育"行动计划〉》：https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html
+- [10-47] Digital Education Council：《AI in Higher Education Global Survey 2026》：https://www.digitaleducationcouncil.com/resource-library-items/ai-in-higher-education-global-survey-2026
+- [10-48] BuildMVPFast：《Duolingo's AI-First Transformation: Birdbrain and $1B Revenue》：https://www.buildmvpfast.com/blog/ai-learning-personalization-duolingo-ai-driven-lessons-2026
+- [10-49] InteligenAI：IKEA Billie 案例（8500 人转岗与 13 亿欧元收入）：https://inteligenai.com/ikea-ai-case-study/
+- [10-50] 中宏网：《瑞幸咖啡 WAIC 2026 亮相：3.5 万门店背后的"智萃生态圈"》：https://www.zhonghongwang.com/show-140-466795-1.html
+- [10-51] 联商网（新浪财经转载）：《盒马升级大区制并设立 AI 委员会》：https://finance.sina.com.cn/roll/2026-04-27/doc-inhvxxxe7776555.shtml
+- [10-52] Fortune：Amazon closes its Amazon Go convenience stores and Fresh supermarkets：https://fortune.com/2026/01/29/amazon-go-fresh-retail-whole-foods/
+- [10-53] CNBC：McDonald's to end IBM AI drive-thru test：https://www.cnbc.com/2024/06/17/mcdonalds-to-end-ibm-ai-drive-thru-test.html
+- [10-54] 新浪财经：《永辉超市学胖东来"毕业"了吗？》：https://k.sina.com.cn/article_7879849619_1d5acf69306801cves.html
+- [10-55] 界面新闻：《从技术赋能到开放生态："SHEIN 链"的数智化跃迁》：https://www.jiemian.com/article/13880290.html
+- [10-56] RetailNews.ai：Zara AI 供应链（Inditex 18 亿欧元投资与 85% 生产配额决策）：https://www.retailnews.ai/topic/zara-ai-supply-chain
+- [10-57] Walmart Corporate：Walmart unveils new AI-powered tools to empower 1.5 million associates：https://corporate.walmart.com/news/2025/06/24/walmart-unveils-new-ai-powered-tools-to-empower-1-5-million-associates
+- [10-58] Walmart Corporate：Retail Rewired 2025（AI 推荐信任度与消费者调查）：https://corporate.walmart.com/news/2025/06/04/walmarts-retail-rewired-report-2025-agentic-ai-at-the-heart-of-retail-transformation
+- [10-59] Bain & Company：Retail Personalization: AI Marketing Magic（ROAS 提升 10%-25%）：https://www.bain.com/insights/retail-personalization-ai-marketing-magic/
+- [10-60] CCFA：《AI 赋能餐饮零售，茶颜悦色 AI 面试官把招聘从 2 天缩至 30 分钟》：http://www.ccfa.org.cn/portal/cn/xiangxi.jsp?id=447349
+- [10-61] 中央网信办：《政务领域人工智能大模型部署应用指引》：https://www.cac.gov.cn/2025-10/10/c_1761819469929310.htm
+- [10-62] 深圳市人民政府：《福田区以DeepSeek为引擎加快政务智能化转型 70名AI"数智员工"上岗》：https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12006997.html
+- [10-63] 新华社：《"AI数智员工"如何助力政务智能化？》：http://www.news.cn/tech/20250224/3d814d20206449a7afe4c78a2466d088/c.html
+- [10-64] 深圳市政务服务和数据管理局：《2025年深圳数字政府与智慧城市建设十件大事》：https://www.sz.gov.cn/szzsj/gkmlpt/content/12/12608/post_12608373.html
+- [10-65] 广州市人民政府：《12345热线有了"超级话务员" 广州政务领域全面铺开DeepSeek接入》：https://www.gz.gov.cn/szgzkfgx/zdgz/content/post_10153907.html
+- [10-66] 美国政府问责署（GAO）：Generative AI Use and Management at Federal Agencies：https://www.gao.gov/products/gao-25-107653
+- [10-67] 瞭望新闻周刊：《AI幻觉频现 风险挑战几何》：https://www.nsfc.gov.cn/p1/3381/4121/2826/93953.html
+- [10-68] 人民日报：《组建国家数据局释放哪些关键信号》：https://paper.people.com.cn/rmlt/html/2023-05/15/content_25999945.htm
+- [10-69] 人民网：《做好"人工智能+"政务服务，先明确这几件事》：http://politics.people.com.cn/n1/2025/0304/c458474-40430761.html
+- [10-70] 布鲁金斯学会：《Assessing the state of AI adoption across the federal government》：https://www.brookings.edu/articles/assessing-the-state-of-ai-adoption-across-the-federal-government/
+- [10-71] 重庆市人民政府：《探索超大城市现代化治理新路子："智慧之光"普照新韵重庆》：http://www.cq.gov.cn/ywdt/jrcq/202508/t20250818_14907156_wap.html
+- [10-72] 上海市人民政府办公厅：《上海市加快"人工智能+政务服务"改革 推动"高效办成一件事"实施方案》：https://www.shanghai.gov.cn/nw12344/20250410/467ecd7d1a254575b263e73fc7c793de.html
+- [10-73] 中国证券报：《以 AI 重构港口基因，再造一个青岛港》：https://epaper.cs.com.cn/zgzqb/html/2025-08/01/nw.D110000zgzqb_20250801_3-A04.htm
+- [10-74] 36氪：《亚马逊 100 万机器人上岗，即将超越人类员工？》：https://m.36kr.com/p/3368169340962561
+- [10-75] 顺丰科技（官方）：《顺丰物流决策大模型"丰知"重磅发布》：https://www.sf-laas.com/news-details/40192
+- [10-76] 罗戈网：《顺丰、京东物流、菜鸟、中通、圆通、申通等九家企业的 AI 底牌，一次看清》：https://www.logclub.com/articleInfo/ODQ2MjE=
+- [10-77] 上海证券报：《六大全栈成果获全域验证，圆通速递 AI 应用规模化落地》：https://www.cnstock.com/commonDetail/741566
+- [10-78] 新浪财经：《物流无人车 2025 盘点：行业交付超 3.5 万台，"四小龙"鏖战升级》：https://finance.sina.com.cn/cj/2026-01-26/doc-inhirqat8215013.shtml
+- [10-79] 36氪：《万辆无人车，等待一张"全国通行证"》：https://m.36kr.com/p/3617731429123076
+- [10-80] 虎嗅：《图森未来广州公司突然宣布解散清算，"管理层有问题"》：https://www.huxiu.com/article/4039242.html
+- [10-81] project44：Why 95% of AI Agent Pilots Fail in Supply Chains：https://www.project44.com/blog/why-95-percent-of-ai-agent-pilots-fail-in-supply-chains/
+- [10-82] 腾讯新闻：《顺丰、京东、美团打响"天空之战"，无人机重塑物流》：https://news.qq.com/rain/a/20251227A01ST800
+- [10-83] 麦肯锡：《2025 麦肯锡 AI 应用现状调研》：https://www.mckinsey.com.cn
+- [10-84] 知乎专栏（云栖大会演讲整理）：《满帮 AI 建设现状与思考》：https://zhuanlan.zhihu.com/p/1967627027327743626
+- [10-85] Future Medicine（NEJM Catalyst 研究）：Kaiser Permanente 7260 名医生环境式 AI 病历：https://www.futuremedicine.com/articles/ambient-ai-scribes-kaiser-permanentes-7000-physician-study-signposts-the-future-of-clinical-documentation
+- [10-86] 健康报：《"智医助理"扎根安徽基层：累计提供辅诊建议 6.8 亿次》：https://www.jkb.com.cn/news/depth/2024/0606/495573.html
+- [10-87] 动脉网/医药魔方（VB100）：《医疗 AI 大模型"最后一公里"——唯有真实落地才有价值》：https://bydrug.pharmcube.com/news/detail/9a530f1ae67f0613f533cc87a6747241
+- [10-88] 新华网：《全国首个"公立医院运行管理大模型"发布》：http://www.news.cn/health/20260302/a842fc4488504e59a5f90b4f324ea518/c.html
+- [10-89] 家医大健康（HIMSS 2025 报道）：《医疗 AI 的失败陷阱：80% 项目未实现价值转化》：https://www.familydoctor.cn/news/yiliao-zuzhi-ruhezai-bimian-shibai-xianjing-tongshi-shishi-rengongzhineng-65193.html
+- [10-90] UCL News：Study sheds light on hurdles faced transforming NHS healthcare with AI：https://www.ucl.ac.uk/news/2025/sep/study-sheds-light-hurdles-faced-transforming-nhs-healthcare-ai
+- [10-91] CHIMA：《AI 医疗机器人临床应用的法律风险》：https://www.chima.org.cn/Html/News/Articles/17035.html
+- [10-92] Menlo Ventures：2025 The State of AI in Healthcare：https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/
+- [10-93] FDA：Artificial Intelligence-Enabled Device Software Functions：https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device
+- [10-94] UC San Diego Health：COMPOSER 败血症监测工具研究：https://health.ucsd.edu/news/press-releases/2024-01-23-study-ai-surveillance-tool-successfully-helps-to-predict-sepsis-saves-lives/
+- [10-95] 联合国新闻：WHO 警告医疗 AI 法律伦理保障滞后：https://news.un.org/zh/story/2025/11/1141133
+- [10-96] 界面新闻：《英矽智能交出 AI 制药首份盈利答卷，仍难缓解制药业研发焦虑》：https://www.jiemian.com/article/14847447.html
+- [10-97] 麦肯锡：《高效率、低能耗、零缺陷：AI 让制造创新"一键直达"》：https://www.mckinsey.com.cn/高效率、低能耗、零缺陷：ai让制造创新一键直达/
+- [10-98] 麦肯锡：《2025 麦肯锡 AI 应用现状调研：仅 6% 企业成为高绩效赢家》：https://www.mckinsey.com.cn/2025麦肯锡ai应用现状调研：从6%企业成为高绩效赢家，他们做对了什么？/
+- [10-99] 麦肯锡：《生成式 AI 在中国：2 万亿美元的经济价值》：https://www.mckinsey.com.cn/生成式ai在中国：2万亿美元的经济价值/
+- [10-100] 人人都是产品经理：《工业 AI 落地失败，90% 不是技术问题》：https://www.woshipm.com/ai/6392172.html
+- [10-101] 新浪：《探寻工业 AI 的真相：为何 AI 很火，落地工业却很难？》：http://client.sina.com.cn/zt_d/2025-08-22/doc-infmvzcz5097908.shtml
+- [10-102] 新工业网：《167 个验证案例全景分析——2026 中国制造业 AI 场景应用白皮书》：https://xingongye.cn/cms/Intelligent_manufacturing/1825.html
+- [10-103] Figure AI：《Figure 02 人形机器人在宝马工厂：参与生产 30000 辆汽车》：https://www.figure.ai/news/production-at-bmw
+- [10-104] Automotive Manufacturing Solutions：《未来-ready：宝马慕尼黑工厂及更远范围的数字化转型》：https://www.automotivemanufacturingsolutions.com/smart-factory/future-ready-bmws-digital-transformation-of-its-munich-plant-and-beyond/523748
+- [10-105] 人民日报（人民论坛）：《我国"灯塔工厂"的发展格局与全球价值链塑造》：https://paper.people.com.cn/rmlt/pc/content/202505/01/content_30080970.html
+- [10-106] 华为：《工业数字化/智能化 2030》：https://www-file.huawei.com/dam/asset/view/7ffffa5fa5e7469692d4704b92ef17d7.pdf
+- [10-107] 国家国防科技工业局：《工信部等八部门印发〈"人工智能+制造"专项行动实施方案〉》：https://www.nda.gov.cn/sjj/zwgk/zcfb/0112/20260107214358696030895_pc.html
+- [10-108] CSDN 博客：《传统制造业 AI 转型的困境与破局之道》：https://blog.csdn.net/weixin_30399155/article/details/96238191
+- [10-109] 国家电网《电力"人工智能+"白皮书》（6541 规划）：https://www.sohu.com/a/898976204_121079544
+- [10-110] 百度百科：光明电力大模型：https://baike.baidu.com/item/光明电力大模型/65228636
+- [10-111] 南方电网："大瓦特·驭电"入选 2024 年度央企十大国之重器：https://www.csg.cn/xwzx/2025/2025gsyw/202501/t20250114_344842.html
+- [10-112] 南方电网：人工智能创新平台模型调用量突破 100 亿次：https://www.csg.cn/xwzx/2025/2025gsyw/202512/t20251216_351726.html
+- [10-113] 国家能源局：中国石油发布 3000 亿参数昆仑大模型：https://www.nea.gov.cn/20250530/9431f59ac81f49c1a3839d7e066c4073/c.html
+- [10-114] 华为企业业务：长庆油田联合华为打造智慧油田标杆：https://e.huawei.com/cn/blogs/2025/industries/oil-gas/shaping-oilfields-with-data-ai
+- [10-115] Sityos：Duke Energy 的 AI 电网预防约 120 万次停电：https://www.sityos.com/en/use-cases/duke-energys-ai-grid-prevented-12-million-outages
+- [10-116] Forbes：Duke Energy CIO 谈数字与 AI 转型：https://www.forbes.com/sites/peterhigh/2025/10/22/duke-energys-cio-on-powering-digital-and-ai-transformation/
+- [10-117] Prudent Consulting：公用事业 AI 投资失败六大根因：https://www.prudentconsulting.com/blogs/ai-utilities-investment-failures/
+- [10-118] BCG：《AI in Energy: A New Strategic Playbook》：https://www.bcg.com/publications/2025/ai-in-energy-new-strategic-playbook
+- [10-119] IEA：《Energy and AI》里程碑报告：https://www.iea.org/reports/energy-and-ai/
+- [10-120] GridFWD：公用事业、电网运营商与监管者的早期 AI 教训：https://gridforward.org/early-ai-use-cases-and-lessons-for-utilities-grid-operators-and-regulators/

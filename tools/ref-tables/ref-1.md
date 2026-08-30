@@ -1,0 +1,37 @@
+# 附录A 编号参考表：第 1-3 章（报告与数据）
+
+- [1-01] MLQ.ai：《2025年企业AI现状报告》：https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf
+- [1-02] Fortune：《MIT报告：95%生成式AI试点项目失败》：https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/
+- [1-03] mckinsey.com：https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+- [1-04] BCG：《AI在工作中：势头增强但差距犹存》：https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain
+- [1-05] BCG新闻稿：《超越AI采用：释放全部潜力》：https://www.bcg.com/press/26june2025-beyond-ai-adoption-full-potential
+- [1-06] BCG：《AI在工作中：战略比工具更重要》：https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+- [1-07] Gartner 新闻稿：《Gartner预测到2025年底30%生成式AI项目在概念验证后被放弃》：https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025
+- [1-08] Gartner新闻稿：《到2026年40%企业应用将具备任务特定AI代理》：https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025
+- [1-09] Gartner新闻稿：《到2030年AI将触及所有IT工作》：https://www.gartner.com/en/newsroom/press-releases/2025-11-10-gartner-survey-finds-artificial-intelligence-will-touch-all-information-technology-work-by-2030
+- [1-10] Gartner新闻稿：《2026年及未来IT组织与用户十大预测》：https://www.gartner.com/en/newsroom/press-releases/2025-10-21-gartner-unveils-top-predictions-for-it-organizations-and-users-in-2026-and-beyond
+- [1-11] Forrester博客：《2026年预测：AI从炒作走向实干》：https://www.forrester.com/blogs/predictions-2026-ai-moves-from-hype-to-hard-hat-work/
+- [1-12] Forrester博客：《2026年预测：AI代理改变商业模式与职场文化》：https://www.forrester.com/blogs/predictions-2026-ai-agents-changing-business-models-and-workplace-culture-impact-enterprise-software/
+- [1-13] Microsoft WorkLab：《AI已至，艰难部分刚刚开始》：https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part
+- [1-14] microsoft.com：https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born
+- [1-15] Microsoft WorkLab：《代理、人类能动性与每家组织的机遇》：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- [1-16] Stanford HAI：《2025年AI指数报告》：https://hai.stanford.edu/ai-index/2025-ai-index-report
+- [1-17] Stanford HAI：《2025年AI指数报告》PDF：https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
+- [1-18] 世界银行：《2025年数字进展报告：AI基础》：https://www.worldbank.org/en/publication/dptr2025-ai-foundations
+- [1-19] 世界银行：《2025年数字进展报告》下载：https://openknowledge.worldbank.org/bitstreams/86903114-6212-4c45-9011-938925cc61d1/download
+- [1-20] IMF：《生成式AI与工作的未来》：https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379
+- [1-21] IMF：《2025年工作报告》PDF：https://www.imf.org/-/media/Files/Publications/WP/2025/English/wpiea2025076-print-pdf.ashx
+- [1-22] OECD：《AI对雇主和工人的调查》：https://www.oecd.org/en/about/projects/aisurveysofemployersandworkers.html
+- [1-23] 来源 URL**：项目页 https://www.oecd.org/en/about/projects/aisurvey：https://www.oecd.org/en/publications/the-impact-of-ai-on-the-workplace-main-findings-from-the-oecd-ai-surveys-of-employers-and-workers_ea0a0fe1-en.html
+- [1-24] OECD：《2023年就业展望：AI、工作质量与包容性》：https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/artificial-intelligence-job-quality-and-inclusiveness_a713d0ad.html
+- [1-25] The Next Web：《OECD：金融和制造业工人担心被AI取代》：https://thenextweb.com/news/oecd-finance-and-manufacturing-workers-fear-ai-replacement
+- [1-26] OECD：《生成式AI与中小企业劳动力》：https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-3.html
+- [1-27] 世界经济论坛新闻稿：《2025年未来就业报告：到2030年新增7800万岗位》：https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/
+- [1-28] 来源 URL**：新闻稿 https://www.weforum.org/press/2025/01/future-of：https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf
+- [1-29] 哈佛商学院：《26-090号报告》：https://www.hbs.edu/ris/download.aspx?name=26-090.pdf
+- [1-30] SSRN：《6905079号论文》：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6905079
+- [1-31] 哈佛商学院：《69077号研究》：https://www.hbs.edu/faculty/Pages/item.aspx?num=69077
+- [1-32] 哈佛商学院AI研究所：《人人都用AI，谁能胜出？》：https://aiinstitute.hbs.edu/everyone-has-ai-which-firms-are-going-to-win/
+- [1-33] SSRN：《6513481号论文》：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481
+- [1-34] 哈佛商学院AI研究所：《人数少、估值高：AI原生企业如何改变游戏》：https://aiinstitute.hbs.edu/less-headcount-more-valuation-how-ai-native-firms-change-the-game/
+- [1-35] 哈佛商学院AI研究所：《生成式AI是否走向科技垄断？》：https://aiinstitute.hbs.edu/is-genai-heading-for-a-tech-monopoly/

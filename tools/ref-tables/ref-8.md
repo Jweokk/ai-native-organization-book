@@ -1,0 +1,84 @@
+# 附录A 编号参考表：第 8-9 章（方法论与失败案例）
+
+- [8-01] complexdiscovery.com：https://complexdiscovery.com/why-95-of-corporate-ai-projects-fail-lessons-from-mits-2025-study/
+- [8-02] The Register 报道：《生成式AI零回报率高达95%》：https://www.theregister.com/2025/08/18/generative_ai_zero_return_95_percent/
+- [8-03] Gartner 新闻稿：《Gartner预测到2025年底30%生成式AI项目在概念验证后被放弃》：https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025
+- [8-04] gartner.com：https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk
+- [8-05] gartner.com：https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027
+- [8-06] Anar Solutions 分析：《代理式AI试点为何在生产环境中失败》：https://anarsolutions.com/why-agentic-ai-pilots-fail-production/
+- [8-07] eeo.com.cn：http://www.eeo.com.cn/2026/0601/898378.shtml
+- [8-08] unifyapps.com：https://www.unifyapps.com/resources/blog/why-95-of-generative-ai-pilots-never-reach-production
+- [8-09] unifyapps.com：https://www.unifyapps.com/resources/customer-story/Large-Financial-Institution-India
+- [8-10] UnifyApps 客户案例：《财富50强零售商》：https://www.unifyapps.com/resources/customer-story/fortune-50-retailer
+- [8-11] cnbc.com：https://www.cnbc.com/2025/05/14/klarna-ceo-says-ai-helped-company-shrink-workforce-by-40percent.html
+- [8-12] Fast Company 报道：《Klarna试图用AI取代员工队伍》：https://www.fastcompany.com/91468582/klarna-tried-to-replace-its-workforce-with-ai
+- [8-13] digitalapplied.com：https://www.digitalapplied.com/blog/klarna-reverses-ai-layoffs-replacing-700-workers-backfired
+- [8-14] thestateofbrand.com：https://www.thestateofbrand.com/news/klarna-reverses-ai-job-cuts
+- [8-15] TandemCoach 分析：《Klarna AI自动化教训》：https://tandemcoach.co/klarna-ai-automation-lesson/
+- [8-16] bloomberg.com：https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak
+- [8-17] Forbes 报道：《三星因敏感代码泄露禁止员工使用ChatGPT等聊天机器人》：https://www.forbes.com/sites/siladityaray/2023/05/02/samsung-bans-chatgpt-and-other-chatbots-for-employees-after-sensitive-code-leak/
+- [8-18] Mashable 报道：《三星ChatGPT泄露细节》：https://mashable.com/article/samsung-chatgpt-leak-details
+- [8-19] weforum.org：https://www.weforum.org/stories/artificial-intelligence/companies-ai-workflows-not-simple-tasks/
+- [8-20] stackmatix.com：https://www.stackmatix.com/blog/copilot-market-adoption-trends
+- [8-21] Peafowlit 博客：《Copilot许可证未使用及如何提高采用率》：https://peafowlit.com/blog/copilot-licenses-go-unused-and-how-to-fix-adoption/
+- [8-22] linkedin.com：https://www.linkedin.com/posts/jukkaniiranen_34-of-microsoft-365-customers-pay-for-premium-activity-7422758776069455872-CInk
+- [8-23] querynow.com：https://www.querynow.com/resources/whitepapers/past-the-stall-m365-copilot-rollouts
+- [8-24] linkedin.com：https://www.linkedin.com/pulse/microsofts-copilot-paradox-94-report-benefits-6-deploy-louis-columbus-fv4gc
+- [8-25] onlineeducation.com：https://www.onlineeducation.com/features/chatgpt-crashes-cheggs-stock
+- [8-26] Higher Education Inquirer 分析：《Chegg：颠覆者的关键历史》：https://www.highereducationinquirer.org/2025/07/chegg-critical-history-of-disruptor.html
+- [8-27] LinkedIn 帖子：《Chegg的衰落是忽视改变的经典案例》：https://www.linkedin.com/posts/harshadshah1953_the-fall-of-chegg-is-a-masterclass-in-ignoring-activity-7487102244815921152-yM6L
+- [8-28] 中欧国际工商学院 媒体报道：《学院媒体剪报》：https://cn.ceibs.edu/media/press-clippings/faculty/29204
+- [8-29] Workiva 资源：《数据压力加剧、不稳定持续》：https://www.workiva.com/resources/data-pressures-mount-instability-continues
+- [8-30] woshipm.com：https://www.woshipm.com/ai/6275554.html
+- [8-31] maiagent.ai：https://maiagent.ai/blog/enterprise-shadow-ai-governance
+- [8-32] securitytoday.com：https://securitytoday.com/articles/2025/08/18/survey-nearly-half-of-employees-hide-workplace-ai-use.aspx
+- [8-33] cloudflare.com：https://www.cloudflare.com/zh-cn/learning/ai/what-is-shadow-ai/
+- [8-34] unleash.ai：https://www.unleash.ai/artificial-intelligence/news/asana-64-of-employees-believe-ai-agents-are-unreliable-calling-for-more-training-clarity-and-guardrails
+- [8-35] Asana 资源：《AI研究状况要点》：https://asana.com/resources/state-of-ai-research-takeaways
+- [8-36] accenture.com：https://www.accenture.com/us-en/insights/consulting/leadership-edge-ai
+- [8-37] d1net.com：https://www.d1net.com/cio/ciotech/585344.html
+- [8-38] blog.104.com.tw：https://blog.104.com.tw/wef-report-2026-ai-entry-level-work-redesign/
+- [8-39] hbrtaiwan.com：https://www.hbrtaiwan.com/special-topics/24535/the-perils-of-using-ai-to-replace-entry-level-jobs
+- [8-40] anthropic.com：https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+- [8-41] swfte.com：https://www.swfte.com/blog/avoid-ai-vendor-lock-in-enterprise-guide
+- [8-42] stepto.net：https://stepto.net/blog/ai-vendor-lock-in-infrastructure-risk-2026
+- [8-43] linkedin.com：https://www.linkedin.com/posts/sumatosoft_aistrategy-vendorlockin-enterpriseai-activity-7458501143887765504-FfQC
+- [8-44] institutepm.com：https://www.institutepm.com/knowledge-hub/ai-vendor-lock-in-strategy
+- [8-45] fin.ai：https://fin.ai/learn/ai-customer-service-cost-savings-industry
+- [8-46] cmswire.com：https://www.cmswire.com/contact-center/will-ai-cost-more-than-offshore-human-agents-in-customer-service/
+- [8-47] stcn.com：https://www.stcn.com/article/detail/3951204.html
+- [8-48] resources.anthropic.com：https://resources.anthropic.com/enterprise-ai-transformation-guide
+- [8-49] rubrik.com：https://www.rubrik.com/blog/technology/25/11/its-early-days-for-agent-ai-and-most-companies-lack-the-tools-to-protect-their-data
+- [8-50] rubrik.com：https://www.rubrik.com/company/newsroom/press-releases/26/ai-agents-are-breaking-things-and-organisations-know-it
+- [8-51] Rubrik 产品页面：《Rubrik Agent Cloud》：https://www.rubrik.com/products/rubrik-agent-cloud
+- [8-52] mckinsey.com：https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+- [8-53] McKinsey 图表：《AI在工作中的应用但未规模化》：https://www.mckinsey.com/featured-insights/charts/ai-at-work-but-not-at-scale
+- [8-54] The Art of Service 课程：《课程板块》：https://academy.theartofservice.com/course/section.php?id=103955
+- [8-55] bcg.com：https://www.bcg.com/featured-insights/the-leaders-guide-to-transforming-with-ai
+- [8-56] Accenture 页面：《Accenture重塑服务》：https://www.accenture.com/us-en/about/reinvention-services
+- [8-57] RTS Labs 路线图：《企业AI路线图》：https://rtslabs.com/enterprise-ai-roadmap
+- [8-58] Thinking Inc 页面：《AI采用路线图》：https://thinking.inc/en/pillar-pages/ai-adoption-roadmap/
+- [8-59] 微信公众号文章：《AI》：https://mp.weixin.qq.com/s/NJW9cYB8aH-1glXxdUnSaA（AI
+- [8-60] Zilbix 分析：《AI原生运营模式：企业如何在代理时代重构》：https://www.zilbix.com/ai-native-operating-model-how-enterprises-must-restructure-for-the-agentic-era/
+- [8-61] Anthropic 研究：《多代理系统》：https://www.anthropic.com/research/multiagent-systems
+- [8-62] 达观数据 新闻：《新闻动态》：https://www.mininglamp.com/news/8292/
+- [8-63] Honeycomb 博客：《关于AI代理生产反馈的问题解答》：https://www.honeycomb.io/blog/your-questions-about-ai-agents-production-feedback-answered
+- [8-64] AmpCode 笔记：《那不是SOC 2合规》：https://ampcode.com/notes/thats-not-soc-2-compliant
+- [8-65] Futurism 报道：《年轻人、AI与CEO高管调查》：https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll
+- [8-66] Librarian.net 页面：《NotoAI》：https://www.librarian.net/notoai/
+- [8-67] JSBarretto 博客：《我仍然是一个怀疑论者》：https://blog.jsbarretto.com/post/i-remain-a-skeptic
+- [8-68] OpenSauce 分析：《Cloudflare AI精神病》：https://opensauce.it/cloudflare-ai-psychosis/
+- [8-69] Allen Bargi 笔记：《与AI合作感觉像领导力》：https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/
+- [8-70] Wired 访谈：《OpenAI Codex负责人Tibo Sottiaux模型行为访谈》：https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/
+- [8-71] Stephen Cresswell 博客：《Yadda 3.0.0：AI代理时代的BDD》：https://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html
+- [8-72] Moka：《买 AI 功能 vs 建 AI 原生能力：2026 年为什么是两件事》（厂商官方宣称口径）：https://www.mokahr.com/blog/43826.html
+- [8-73] 莫尔索：《2026 年，AI 智能体如何在企业落地？》（组织惯性/角色融合/FDE→AI Engineer）：https://zhuanlan.zhihu.com/p/2048422952681599250
+- [8-74] 朝朝（AI创业版）：《万字实战｜FDE 经验分享：小团队如何跑通企业 AI 服务第一单》：https://x.com/dzhao63405/status/2093653049755738200
+- [8-75] orangeburn/Thinkit Lab：《传统企业 AI 转型的 7 大坑》：https://mp.weixin.qq.com/s/jn-_i32NCktdpxgJRJbRdw
+- [8-76] orangeburn/Thinkit Lab：《中国式 FDE 注定失败》：https://mp.weixin.qq.com/s/8g-AAi2LJ8FDuR2L4hq6yA
+- [8-77] orangeburn/Thinkit Lab：《我们正在用 FDE，解决一个不存在的问题》：https://mp.weixin.qq.com/s/V45ycltvzHSxl5L0PgUFAw
+- [8-78] SMH：《This "AI refuser" quit her dream job, and hopes others follow》：https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html
+- [8-79] Lars Faye：《AI Coding will Prevent Expertise》（JetBrains《The Widening Gap》/UPenn 2025 研究）：https://larsfaye.com/articles/ai-coding-will-prevent-expertise
+- [8-80] Tom Tunguz：《Most AI Work Can Wait》（路由优先于模型选型；Coinbase 成本数据）：https://tomtunguz.com/ai-execution-routing/
+- [8-81] 明略科技：《企业部署多个 AI Agent 后协作效率反而下降？》（IDC 2026Q2/信通院 358 家调研/北京智能体政策）：https://www.mininglamp.com/news/8365/
+- [8-82] SenteLabsAI：《OpenExecutive——被裁开发者开源的"AI CEO"》：https://github.com/SenteLabsAI/OpenExecutive

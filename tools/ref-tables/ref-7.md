@@ -1,0 +1,74 @@
+# 附录A 编号参考表：第 7 章（国际案例）
+
+- [7-01] cnbc.com：https://www.cnbc.com/2025/05/14/klarna-ceo-says-ai-helped-company-shrink-workforce-by-40percent.html
+- [7-02] SEC文件：Klarna Group plc财报：https://www.sec.gov/Archives/edgar/data/2003292/000162828025012824/klarnagroupplcf-1.htm
+- [7-03] bloomberg.com：https://www.bloomberg.com/news/articles/2024-12-12/klarna-stopped-all-hiring-a-year-ago-to-replace-workers-with-ai
+- [7-04] TechCrunch：《Klarna CEO称AI停止招聘，但仍登列大量职位》：https://techcrunch.com/2024/12/14/klarnas-ceo-says-it-stopped-hiring-thanks-to-ai-but-still-advertises-many-open-positions/
+- [7-05] threads.com：https://www.threads.com/@fox.hsiao/post/DVP3e7jlA17/
+- [7-06] TechHanlin：《Klarna AI客服案例分析》：https://www.techhanlin.tw/klarna-ai-customer-service-case-study/
+- [7-07] klarna.com：https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/
+- [7-08] klarna.com：https://www.klarna.com/international/press/90-of-klarna-staff-are-using-ai-daily-game-changer-for-productivity/
+- [7-09] Customer Experience Dive：《Klarna称AI代理相当于853名员工》：https://www.customerexperiencedive.com/news/klarna-says-ai-agent-work-853-employees/805987/
+- [7-10] Customer Experience Dive：《Klarna用AI削减客服成本》：https://www.customerexperiencedive.com/news/klarna-ai-slash-customer-service-costs/748647/
+- [7-11] Klarna投资者关系：《2025年全年业绩发布》：https://investors.klarna.com/News--Events/news/news-details/2026/Klarna-Group-plc-Publishes-Full-Year-2025-Results/default.aspx
+- [7-12] Klarna投资者关系：《加速美国增长，营收达10亿美元》：https://investors.klarna.com/News--Events/news/news-details/2026/Klarna-Accelerates-U-S--Growth-and-Delivers-1bn-Revenue-Driven-by-Rapid-Banking-Service-Adoption/default.aspx
+- [7-13] CNBC：《Klarna第三季度财报》：https://www.cnbc.com/2025/11/18/klarna-klar-stock-q3-earnings-report-2025.html
+- [7-14] bloomberg.com：https://www.bloomberg.com/news/articles/2025-05-08/klarna-turns-from-ai-to-real-person-customer-service
+- [7-15] investopedia.com：https://www.investopedia.com/buy-now-pay-later-company-klarna-s-shares-end-first-session-above-ipo-price-11806387
+- [7-16] businessweekly.com.tw：https://www.businessweekly.com.tw/management/blog/3021962
+- [7-17] cnbc.com：https://www.cnbc.com/2023/05/04/shopify-cuts-20percent-of-its-workforce-shares-surge-on-earnings-beat
+- [7-18] businessinsider.com：https://www.businessinsider.com/shopify-ai-use-boosts-efficiency-shakes-up-staff-structure-2024-5
+- [7-19] cnbc.com：https://www.cnbc.com/2025/04/07/shopify-ceo-prove-ai-cant-do-jobs-before-asking-for-more-headcount.html
+- [7-20] Revelio Labs：《Shopify员工数据》：https://www.reveliolabs.com/companies/shopify/employees
+- [7-21] Tobi（Shopify CEO）推特：《关于员工和AI》：https://x.com/tobi/status/1909231499448401946
+- [7-22] bullfincher.io：https://bullfincher.io/companies/shopify/revenue-per-employee
+- [7-23] chargeflow.io：https://www.chargeflow.io/blog/shopify-statistics
+- [7-24] FourWeekMBA：《Shopify人均营收》：https://fourweekmba.com/shopify-revenue-per-employee/
+- [7-25] natesnewsletter.substack.com：https://natesnewsletter.substack.com/p/my-honest-field-notes-on-how-the
+- [7-26] en.wikipedia.org：https://en.wikipedia.org/wiki/Anthropic
+- [7-27] CNBC：《Anthropic年化营收7月达65亿美元》：https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html
+- [7-28] venturebeat.com：https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up
+- [7-29] Anthropic推特：《营收声明》：https://x.com/AnthropicAI/status/2062568864240836995
+- [7-30] cnbc.com：https://www.cnbc.com/2025/11/13/cursor-ai-startup-funding-round-valuation.html
+- [7-31] anthropic.com：https://www.anthropic.com/research/anthropic-economic-index-september-2025-report
+- [7-32] skeptics.stackexchange.com：https://skeptics.stackexchange.com/questions/59213/as-at-september-2025-is-ai-not-writing-90-of-code
+- [7-33] Redwood Research博客：《Anthropic是否90%代码由AI生成？》：https://blog.redwoodresearch.org/p/is-90-of-code-at-anthropic-being
+- [7-34] makerstations.io：https://www.makerstations.io/openai-employee-statistics/
+- [7-35] Mokahr博客：《OpenAI的人才与文化战略》：https://www.mokahr.io/myblog/talent-culture-strategy-at-openai/
+- [7-36] searchlab.nl：https://searchlab.nl/en/statistics/openai-statistics-2026
+- [7-37] cnbc.com：https://www.cnbc.com/2025/09/03/openai-boosts-size-of-secondary-share-sale-to-10point3-billion.html
+- [7-38] openai.com：https://openai.com/index/how-agents-are-transforming-work/
+- [7-39] fortune.com：https://fortune.com/2026/08/13/buried-in-openais-latest-research-no-correlation-between-ai-use-and-revenue-per-employee/
+- [7-40] cnbc.com：https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html
+- [7-41] forbes.com：https://www.forbes.com/sites/annatong/2025/12/15/notion-kicks-off-employee-share-sale-at-11-billion-valuation-as-ai-accelerates-its-growth/
+- [7-42] Notion博客：《介绍Notion AI》：https://www.notion.com/blog/introducing-notion-ai
+- [7-43] medium.com：https://medium.com/@sherrysun/notion-from-near-collapse-to-a-10b-all-in-one-workspace-unicorn-6113f7e1dc4c
+- [7-44] GetLatka：《Notion公司数据》：https://getlatka.com/companies/notion.ai
+- [7-45] cursor.com：https://cursor.com/blog/series-d
+- [7-46] en.wikipedia.org：https://en.wikipedia.org/wiki/Cursor_(company
+- [7-47] Reddit：《Cursor达到10亿ARR，仅300名员工》：https://www.reddit.com/r/SaaS/comments/1r9pj7k/cursor_hit_1b_arr_with_300_employees_thats_33m/
+- [7-48] app.dealroom.co：https://app.dealroom.co/news/note/cursor-tops-4b-annualized-revenue-june-2026
+- [7-49] CNBC：《OpenAI考察Cursor与Windsurf交易》：https://www.cnbc.com/2025/04/17/openai-looked-at-cursor-before-considering-deal-with-rival-windsurf.html
+- [7-50] mashable.com：https://mashable.com/article/duolingo-ai-layoff-contractors
+- [7-51] cnbc.com：https://www.cnbc.com/2025/09/17/duolingo-ceo-how-ai-makes-my-employees-more-productive-without-layoffs.html
+- [7-52] businessinsider.com：https://www.businessinsider.com/duolingo-ceo-how-ai-will-be-used-performance-reviews-headcount-2025-4
+- [7-53] Metaintro 博客：《多邻国CEO收回AI优先备忘录，招聘增长至2026》：https://www.metaintro.com/blog/duolingo-ceo-walks-back-ai-first-memo-hiring-grows-2026
+- [7-54] investors.duolingo.com：http://investors.duolingo.com/company-strategy-overview-0
+- [7-55] classcentral.com：https://www.classcentral.com/report/duolingo-2025/
+- [7-56] reddit.com：https://www.reddit.com/r/duolingo/comments/191ssv7/discussion_duolingo_cuts_10_of_its_contractors/
+- [7-57] techcrunch.com：https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/
+- [7-58] TechCrunch 报道：《Airbnb在美国悄然推出AI客服机器人》：https://techcrunch.com/2025/05/02/airbnb-is-quietly-rolling-out-an-ai-customer-service-bot-in-the-us/
+- [7-59] TechTimes 报道：《Airbnb证明AI驱动工程以80%更多功能击败竞争对手》：https://www.techtimes.com/articles/323585/20260807/airbnb-proves-ai-powered-engineering-beats-rivals-80-more-features-same-staff.htm
+- [7-60] techcrunch.com：https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/
+- [7-61] techcrunch.com：https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/
+- [7-62] TechCrunch 报道：《Spotify称顶尖开发者12月以来未写一行代码》：https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/
+- [7-63] reddit.com：https://www.reddit.com/r/technology/comments/1t9v6km/airbnb_says_ai_now_writes_60_of_its_new_code/
+- [7-64] cnbc.com：https://www.cnbc.com/2024/02/01/zoom-layoffs-company-cuts-150-employees-2percent-of-workforce.html
+- [7-65] BBC 新闻：《科技新闻》：https://www.bbc.com/news/technology-64562673
+- [7-66] MakerStations 统计：《Zoom员工统计数据》：https://www.makerstations.io/zoom-employee-statistics/
+- [7-67] ciodive.com：https://www.ciodive.com/news/zoom-ai-companion-monetization-customization/708688/
+- [7-68] WSJ Facebook 帖子：《Zoom创始人与CEO预测AI将终结五天工作制》：https://www.facebook.com/WSJ/posts/zoom-founder-and-ceo-eric-yuan-predicts-ai-will-put-an-end-to-the-5-day-workweek/1321223876530873/
+- [7-69] linkedin.com：https://www.linkedin.com/posts/conorgrennan_just-released-microsofts-2025-work-trend-activity-7320839065984000004-B8gk
+- [7-70] Microsoft 工作趋势指数报告：《微软工作趋势指数》：https://www.microsoft.com/en-us/worklab/work-trend-index
+- [7-71] themicrosoftcloudblog.com：https://themicrosoftcloudblog.com/2026/05/2026-work-trend-index-evidence-check/
+- [7-72] microsoft.com：https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born
