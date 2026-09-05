@@ -1,0 +1,1387 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI-Native Organization — 免费公开、持续更新的开源书籍">
+      
+      
+      
+        <link rel="canonical" href="https://aiorg.fly2ai.top/08-%E7%AC%AC8%E7%AB%A0-%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84AI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87/">
+      
+      
+        <link rel="prev" href="../07-%E7%AC%AC7%E7%AB%A0-%E6%A1%88%E4%BE%8B%E9%9B%86/">
+      
+      
+        <link rel="next" href="../09-%E7%AC%AC9%E7%AB%A0-%E6%8C%91%E6%88%98%E9%A3%8E%E9%99%A9%E4%B8%8E%E6%9C%AA%E6%9D%A5/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>第 8 章 打造你的 AI 原生组织 - AI 原生组织</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#8-ai" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="AI 原生组织" class="md-header__button md-logo" aria-label="AI 原生组织" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI 原生组织
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              第 8 章 打造你的 AI 原生组织
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jweokk/ai-native-organization-book" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AI 原生组织" class="md-nav__button md-logo" aria-label="AI 原生组织" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AI 原生组织
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jweokk/ai-native-organization-book" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00-%E8%87%AA%E5%BA%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自序
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-%E7%AC%AC1%E7%AB%A0-AI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87%E7%9A%84%E5%B4%9B%E8%B5%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 1 章 AI 原生组织的崛起
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-%E7%AC%AC2%E7%AB%A0-%E4%BB%80%E4%B9%88%E6%98%AFAI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 2 章 什么是 AI 原生组织
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-%E7%AC%AC3%E7%AB%A0-%E8%AF%81%E6%8D%AE-%E5%AE%9E%E8%AF%81%E7%A0%94%E7%A9%B6%E6%80%8E%E4%B9%88%E7%9C%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 3 章 证据——实证研究怎么看
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-%E7%AC%AC4%E7%AB%A0-%E7%BB%84%E7%BB%87%E5%BD%A2%E6%80%81%E9%87%8D%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 4 章 组织形态重构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-%E7%AC%AC5%E7%AB%A0-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E5%86%B3%E7%AD%96%E9%87%8D%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 5 章 工作流与决策重构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-%E7%AC%AC6%E7%AB%A0-%E6%BF%80%E5%8A%B1%E4%B8%8E%E4%BA%BA%E6%89%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 6 章 激励与人才
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-%E7%AC%AC7%E7%AB%A0-%E6%A1%88%E4%BE%8B%E9%9B%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 7 章 案例集
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 8 章 打造你的 AI 原生组织
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 8 章 打造你的 AI 原生组织
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#02-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 0：决策与准备（2-4 周）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 1：评估与选型（4-8 周）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#230-90" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 2：试点（30-90 天）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 3：扩展（3-12 个月）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 4：固化（12-24 个月，持续）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bcg-accenture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        补充：BCG 三价值玩法与 Accenture 三领导力原则
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常见错误速查表（贯穿全周期）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中小团队轻量三原则
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中小团队交付企业 AI 服务：从第一单到持续运营
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        这一章的核心判断
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-%E7%AC%AC9%E7%AB%A0-%E6%8C%91%E6%88%98%E9%A3%8E%E9%99%A9%E4%B8%8E%E6%9C%AA%E6%9D%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 9 章 挑战、风险与未来
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-%E7%AC%AC10%E7%AB%A0-%E8%A1%8C%E4%B8%9A%E7%AF%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 10 章 行业篇——十个行业的 AI 原生转型
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-%E5%90%8E%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    后记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-%E9%99%84%E5%BD%95A-%E6%A1%88%E4%BE%8B%E7%B4%A2%E5%BC%95%E4%B8%8E%E8%B5%84%E6%96%99%E5%87%BA%E5%A4%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录 A 案例索引与资料出处
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-%E9%99%84%E5%BD%95B-%E5%B8%B8%E7%94%A8%E6%8C%87%E6%A0%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录 B 常用指标
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-%E9%99%84%E5%BD%95C-%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录 C 版本历史与更新说明
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#02-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 0：决策与准备（2-4 周）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 1：评估与选型（4-8 周）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#230-90" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 2：试点（30-90 天）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 3：扩展（3-12 个月）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段 4：固化（12-24 个月，持续）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bcg-accenture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        补充：BCG 三价值玩法与 Accenture 三领导力原则
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常见错误速查表（贯穿全周期）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中小团队轻量三原则
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中小团队交付企业 AI 服务：从第一单到持续运营
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        这一章的核心判断
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="8-ai">第 8 章 打造你的 AI 原生组织——行动手册<a class="headerlink" href="#8-ai" title="Permanent link">&para;</a></h1>
+<p>前面的章节回答"是什么"和"为什么"，这一章回答"怎么做"。整合 Anthropic、Rubrik、BCG、McKinsey、Accenture 的转型框架与中国的实践方法论，收敛为一个可执行的四阶段路线图。</p>
+<blockquote>
+<p><strong>总纲</strong>：先减组织摩擦（分母），再翻人才密度 × AI 杠杆（分子）；先重构工作流，再谈自动化；从一条工作流开始，而不是一次重构整个公司。</p>
+</blockquote>
+<h2 id="02-4">阶段 0：决策与准备（2-4 周）<a class="headerlink" href="#02-4" title="Permanent link">&para;</a></h2>
+<p><strong>目标</strong>：回答"我们为什么要转、谁牵头、底线在哪"——不写代码、不买工具。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>关键动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1</td>
+<td><strong>高管亲自上手</strong>：CXO 试用至少 3 个核心业务场景的 AI 工具，形成第一手认知（Accenture 研究发现只有 12% 的领导者自认能在信息有限时快速迭代——亲自上手是治这个病唯一的药）</td>
+</tr>
+<tr>
+<td>0.2</td>
+<td><strong>成立 AI 指导委员会</strong>（业务线负责人 + CFO + CTO + HR），明确"业务主导、技术支撑、财务核算"的权责结构</td>
+</tr>
+<tr>
+<td>0.3</td>
+<td><strong>明确价值口径</strong>：只认可四类可量化价值（增收/降本/提效/提质）；无业务牵头人、无量化指标的项目不予立项</td>
+</tr>
+<tr>
+<td>0.4</td>
+<td><strong>数据与合规体检</strong>：AI-ready 数据盘点、影子 AI 审计（工具清单+泄露面）、供应商锁定评估（多模型路由预案）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>常见错误</strong>：把阶段 0 外包给 IT/数据部门单独推进（技术单兵突进）；把"买了 Copilot"当作转型本身；跳过数据盘点直接上试点。</p>
+<h2 id="14-8">阶段 1：评估与选型（4-8 周）<a class="headerlink" href="#14-8" title="Permanent link">&para;</a></h2>
+<p><strong>目标</strong>：识别"少而精"的高价值工作流，决定 Build vs Buy，建立测量基线。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>关键动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.1</td>
+<td><strong>工作流清单</strong>：逐业务线列出全部工作流，标记"频率 × 痛点强度 × 价值可测性"，每条业务线筛出 <strong>3-5 个</strong>最高价值工作流（Rubrik 法）</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td><strong>优先排序</strong>：单一价值目标优先（McKinsey：聚焦单一目标的项目成功率是宽泛目标的 3.2 倍）；优先后台/中台职能（MIT：合规、运营成功率最高）</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td><strong>Build vs Buy</strong>：MIT 实证显示外部采购/合作方案成功率约为内部自建的 2 倍——默认 Buy/合作，除非数据主权或深度定制场景才自建</td>
+</tr>
+<tr>
+<td>1.4</td>
+<td><strong>基线测量</strong>：为每个候选工作流记录当前的成本/周期/质量数字（CFO 参与）</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td><strong>治理前置</strong>：数据权限矩阵、输出审计、多模型路由、护栏在设计阶段而非上线后补建</td>
+</tr>
+</tbody>
+</table>
+<p><strong>常见错误</strong>：一次上几十个试点（试点泛滥→局部最优、整体最劣）；选"领导觉得酷"而非"业务痛"的场景；治理后置。</p>
+<h2 id="230-90">阶段 2：试点（30-90 天）<a class="headerlink" href="#230-90" title="Permanent link">&para;</a></h2>
+<p><strong>目标</strong>：在 5-15% 流量/最小业务单元上验证真实价值，形成可复制的模式。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>关键动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.1</td>
+<td><strong>30-60 天价值试点</strong>：单痛点、短周期、指标预设（采用度/效率/质量/满意度四维）；试点期人工兜底但<strong>记录兜底工作量</strong>——它就是生产化后的真实成本</td>
+</tr>
+<tr>
+<td>2.2</td>
+<td><strong>小流量放量</strong>：先 5-15% 流量，每日监控、快速调优；小步试点成功率约为全面铺开的 4 倍</td>
+</tr>
+<tr>
+<td>2.3</td>
+<td><strong>人机分工设计</strong>：明确"AI 端到端 / AI 辅助人工 / 人工主导"三层路由（Klarna 混合模型：60-70% / 20-25% / 5-15%）；高价值复杂交互默认人工主导</td>
+</tr>
+<tr>
+<td>2.4</td>
+<td><strong>从第一天按生产设计</strong>：共享上下文层、标准化行动层、治理嵌入系统——而非试点成功后"再补生产化"（这是 5% 成功者的三个决策）</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td><strong>价值核算</strong>：上线后用真实业务数据核算（CFO 主导验证的成功率 76% vs 技术部门 53% vs 业务部门 32%）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>常见错误</strong>：试点靠"专家精调 + 人工兜底"制造表演（这样的试点不是产品，是表演）；试点成功却无价值核算；试点期人工兜底被隐藏、成本被低估。<strong>一个隐蔽错误：让 Agent 同时改生产代码和测试——测试会因此失去证据力（Agent 可以同时重新定义"正确"）；生产与测试必须分阶段改</strong>（Yadda 3.0 的实操经验）。</p>
+<p><strong>产品经理的 8 周权限阶梯【第三方/实操复盘】</strong>：一位产品经理用 8 周、月成本约 2,200 元，让一个运营团队从质疑到依赖。三级跳是权限设计而不是功能设计：AI 实习生（只读查询，全员开放先建信任）→ AI 参谋（建议类，10-15 人试点验证价值）→ AI 专家（执行类，成熟后才开放并保留人工确认）<sup><a href="/12-附录A-案例索引与资料出处/#8-84">[8-84]</a></sup>；配套三个保险——设备白名单、单日额度限制、连续失败 3 次熔断；"自动执行 vs 人工确认"的取舍必须由业务部门书面确认，而不是技术团队单方拍板。复盘给出的结果指标：建议采纳率超过 60%、单次查询从 3 分钟降到 8 秒；现场坐班答疑让问题解决速度提高约 3 倍。<strong>权限阶梯的本质是用信任换自主——每一级权限的开放，都以上一级的采纳数据为前提。</strong></p>
+<h2 id="33-12">阶段 3：扩展（3-12 个月）<a class="headerlink" href="#33-12" title="Permanent link">&para;</a></h2>
+<p><strong>目标</strong>：把验证过的模式复制到同业务线其余场景、其他业务线与区域；配套组织变革。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>关键动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1</td>
+<td><strong>标准化可复用组件</strong>：模型、数据规则、流程、权限、运维全部模块化（可迁移 = 可扩展）</td>
+</tr>
+<tr>
+<td>3.2</td>
+<td><strong>流程重构优先于工具叠加</strong>：删除冗余环节、合并重复任务、重设人机分工；流程再造企业的 AI 价值转化率约为补丁式改造的 5 倍</td>
+</tr>
+<tr>
+<td>3.3</td>
+<td><strong>培训体系化</strong>：结构化培训（而非发许可）；把 AI 使用纳入考核与晋升；领导以身作则示范使用</td>
+</tr>
+<tr>
+<td>3.4</td>
+<td><strong>激励与信任</strong>：明确传递"AI 解放员工而非替代员工"（参考传神能量金）；赋能战略可提升留存率约 32%</td>
+</tr>
+<tr>
+<td>3.5</td>
+<td><strong>组织设计跟进</strong>：随 Agent 数量上升，设立 Agent 运维/准入/问责角色；监控 Agent 行为、可回滚、可审计（98% 的企业经历过与 AI Agent 相关的破坏性事件）</td>
+</tr>
+<tr>
+<td>3.6</td>
+<td><strong>成本治理</strong>：以"单次解决成本/全周期成本"口径监控（而非单次推理成本）；成本是 40%+ Agentic 项目被取消的首因</td>
+</tr>
+<tr>
+<td>3.7</td>
+<td><strong>信任建设与可观测性</strong>：用"同心圆"模型分级放权——内圈 Agent 自验证可自动合并、中圈带观测上下文的预标注人类审查、外圈深度人类介入；用工具调用轨迹（如 15 次未收敛=卡死）与 SLO 燃烧率检测 Agent drift；不给遥测的黑盒工具应纳入选型否决；bounded task + 频繁交还控制权是最佳实践（Honeycomb）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>常见错误</strong>：只扩工具不扩流程（技术做加法、流程原地走）；不配套培训与激励（Copilot 64% 许可闲置的成因）；一推广就全量放开。</p>
+<h2 id="412-24">阶段 4：固化（12-24 个月，持续）<a class="headerlink" href="#412-24" title="Permanent link">&para;</a></h2>
+<p><strong>目标</strong>：让 AI 成为组织操作系统的一部分——治理制度化、技能资产化、创新机制化。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>关键动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.1</td>
+<td><strong>叫停机制制度化</strong>：达不到价值指标、无法规模化复制、只适合演示的项目强制叫停（沉没成本迷恋是试点陷阱的帮凶）</td>
+</tr>
+<tr>
+<td>4.2</td>
+<td><strong>全周期价值披露</strong>：试点→生产→后评估→正式披露，AI 价值进入经营分析（终结"效率神话"）</td>
+</tr>
+<tr>
+<td>4.3</td>
+<td><strong>技能资产化</strong>：把资深员工隐性知识结构化（SOP/案例/数据标注），防止"技能断层 + 隐性知识流失"双杀；设计"AI 陪练式"学习路径对抗技能萎缩</td>
+</tr>
+<tr>
+<td>4.4</td>
+<td><strong>创新机制化</strong>：从"降本增效"单一目标扩展到 BCG 的 Reshape/Invent（用 AI 重塑商业模式、发明新业务），避免"效率思维锁死创新空间"</td>
+</tr>
+<tr>
+<td>4.5</td>
+<td><strong>动态再评估</strong>：模型能力每 6-12 个月跃迁（Anthropic 内部：agent 自主行动数 10→20），人机分工边界需定期重谈</td>
+</tr>
+</tbody>
+</table>
+<p><strong>常见错误</strong>：把"上线"当终点（无后评估、无叫停）；把 AI 永久锁死在提效工具层；忽视模型迭代带来的分工边界漂移。</p>
+<h2 id="bcg-accenture">补充：BCG 三价值玩法与 Accenture 三领导力原则<a class="headerlink" href="#bcg-accenture" title="Permanent link">&para;</a></h2>
+<p><strong>BCG：Deploy / Reshape / Invent。</strong> 部署（把现成 AI 用到现有流程，快但护城河浅）→ 重塑（重新设计工作方式与商业模式，中期主力）→ 发明（创造全新 AI 原生业务，长期最高价值）。<strong>三个玩法不是单选题，是递进组合。</strong></p>
+<p><strong>Accenture：好奇 / 勇气 / 连接。</strong> 好奇——亲自上手测试 AI，而不是委托给技术团队；勇气——在信息不完全时行动、敢于决定"哪里不部署 AI"并提前设治理；连接——先倾听（员工焦虑），再用叙事连接变革与意义，高管层早期建立跨职能联盟。</p>
+<h2 id="_1">常见错误速查表（贯穿全周期）<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>错误</th>
+<th>反例证据</th>
+<th>正确做法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>买工具 = 转型</td>
+<td>Copilot 64% 许可闲置</td>
+<td>培训 + 流程重构 + 激励三件套</td>
+</tr>
+<tr>
+<td>2</td>
+<td>裁人先行 = 降本</td>
+<td>Klarna 逆转、55% 后悔率</td>
+<td>增强式协同（AI 赋能人）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>试点越多越好</td>
+<td>试点泛滥→整体最劣</td>
+<td>每条业务线 3-5 个高价值工作流</td>
+</tr>
+<tr>
+<td>4</td>
+<td>试点靠人工打补丁</td>
+<td>试点成功生产必崩</td>
+<td>按生产设计：上下文/行动层/治理</td>
+</tr>
+<tr>
+<td>5</td>
+<td>只看推理成本</td>
+<td>单次解决成本会超过离岸人工</td>
+<td>全周期成本口径 + CFO 核算</td>
+</tr>
+<tr>
+<td>6</td>
+<td>数据不治理就上 AI</td>
+<td>60% 项目因数据放弃</td>
+<td>阶段 0 数据体检先行</td>
+</tr>
+<tr>
+<td>7</td>
+<td>单供应商绑定</td>
+<td>切换成本 19-34%、涨价 20-40%</td>
+<td>多模型路由 + 可迁移上下文</td>
+</tr>
+<tr>
+<td>8</td>
+<td>员工恐惧不处理</td>
+<td>64% 不信 AI Agent、近半焦虑</td>
+<td>领导倾听 + 叙事 + 赋能战略</td>
+</tr>
+<tr>
+<td>9</td>
+<td>无叫停机制</td>
+<td>沉没成本硬推、浪费放大</td>
+<td>价值闸门制度化</td>
+</tr>
+<tr>
+<td>10</td>
+<td>只做 Deploy 不做 Reshape/Invent</td>
+<td>效率思维锁死创新空间</td>
+<td>三价值玩法组合推进</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">中小团队轻量三原则<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>如果你是一个小团队（10-50 人），不需要完整的四阶段：</p>
+<ol>
+<li><strong>找「AI 节点」</strong>：不是所有岗位都适合 AI 化。找业务里<strong>高频、重复、又需要一定判断力</strong>的环节，先打通三五个关键节点让团队尝到甜头——团队自己会去找下一个节点；</li>
+<li><strong>工具选择权交给一线</strong>：给每人工具选择权和 AI 工具预算，好经验自然传播，比自上而下推广有效；</li>
+<li><strong>考核标准跟着变</strong>：从投入到产出、从过程到结果——不动考核，AI 化就是空谈。</li>
+</ol>
+<h2 id="ai">中小团队交付企业 AI 服务：从第一单到持续运营<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h2>
+<p>给其他企业做 AI 服务的小团队，可以把自己的交付当成一次"迷你 AI 原生组织"的演练——一批 3–5 人团队把企业 AI 第一单从线索跑到续费的完整流程，本身就是一份可抄的作业。</p>
+<p><strong>卖结果，不卖功能。</strong> 立项不写"接入大模型 + 知识库"，写可交付边界：哪类工作、哪些人、降什么指标。客户购买的不是"接了哪个大模型"，而是一段原来靠人反复完成的工作，在风险可控的前提下更快、更稳、更便宜。</p>
+<p><strong>3–5 人覆盖四类责任，人数不是重点，责任有人承担才是。</strong> 业务与交付负责人（客户筛选、需求访谈、范围确认、把模糊需求翻译成可执行可验收的任务）；AI/全栈工程负责人（模型、检索、Agent、工作流、部署）；业务分析与采用负责人（整理流程知识与规则、建测试问题、培训、收集真实反馈——最容易被省掉，省掉=系统能跑但没人用）；安全、数据与领域专家（可不全职，但涉及人事、财务、医疗、法律、生产控制与敏感数据时必须由专业人员把关）。</p>
+<p><strong>获客：不要找"想做 AI"的客户。</strong> 合格线索的五个信号：高频重复已成负担的工作；业务负责人参加（不只 IT）；有可试点的数据材料；愿意安排真实用户测试；对成功有初步定义且愿意投入资源（最重要）。</p>
+<p><strong>服务阶梯四层，不要一上来做免费 POC。</strong> 免费 POC=客户无限加料+无预算无验收无结束时间。付费诊断（半天到一天流程诊断，客户不做项目也有收获）→ 受控试点（只验证关键假设：一个产品线、一个部门、一组已审核文档）→ 生产部署（补权限、日志、监控、集成、培训、运维）→ 持续运营（内容更新、评测回归、成本优化、故障处理、新场景）。</p>
+<p><strong>先冻结基线，再谈降本增效。</strong> 没有基线就承诺节省=无法证明节省。四套基线：业务（流程步骤/处理量/时长/错误率/满意度）、数据（数量/格式/版本识别/敏感等级/内容责任人）、技术（环境/权限/接口/日志/模型许可）、评测（真实问题集+当前人工结果）。两周做出第一个"可评测版本"而不是完整版，每次改模型、切分、Prompt、工作流都重跑固定测试集——没有评测集的 AI 项目只能靠演示运气。</p>
+<p><strong>三张表控失控。</strong> 周报（暴露阻塞与决策，不展示努力）、风险登记表、需求变更单（口头"顺便加一下"不进开发）。验收指标开发前约定，每个指标回答四问：测什么、用什么数据、谁来测、什么条件算通过。上线之后把 AI 放进员工原工作入口（飞书、企微、CRM、工单），不要求多开一个会被遗忘的网站。</p>
+<p><strong>把一次项目变成可复制服务。</strong> 每个项目沉淀五类资产：行业问题库、诊断与方案模板、技术组件、脱敏验收数据集、运营手册，形成可快速适配新客户的"交付底座"。续费不在合同到期才谈——月度复盘不报调用次数，报用户在哪些工作中用、哪些问题仍失败、人工处理是否减少、业务指标怎么变。持续价值成立，续费是自然结果。</p>
+<p>小团队最常见的十个坑，值得贴在墙上：什么客户都接（行业分散→项目无法复用）；免费 POC 没有结束条件；按模型能力承诺结果；售前承诺没进 SOW；只找 IT 不找业务负责人；没基线就承诺降本增效；用演示问题代替真实测试集；把所有问题都交给 prompt（数据、权限、流程问题被包装成提示词问题）；不敢拒绝需求变更；交付完不做沉淀。</p>
+<h2 id="_3">这一章的核心判断<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p><strong>转型不需要完美的开始，需要正确的第一步。</strong> 选一条工作流、一个负责人、一个可量化的成果，按生产设计，90 天迭代——然后让成功自己说话。第 9 章看那些没这么做的人，付出了什么代价。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../07-%E7%AC%AC7%E7%AB%A0-%E6%A1%88%E4%BE%8B%E9%9B%86/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 第 7 章 案例集">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                第 7 章 案例集
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../09-%E7%AC%AC9%E7%AB%A0-%E6%8C%91%E6%88%98%E9%A3%8E%E9%99%A9%E4%B8%8E%E6%9C%AA%E6%9D%A5/" class="md-footer__link md-footer__link--next" aria-label="下一页: 第 9 章 挑战、风险与未来">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                第 9 章 挑战、风险与未来
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      著作权归作者 Jweokk 所有 · 免费阅读与非商业性分享 · 联系 weokk2025@gmail.com
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Jweokk" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

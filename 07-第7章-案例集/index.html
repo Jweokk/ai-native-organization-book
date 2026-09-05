@@ -1,0 +1,1414 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI-Native Organization — 免费公开、持续更新的开源书籍">
+      
+      
+      
+        <link rel="canonical" href="https://aiorg.fly2ai.top/07-%E7%AC%AC7%E7%AB%A0-%E6%A1%88%E4%BE%8B%E9%9B%86/">
+      
+      
+        <link rel="prev" href="../06-%E7%AC%AC6%E7%AB%A0-%E6%BF%80%E5%8A%B1%E4%B8%8E%E4%BA%BA%E6%89%8D/">
+      
+      
+        <link rel="next" href="../08-%E7%AC%AC8%E7%AB%A0-%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84AI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>第 7 章 案例集 - AI 原生组织</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#7-ai" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="AI 原生组织" class="md-header__button md-logo" aria-label="AI 原生组织" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI 原生组织
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              第 7 章 案例集
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jweokk/ai-native-organization-book" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AI 原生组织" class="md-nav__button md-logo" aria-label="AI 原生组织" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AI 原生组织
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jweokk/ai-native-organization-book" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00-%E8%87%AA%E5%BA%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自序
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-%E7%AC%AC1%E7%AB%A0-AI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87%E7%9A%84%E5%B4%9B%E8%B5%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 1 章 AI 原生组织的崛起
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-%E7%AC%AC2%E7%AB%A0-%E4%BB%80%E4%B9%88%E6%98%AFAI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 2 章 什么是 AI 原生组织
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-%E7%AC%AC3%E7%AB%A0-%E8%AF%81%E6%8D%AE-%E5%AE%9E%E8%AF%81%E7%A0%94%E7%A9%B6%E6%80%8E%E4%B9%88%E7%9C%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 3 章 证据——实证研究怎么看
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-%E7%AC%AC4%E7%AB%A0-%E7%BB%84%E7%BB%87%E5%BD%A2%E6%80%81%E9%87%8D%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 4 章 组织形态重构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-%E7%AC%AC5%E7%AB%A0-%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E5%86%B3%E7%AD%96%E9%87%8D%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 5 章 工作流与决策重构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-%E7%AC%AC6%E7%AB%A0-%E6%BF%80%E5%8A%B1%E4%B8%8E%E4%BA%BA%E6%89%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 6 章 激励与人才
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 7 章 案例集
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 7 章 案例集
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 中国案例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.1 中国案例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        传神——"与其等员工变成 AI 高手，不如让组织长出 AI 能力"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        华为/阿里/飞书——组织 AI 化的三个共性特征
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deepseek" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DeepSeek——创新密度的极致样本
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        精准学（杨仁斌）——组织大脑
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        火星电波——5 周完成 AI 原生转型
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        明略科技——企业多 Agent 协作的六种模式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        联想——"硅碳共生"：超级个体是起点，AI 原生组织是终局【官方宣称+第三方报道验证】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        更多中国实践
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 国际案例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.2 国际案例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#klarnaai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Klarna——AI 原生转型最完整的对照组
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shopify-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shopify——先裁员、后 AI 换增长
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anthropic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anthropic——自己先吃自己的狗粮
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openai-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenAI——全员 agent 化的最高颗粒度样本
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notionai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notion——千人不裁员，AI 作为第二增长曲线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cursor——人均收入之王
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duolingo-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duolingo——零全职裁员 + 内容产能 11 倍
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airbnb60-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Airbnb——60% 代码由 AI 共同编写
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 跨案例比较：六条规律
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-%E7%AC%AC8%E7%AB%A0-%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84AI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 8 章 打造你的 AI 原生组织
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-%E7%AC%AC9%E7%AB%A0-%E6%8C%91%E6%88%98%E9%A3%8E%E9%99%A9%E4%B8%8E%E6%9C%AA%E6%9D%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 9 章 挑战、风险与未来
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-%E7%AC%AC10%E7%AB%A0-%E8%A1%8C%E4%B8%9A%E7%AF%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第 10 章 行业篇——十个行业的 AI 原生转型
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-%E5%90%8E%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    后记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-%E9%99%84%E5%BD%95A-%E6%A1%88%E4%BE%8B%E7%B4%A2%E5%BC%95%E4%B8%8E%E8%B5%84%E6%96%99%E5%87%BA%E5%A4%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录 A 案例索引与资料出处
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-%E9%99%84%E5%BD%95B-%E5%B8%B8%E7%94%A8%E6%8C%87%E6%A0%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录 B 常用指标
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-%E9%99%84%E5%BD%95C-%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录 C 版本历史与更新说明
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 中国案例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.1 中国案例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        传神——"与其等员工变成 AI 高手，不如让组织长出 AI 能力"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        华为/阿里/飞书——组织 AI 化的三个共性特征
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deepseek" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DeepSeek——创新密度的极致样本
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        精准学（杨仁斌）——组织大脑
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        火星电波——5 周完成 AI 原生转型
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        明略科技——企业多 Agent 协作的六种模式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        联想——"硅碳共生"：超级个体是起点，AI 原生组织是终局【官方宣称+第三方报道验证】
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        更多中国实践
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 国际案例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.2 国际案例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#klarnaai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Klarna——AI 原生转型最完整的对照组
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shopify-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shopify——先裁员、后 AI 换增长
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anthropic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anthropic——自己先吃自己的狗粮
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openai-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenAI——全员 agent 化的最高颗粒度样本
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notionai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notion——千人不裁员，AI 作为第二增长曲线
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cursor——人均收入之王
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duolingo-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duolingo——零全职裁员 + 内容产能 11 倍
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airbnb60-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Airbnb——60% 代码由 AI 共同编写
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 跨案例比较：六条规律
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="7-ai">第 7 章 案例集——全球与中国的 AI 原生组织<a class="headerlink" href="#7-ai" title="Permanent link">&para;</a></h1>
+<p>这一章是全书的事实基础。每个案例都包含：组织形态、落地做法、量化结果、争议与反面声音。<strong>官方宣称与第三方报道验证分开标注</strong>——因为 AI 原生叙事中，宣传面与事实面的张力本身就是最重要的研究材料。</p>
+<h2 id="71">7.1 中国案例<a class="headerlink" href="#71" title="Permanent link">&para;</a></h2>
+<h3 id="ai-ai">传神——"与其等员工变成 AI 高手，不如让组织长出 AI 能力"<a class="headerlink" href="#ai-ai" title="Permanent link">&para;</a></h3>
+<p>翻译公司传神的 AI 原生实践，是当下最完整的中国样板。它有几个关键机制：</p>
+<ul>
+<li>设 AI Native 决策委员会，按业务线分组（语言智能组/行业智能组/品牌销售组），每组明确牵头人和推进目标——AI 不是技术部门的事，是每个业务线自己的事；</li>
+<li>立"DEMO 规矩"：所有 AI 项目必须有可运行的 DEMO，并说清解决什么业务问题——这一条砍掉了 90% 的 PPT 项目；</li>
+<li>组"AI 联合舰队"：20+ 支跨部门业务团队自己做 AI 应用开发，让 AI 应用从第一天就长在业务场景里；</li>
+<li>配套"能量金"激励机制（第 6 章详述）。</li>
+</ul>
+<p>创始人何恩培的判断：<strong>"与其等员工变成 AI 高手，不如让组织长出 AI 能力。"</strong> 个人会走，组织能力留下来。</p>
+<h3 id="ai">华为/阿里/飞书——组织 AI 化的三个共性特征<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>华为</strong>：AI 融入数据全生命周期，智能分析成为数据平台的默认能力（"不是你去查，是系统自动给你"）；</li>
+<li><strong>飞书</strong>：协同套件打通 IM、文档与业务流，AI 实时介入项目节点而非事后汇总；</li>
+<li><strong>阿里</strong>：智能决策替代经验决策，数据流经时 AI 自动分析、预警、推送决策建议。</li>
+</ul>
+<h3 id="deepseek">DeepSeek——创新密度的极致样本<a class="headerlink" href="#deepseek" title="Permanent link">&para;</a></h3>
+<p>160 人做出万亿参数模型。对比一下同行规模：OpenAI 3,500 人、Anthropic 3,000 人、DeepMind 8,100 人。组织设计（而非堆人）决定创新密度，这是第 6 章"创新密度"论断的最强案例。</p>
+<h3 id="_1">精准学（杨仁斌）——组织大脑<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<p>把最高认知注入一线：AI 参谋长 + 决策模型索引 + 上下文工程。AI Coding 只有 0% 和 100%（工程师不允许亲自改代码，人只做反馈）；反文档、反群聊；Context is Everything。（详见第 4 章）</p>
+<h3 id="5-ai">火星电波——5 周完成 AI 原生转型<a class="headerlink" href="#5-ai" title="Permanent link">&para;</a></h3>
+<p>OPC 模式（人判断/AI 代码/主管宏观决策）+ Soul Team（人格与情感输出）+ 统一仓库作为 AI 上下文 + 前置思考后置复盘的节奏。（详见第 4 章）</p>
+<h3 id="agent">明略科技——企业多 Agent 协作的六种模式<a class="headerlink" href="#agent" title="Permanent link">&para;</a></h3>
+<p>明略科技是国内较早把"多 Agent 协作"产品化的厂商之一，其 2026 年公开的架构指南给出了目前最完整的企业级多 Agent 协作设计框架，与 Anthropic 的多智能体研究形成中英文互证。</p>
+<p><strong>三层基础设施</strong>：统一身份注册（每个 Agent 有唯一身份与权限）、共享上下文机制（把 IM 里非结构化的讨论收敛为结构化知识：Brief/时间线/产出物/打回记录/验收状态）、任务编排引擎（拆分/串联/并行/竞争）。</p>
+<p><strong>信息拓扑控制可见性</strong>——"该互见时互见、该互盲时互盲"：薪酬计算 Agent 不应把中间结果广播给周报 Agent。群聊式信息架构只能做到"都看见"，做不到可编程的可见性边界。</p>
+<p><strong>六种协作模式</strong>（可嵌套组合）：Solo（单干）；Roundtable（圆桌互见，所有 Agent 共享上下文）；Critic（生成-审核制，审核者有一票否决权）；Pipeline（严格串行，上游输出=下游输入）；Split（分治并行，子任务互盲，各自交付后合并）；Swarm（竞争择优，多个候选并行产出、冗余换质量）。</p>
+<p>对组织的启示：多 Agent 不是"多开几个窗口"，而是先决定信息拓扑与协作模式，再谈模型能力——这与第 9 章 Anthropic 多智能体实验的结论一致：<strong>协调不会从更强的智能中自然涌现</strong>。</p>
+<p>2026 年中的新数据继续印证这个方向：IDC 统计 68% 的头部企业把自治智能体列入 IT 采购优先级，但超过六成试点卡在生产化阶段；信通院对 358 家企业的调研显示，67% 反映"协调成本高于预期"。北京在 2026 年 7 月发布首份省级智能体政策，明确"可追溯、可审计、可管控"三条底线并给出最高 1 亿元的产业支持<sup><a href="/12-附录A-案例索引与资料出处/#8-81">[8-81]</a></sup>——多 Agent 的组织级协作正在从厂商实践变成监管议题。</p>
+<h3 id="ai_1">联想——"硅碳共生"：超级个体是起点，AI 原生组织是终局【官方宣称+第三方报道验证】<a class="headerlink" href="#ai_1" title="Permanent link">&para;</a></h3>
+<p>联想 2026 年 6 月把企业级智能体平台"乐享"升级到 4.0：月活超 700 万、日均交互请求逾 100 万次，累计拉动销售额突破 50 亿元；"智能体军团"带动联想中国区客户直营营业额同比增长 33%<sup><a href="/12-附录A-案例索引与资料出处/#7-73">[7-73]</a></sup>【第三方报道验证】。组织逻辑上，联想 HR 负责人提出"硅碳共生"分工——硅基员工处理海量、标准化、重复的任务，碳基员工聚焦复杂决策、战略设计与人文关怀；北大国发院学者朱丽的概括流传更广："超级个体是起点，AI 原生组织是终局"。联想还通过系统性吸纳"AI 原住民"与全员 AI 思维，把人机关系从"辅助"推向"共创"。这条路径代表大型制造与渠道企业的一种典型选择：不追求一步到位的组织重构，而是先让超级个体与智能体军团跑出可量化的业绩，再反推组织分工与考核的调整。</p>
+<h3 id="_2">更多中国实践<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>极摩（AI 原生组织架构）、Moka（AI 原生 HR：3 个 AI 同事）、Atlassian 中国实践（AI 原生 PM）——案例细节见第 4 章与附录。</p>
+<h2 id="72">7.2 国际案例<a class="headerlink" href="#72" title="Permanent link">&para;</a></h2>
+<h3 id="klarnaai">Klarna——AI 原生转型最完整的对照组<a class="headerlink" href="#klarnaai" title="Permanent link">&para;</a></h3>
+<p>Klarna 的 AI 转型，是当下全行业最重要的复盘样本。</p>
+<p>组织形态上，全职员工从 2022 年 12 月的 5,527 人降到 2024 年 12 月的 3,422 人（-38%）——路径是 2023 年起冻结招聘加自然流失（自然 attrition 15-20%/年），不是一次性大裁员<sup><a href="/12-附录A-案例索引与资料出处/#7-01">[7-01]</a></sup>【招股书数据】。</p>
+<p>落地做法上，对外——基于 OpenAI 技术的 AI 客服 2024 年 2 月上线，首月处理 230 万次对话，占客服聊天总量的 2/3<sup><a href="/12-附录A-案例索引与资料出处/#7-07">[7-07]</a></sup>；对内——AI 助手 Kiki 累计回答超 25 万次员工提问，85% 员工使用，法律部门用 ChatGPT Enterprise 起草合同从约 1 小时缩短到约 10 分钟【官方宣称】。</p>
+<p>量化结果上，两个口径必须并置：官方宣称 AI 客服 2024 年预计带来 4,000 万美元利润改善<sup><a href="/12-附录A-案例索引与资料出处/#7-10">[7-10]</a></sup>，Q3 2025 口径升级为等效 853 名全职员工、累计节省 6,000 万美元<sup><a href="/12-附录A-案例索引与资料出处/#7-09">[7-09]</a></sup>，人均收入 124 万美元（2022 年的 3.6 倍）；第三方对照则显示，即便计入 6,000 万美元节省，Q3 2025 客服与运营成本 5,000 万美元，仍高于上年同期的 4,200 万美元——"AI 降本"与"客服成本上升"并存。</p>
+<p>争议与反转最值得看：2024 年高调宣传"AI 替代 700 名客服"之后，2025 年 5 月 Bloomberg 报道 Klarna <strong>转回真人客服</strong><sup><a href="/12-附录A-案例索引与资料出处/#7-14">[7-14]</a></sup>——CEO 承认全力 AI 化导致服务品质下降，计划按"Uber 式"弹性用工重新招聘人类客服。复杂交互的 CSAT 显著下滑、重复联系率上升，整体平均值掩盖了留存关键场景的质量崩塌。</p>
+<p>教训：AI 原生不等于一次性大裁员；纯成本导向的 AI 替代有边界；"过度转向"需要回调。55% 因 AI 裁员的企业后悔（Orgvue 2025）。</p>
+<h3 id="shopify-ai">Shopify——先裁员、后 AI 换增长<a class="headerlink" href="#shopify-ai" title="Permanent link">&para;</a></h3>
+<p>Shopify 的裁员和 AI 化是两件事，顺序很重要：2022 年 7 月裁员 14%、2023 年 5 月裁员 20%<sup><a href="/12-附录A-案例索引与资料出处/#7-17">[7-17]</a></sup>（约 2,000 人，官方口径为出售物流业务+增速回落，<strong>并非 AI 替代——AI 化发生在裁员之后</strong>）。此后 headcount 连续多个季度持平：2023 年底约 8,300 → 2025 年约 7,600，人均收入从 110 万升至 152 万美元<sup><a href="/12-附录A-案例索引与资料出处/#7-24">[7-24]</a></sup>。</p>
+<p>2025 年 4 月 CEO Tobi Lutke 备忘录<sup><a href="/12-附录A-案例索引与资料出处/#7-19">[7-19]</a></sup>：员工须先证明"AI 做不到这份工作"才能申请增加编制；AI 使用纳入绩效考核。超半数商户与 Support 的交互由 AI 辅助且常被 AI 完整解决。内部生产力平台 Shopify OS 汇总业务数据并推荐项目所需资源与技能配置。</p>
+<p>争议：备忘录被解读为"裁员筛选器"而非生产力计划。"先裁员后 AI"与"AI 裁员"是理解 Shopify 的关键区分。</p>
+<h3 id="anthropic">Anthropic——自己先吃自己的狗粮<a class="headerlink" href="#anthropic" title="Permanent link">&para;</a></h3>
+<p>组织形态：约 2,500 人（2026）<sup><a href="/12-附录A-案例索引与资料出处/#7-26">[7-26]</a></sup>，无大规模裁员，属于"AI 原生扩张型"组织。</p>
+<p>落地做法（官方报告《Recursive Self-Improvement》）：超 80% 的合入生产代码由 Claude 编写（2026 年 5 月）<sup><a href="/12-附录A-案例索引与资料出处/#7-28">[7-28]</a></sup>；每工程师每季度代码产出是 2021-2025 基线的 <strong>8 倍</strong>；工程师角色从"写代码"转为"架构师 + 裁判"——AI 自动代码审查嵌入 CI/CD，拦截了 claude.ai 历史上约 1/3 的停机类生产 bug。</p>
+<p>反面声音（同样来自内部研究）：AI 编写代码的质量 2025 年底客观低于人类，2026 年中才达"大致持平"；员工自报 60% 的工作使用 Claude、生产力提升 50%<sup><a href="/12-附录A-案例索引与资料出处/#8-40">[8-40]</a></sup>，但 27% 的 AI 辅助工作是"本来不会做的事"（探索性工作），且多数员工认为可"完全委托"给 AI 的工作仅占 0-20%；有员工"约 5 个月没亲手写过代码"、担忧技能萎缩与自身无意义感——AI 原生的心理成本真实存在。</p>
+<h3 id="openai-agent">OpenAI——全员 agent 化的最高颗粒度样本<a class="headerlink" href="#openai-agent" title="Permanent link">&para;</a></h3>
+<p>落地做法（官方经济研究《How agents are transforming work》）：Codex 成为每个部门（含法务、财务、招聘）的主要工作工具，占公司每周输出 token 的 <strong>99.8%</strong><sup><a href="/12-附录A-案例索引与资料出处/#7-38">[7-38]</a></sup>；平均工程师 99% 输出 token 走 Codex；最重度用户单日编排 60+ 小时 agent 工作时间（多 agent 并行）；80.6% 的抽样用户曾让 Codex 执行预计超过 30 分钟人工量的任务。</p>
+<p>最重要的反面证据来自 Fortune（2026 年 8 月）的报道：OpenAI 自家经济研究显示 <strong>"AI 使用与人均收入之间没有可测量的相关性"</strong><sup><a href="/12-附录A-案例索引与资料出处/#7-39">[7-39]</a></sup>——AI 原生工具普及不等于生产力必然兑现。连 AI 工具的生产者自己，都拿不出"用得越多赚得越多"的证据。</p>
+<p>最新动向（Wired，2026 年 8 月）：OpenAI 任命 Codex 负责人 Thibault Sottiaux 接管 ChatGPT 全线产品<sup><a href="/12-附录A-案例索引与资料出处/#8-70">[8-70]</a></sup>，ChatGPT 将转型为"个性化 Agent 超级应用"，底层由 Codex 驱动（40 人团队，数周内并入 ChatGPT）。其自我归因值得注意：此前 Operator/ChatGPT Agent 的失败被归为"太早、模型不可靠"+ 用户不知道拿 Agent 干什么；新策略是小步快发——"不能搞一个大 splash 然后出错"。<strong>连最激进的 agent 化样本，也在用"小步快发"对冲 Agent 产品的不确定性。</strong></p>
+<h3 id="notionai">Notion——千人不裁员，AI 作为第二增长曲线<a class="headerlink" href="#notionai" title="Permanent link">&para;</a></h3>
+<p>约 1,000 人，无裁员记录。2025 年 12 月 ARR 突破 6 亿美元，<strong>其中约一半来自 AI 产品</strong><sup><a href="/12-附录A-案例索引与资料出处/#7-41">[7-41]</a></sup>；付费 AI 附加渗透率从 2024 年 10-20% 升至 2025 年 9 月超 50%。2022 年 11 月发布 Notion AI<sup><a href="/12-附录A-案例索引与资料出处/#7-42">[7-42]</a></sup>（比 ChatGPT 公开上线早约两周）。它的路径是产品型而非组织瘦身型——靠 AI 功能带动付费渗透，而不是靠裁员。</p>
+<h3 id="cursor">Cursor——人均收入之王<a class="headerlink" href="#cursor" title="Permanent link">&para;</a></h3>
+<p>约 300 人：ARR 2025 年 1 月 1 亿美元 → 6 月 5 亿 → 11 月 10 亿<sup><a href="/12-附录A-案例索引与资料出处/#7-45">[7-45]</a></sup> → 2026 年 6 月约 40 亿美元<sup><a href="/12-附录A-案例索引与资料出处/#7-48">[7-48]</a></sup>；人均收入 300 万-1,300 万美元。2026 年 6 月 SpaceX 宣布以 600 亿美元估值全股票收购（8 月完成，纳入 SpaceXAI）。</p>
+<p>争议：2025 年 4 月，AI 客服程序 "Sam" 编造不存在的登录政策并执行，导致用户取消订阅——"AI agent 越权执行"的典型事故。</p>
+<h3 id="duolingo-11">Duolingo——零全职裁员 + 内容产能 11 倍<a class="headerlink" href="#duolingo-11" title="Permanent link">&para;</a></h3>
+<p>2024 年 1 月裁撤约 10% 合同工（外包翻译与内容制作）<sup><a href="/12-附录A-案例索引与资料出处/#7-50">[7-50]</a></sup>，改用生成式 AI 生产内容；CEO 称自 2009 年成立以来<strong>从未裁过一名全职员工</strong>。内容产能：2024 年每季 1,800 个课程技能 → 2025 年 7,100 → Q1 2026 单季 20,500——两年约 11 倍<sup><a href="/12-附录A-案例索引与资料出处/#7-55">[7-55]</a></sup>，公司明确称"若无 AI 无法实现"。</p>
+<p>争议：裁员合同工引发公关危机（TikTok/Reddit 大规模讨论"用 AI 替代工人"）<sup><a href="/12-附录A-案例索引与资料出处/#7-56">[7-56]</a></sup>；2025 年 4 月 AI-first 备忘录引发裁员猜测后 CEO 公开澄清，2026 年 5 月又被报道收回备忘录<sup><a href="/12-附录A-案例索引与资料出处/#7-53">[7-53]</a></sup>。<strong>AI 替代的第一刀砍向最脆弱的弹性用工——这是跨案例的规律。</strong></p>
+<h3 id="airbnb60-ai">Airbnb——60% 代码由 AI 共同编写<a class="headerlink" href="#airbnb60-ai" title="Permanent link">&para;</a></h3>
+<p>无 AI 相关裁员；2026 年 Q1 财报电话会：<strong>60% 的工程师产出代码由 AI 共同编写</strong><sup><a href="/12-附录A-案例索引与资料出处/#7-57">[7-57]</a></sup>（Google 宣称 30%+、Microsoft 最高 30%<sup><a href="/12-附录A-案例索引与资料出处/#7-61">[7-61]</a></sup>，Airbnb 属于公开宣称中的高位）；AI 客服机器人 2026 年 Q1 处理 40% 的客服问题无需升级人工（2025 年初约 33%），计划扩展至 50+ 语言。</p>
+<p>反面声音（CEO 自认）：Chesky 公开承认"没人真正解决了 AI 旅行问题"，列出聊天机器人四大缺陷（文本过载、无法直接操作、对比困难、多人预订场景不匹配）。</p>
+<h2 id="73">7.3 跨案例比较：六条规律<a class="headerlink" href="#73" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>三条组织路径并存</strong>：缩编型（Klarna）、扩张型（OpenAI/Anthropic）、稳态杠杆型（Shopify/Duolingo/Airbnb）——没有唯一答案；</li>
+<li><strong>AI 替代的"第一刀"砍向弹性用工</strong>：Duolingo 合同工、Klarna 客服外包——全职裁员反而罕见；</li>
+<li><strong>考核体系正在被 AI 改造</strong>：Shopify（AI 纳入绩效）、Duolingo（AI-first 备忘录）；</li>
+<li><strong>宣称 vs 可验证数据的张力是全书最有价值的部分</strong>：Klarna（节省 6,000 万美元与客服成本上升并存）、OpenAI（自家研究：AI 使用与人均收入无相关性）、Anthropic（AI 代码质量曾低于人类）——宣传面与事实面必须并置；</li>
+<li><strong>回调与反复是常态</strong>：Klarna 转回真人客服、Duolingo 收回备忘录、Cursor 的 Sam 事故——没有任何一家公司的 AI 原生转型是直线；</li>
+<li><strong>人均收入极值</strong>：Cursor（300 人、40 亿美元 ARR）为小团队上限样本；Klarna（人均 124 万美元）为大组织转型样本——AI 原生组织的共同财务特征，是人均产值大幅高于同行。</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../06-%E7%AC%AC6%E7%AB%A0-%E6%BF%80%E5%8A%B1%E4%B8%8E%E4%BA%BA%E6%89%8D/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 第 6 章 激励与人才">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                第 6 章 激励与人才
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../08-%E7%AC%AC8%E7%AB%A0-%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84AI%E5%8E%9F%E7%94%9F%E7%BB%84%E7%BB%87/" class="md-footer__link md-footer__link--next" aria-label="下一页: 第 8 章 打造你的 AI 原生组织">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                第 8 章 打造你的 AI 原生组织
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      著作权归作者 Jweokk 所有 · 免费阅读与非商业性分享 · 联系 weokk2025@gmail.com
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Jweokk" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
