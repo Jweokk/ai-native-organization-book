@@ -45,6 +45,7 @@
 - <a id="1-33"></a>[1-33] SSRN: Paper 6513481: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481
 - <a id="1-34"></a>[1-34] Harvard Business School AI Institute: Less Headcount, More Valuation: How AI-Native Firms Change the Game: https://aiinstitute.hbs.edu/less-headcount-more-valuation-how-ai-native-firms-change-the-game/
 - <a id="1-35"></a>[1-35] Harvard Business School AI Institute: Is GenAI Heading for a Tech Monopoly?: https://aiinstitute.hbs.edu/is-genai-heading-for-a-tech-monopoly/
+- <a id="1-36"></a>[1-36] JetBrains Developer Ecosystem Blog: AI Coding Agent Adoption Trends 2026: https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/
 
 
 ## Sources for Chapter 7 (International Case Studies)
@@ -122,6 +123,7 @@
 - <a id="7-70"></a>[7-70] Microsoft Work Trend Index: Microsoft Work Trend Index: https://www.microsoft.com/en-us/worklab/work-trend-index
 - <a id="7-71"></a>[7-71] themicrosoftcloudblog.com: https://themicrosoftcloudblog.com/2026/05/2026-work-trend-index-evidence-check/
 - <a id="7-72"></a>[7-72] microsoft.com: https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born
+- <a id="7-73"></a>[7-73] Sina Tech (Lenovo Zhihui Salon): Lenovo's AI-Native Organization Practice — Lexiang Super-Agent 4.0 Tops 7 Million MAU and Pulls 5 Billion Yuan in Sales, "Silicon-Carbon Symbiosis": https://finance.sina.com.cn/tech/roll/2026-07-29/doc-iniknezf0011507.shtml
 
 
 ## Sources for Chapters 8-9 (Methodology and Failure Cases)
@@ -209,6 +211,12 @@
 - <a id="8-80"></a>[8-80] Tom Tunguz: Most AI Work Can Wait (routing over model choice; Coinbase cost data): https://tomtunguz.com/ai-execution-routing/
 - <a id="8-81"></a>[8-81] Mininglamp (明略科技): Enterprise Efficiency Drops After Deploying Multiple AI Agents? (IDC 2026Q2 / CAICT 358-enterprise survey / Beijing agent policy): https://www.mininglamp.com/news/8365/
 - <a id="8-82"></a>[8-82] SenteLabsAI: OpenExecutive — the "AI CEO" Open-Sourced by Laid-Off Developers: https://github.com/SenteLabsAI/OpenExecutive
+- <a id="8-83"></a>[8-83] Meituan Tech Blog: Managing AI Coding with an Eval-Agent Mindset — Refactoring a 310,000-Line AI-Generated System: https://tech.meituan.com/2026/05/07/Agent-AI-Coding.html
+- <a id="8-84"></a>[8-84] Woshipm: A Product Manager's 8-Week Debrief on Pushing an AI Agent from 0 to 1: https://www.woshipm.com/ai/6386229.html
+- <a id="8-85"></a>[8-85] Wild World of Work (Matt Beane): AI-Native Organizational Transformation — the Lesson of Uber's CTO Burning a Year's Token Budget in Four Months: https://www.wildworldofwork.org/p/ai-native-organizational-transformation
+- <a id="8-86"></a>[8-86] Ashley Rolf More: AI Is Stopping Startups from Completing Puberty: https://ashley.rolfmore.com/ai-is-stopping-startups-from-completing-puberty/
+- <a id="8-87"></a>[8-87] Rodrigo Rosenfeld: AI Agents and the Refactoring That Never Happens: https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/
+- <a id="8-88"></a>[8-88] LeadDev: AI Coding Creates Two Kinds of Debt, and You're Only Measuring One — Cognitive Debt: https://leaddev.com/ai/ai-coding-creates-two-kinds-of-debt-youre-only-measuring-one
 
 ---
 
@@ -364,6 +372,32 @@
 - <a id="10-118"></a>[10-118] BCG: AI in Energy: A New Strategic Playbook: https://www.bcg.com/publications/2025/ai-in-energy-new-strategic-playbook
 - <a id="10-119"></a>[10-119] IEA: Energy and AI (milestone report): https://www.iea.org/reports/energy-and-ai/
 - <a id="10-120"></a>[10-120] GridFWD: Early AI lessons for utilities, grid operators, and regulators: https://gridforward.org/early-ai-use-cases-and-lessons-for-utilities-grid-operators-and-regulators/
+- <a id="10-121"></a>[10-121] OpenAI Official Customer Case: Legora Reviews 41 Financial Statements in Minutes with GPT-6 Astra: https://openai.com/zh-Hans-CN/index/legora-financial-statement-review-with-astra/
+- <a id="10-122"></a>[10-122] Bristol Law Society: Harvey Taps DeepL to Power Legal-Grade AI Translation for Global Law Firms: https://www.bristollawsociety.com/news/harvey-taps-deepl-to-power-legal-grade-ai-translation-for-global-law-firms-and-legal-teams/
+- <a id="10-123"></a>[10-123] TMTPost (citing Sensor Tower): AI Short Dramas Go Global — Q1 Downloads Up 140% Year over Year: https://www.tmtpost.com/8119642.html
+- <a id="10-124"></a>[10-124] CBNData: AI Short Dramas — Who Is Actually Making Money?: https://www.cbndata.com/information/295426
+- <a id="10-125"></a>[10-125] CLS (财联社): U.S. Government Backs "Fair Use" in New York Times v. OpenAI: https://m.cls.cn/detail/2473833
+- <a id="10-126"></a>[10-126] Lanjinger Finance: SPD Bank 2026 Interim Report — 440+ AI Applications and 220 Agents in Production: https://www.lanjinger.com/d/1788336255043004663
+- <a id="10-127"></a>[10-127] OpenAI Official Customer Case: OpenAI × Morgan Stanley — AI Assistant Adoption Exceeds 98%: https://openai.com/index/morgan-stanley/
+- <a id="10-128"></a>[10-128] EY: AI Bank White Paper — Agent-Driven Financial Paradigm Reconstruction: https://www.ey.com/content/dam/ey-unified-site/ey-com/zh-cn/insights/financial-services/documents/ey-ai-bank-white-paper-zh.pdf
+- <a id="10-129"></a>[10-129] Beijing News: Dushen Education 2026 Interim Report — AI Education Revenue Up 664% to 114 Million Yuan While Overall Losses Persist: https://www.bjnews.com.cn/detail/1787921951169678.html
+- <a id="10-130"></a>[10-130] People's Daily Overseas Edition: Bosideng's AI Design Goes Live — 8 AI-Generated Patterns and 9 AI-Designed Garments Reach the Market: http://js.people.com.cn/BIG5/n2/2025/0617/c360301-41261750.html
+- <a id="10-131"></a>[10-131] Economic Observer: Bosideng's Digital Transformation — from 100+ Warehouses to One Central Warehouse: http://www.eeo.com.cn/2025/0320/717512.shtml
+- <a id="10-132"></a>[10-132] AI News: Kroger and Lowe's Test Their Own AI Agents Instead of Handing Control to Third-Party Chatbots: https://www.artificialintelligence-news.com/news/kroger-and-lowe-test-ai-agents-without-handing-control-to-google/
+- <a id="10-133"></a>[10-133] People.cn (People Zhongke Research Institute): Four Risks of Local Governments Stampeding to Deploy DeepSeek: http://politics.people.com.cn/n1/2025/0224/c458474-40424743.html
+- <a id="10-134"></a>[10-134] UNDP Global Centre Singapore: Pairing AI with the Public Sector — Singapore's Pair Suite Saves Civil Servants an Estimated 46% of Administrative Time: https://www.undp.org/policy-centre/singapore/blog/pairing-ai-public-sector-impact-singapore
+- <a id="10-135"></a>[10-135] Sohu (China Port Autonomous Driving Blue Book): China Port Autonomous Driving Industry Development Blue Book (2026 Edition): https://www.sohu.com/a/1068619374_468661
+- <a id="10-136"></a>[10-136] MarketScale / FreightWaves: Kenco's 20-Agent Target Puts AI Workflow Control at the Center of Logistics Tech: https://www.marketscale.com/industries/transportation/kencos-20-agent-target-puts-ai-workflow-control-at-the-center-of-logistics-tech
+- <a id="10-137"></a>[10-137] JAMA Network Open: Ambient AI Scribe Use Over 30 Days Associated with Drop in Physician Burnout from 51.9% to 38.8%: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2839542
+- <a id="10-138"></a>[10-138] MedPage Today: AI Scribes' Time Savings "Modest" but Meaningfully Improve Clinician Experience: https://www.medpagetoday.com/hospitalbasedmedicine/workforce/120606
+- <a id="10-139"></a>[10-139] Caixin Weekly: Beijing Meizhong Airui Cancer Hospital Plans China's First "AI-Native" Physical Hospital: https://weekly.caixin.com/2026-04-04/102430893.html
+- <a id="10-140"></a>[10-140] CBS News: UnitedHealth Sued over Alleged Use of AI Algorithms with up to 90% Error Rate to Deny Care: https://www.cbsnews.com/news/unitedhealth-lawsuit-ai-deny-claims-medicare-advantage-health-insurance-denials/
+- <a id="10-141"></a>[10-141] Securities Times: Baosteel's "AI+" Theme Day — 582 Scenarios Live with Cumulative Benefits above 270 Million Yuan: https://www.stcn.com/article/detail/3828074.html
+- <a id="10-142"></a>[10-142] TMTPost: A Look at Eight Listed Steelmakers' AI Investment — Baosteel Is the Only "Company-Level Strategy + Quantifiable Results" Sample: https://www.tmtpost.com/8018596.html
+- <a id="10-143"></a>[10-143] World Economic Forum: Global Lighthouse Network Recognizes 23 New Sites and Launches Lumina, an AI Platform for Industrial Transformation: https://cn.weforum.org/press/2026/01/global-lighthouse-network-recognizes-23-new-sites-launches-ai-platform-for-industrial-transformation-89a7334dcb-cn/
+- <a id="10-144"></a>[10-144] Murata Manufacturing: Beware the "Data Traps" of the Smart Factory: https://article.murata.com/zh-cn/article/smartfactory-pitfalls-in-data
+- <a id="10-145"></a>[10-145] National Energy Administration: Computing–Electricity Synergy Moves from Concept to Reality — First Written into the Government Work Report and the 15th Five-Year Plan: https://www.nea.gov.cn/20260710/082757047b114b2798fcdeec42673e18/c.html
+- <a id="10-146"></a>[10-146] People's Daily: China Southern Power Grid "Makes Every Kilowatt-Hour AI-Powered" — Distribution-Network Planning Agent Named a WAIC Top-Ten "Treasure of the Hall": http://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169986.html
 
 
 ## Knowledge-Base Material (One Source of This Book's Content)

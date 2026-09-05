@@ -88,6 +88,8 @@ It also outlines four emergence paths (bottom-up spontaneity / organizational se
 
 **WEF's *Future of Jobs 2025***: by 2030, job disruption will equal 22% of current jobs: 170 million created, 92 million eliminated, a net gain of 78 million<sup><a href="12-appendix-a-sources.md#1-27">[1-27]</a></sup>; 77% of employers plan to upskill their workforce, and 41% plan to reduce headcount because of AI automation — expectations, not facts.
 
+**JetBrains' *2026 Developer Ecosystem Survey* (August 2026; 15,000+ professional developers)**: the adoption curve of AI coding agents is the hardest leading indicator on the engineering side — 90% of professional developers use AI coding agents weekly and 68% daily; Claude Code's workplace adoption rose from 18% in January to 39% (47% in the US), and 31% of developers use it as their only primary tool; GitHub Copilot fell from 29% to 21% and lost the top spot, while OpenAI Codex climbed from 3% to 16%<sup><a href="12-appendix-a-sources.md#1-36">[1-36]</a></sup>. Tool rankings change, but the pattern does not: the adoption curve always arrives first where output is most measurable and feedback loops are shortest — the order in which AI penetrates an organization is the order of value measurability.
+
 ## 3.6 A Warning on Data Use (This Book's Citation Discipline)
 
 Putting all the numbers above together, there are five citation disciplines:
