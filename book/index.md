@@ -46,6 +46,13 @@
 - [附录 B](13-附录B-常用指标.md) — 常用指标
 - [附录 C](14-附录C-版本历史与更新说明.md) — 版本历史与更新说明
 
+## 同一作者的其他书
+
+本书是 Jweokk 开源书系列之一。想看作者的其他书，欢迎逛逛 [AI 时代书架](https://ai.fly2ai.top)——所有书免费在线阅读、GitHub 仓库公开：
+
+- **《AI 时代人生指南》**（[在线阅读](https://ailife.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-life-guide)）：AI 时代，人该怎么活？
+- **《AI 客户经营》**（写作中）：AI 如何重塑客户从开拓到留存的全生命周期
+
 ## 致谢
 
 本书的组织形式与公开方式，受到范冰（XDash）《[前线部署工程师](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer)》的启发——免费公开全文、GitHub 仓库 + 官网阅读 + PDF 整本下载、附录标注出处的模式，是一个值得推广的开源知识实践。特此致谢。

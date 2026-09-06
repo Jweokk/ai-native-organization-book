@@ -48,6 +48,13 @@ The organization and open-publishing model of this book were inspired by XDash's
 - [Appendix B](book-en/13-appendix-b-metrics.md) — Key metrics
 - [Appendix C](book-en/14-appendix-c-changelog.md) — Version history and update notes
 
+## More books by the same author
+
+This book is part of Jweokk's open-source book series. Explore all books in the [AI Era Book Shelf](https://ai.fly2ai.top) — every book is free to read online with a public GitHub repository:
+
+- **AI Era Life Guide** ([read online](https://ailife.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-life-guide)): How should people live in the AI era?
+- **AI Customer Operations** (in progress): How AI is reshaping the full customer lifecycle, from acquisition to retention
+
 ## Copyright
 
 Copyright © Jweokk. This repository is published for **free reading and non-commercial sharing**; please attribute the author when republishing. Any commercial use (including publishing, training, or paid adaptations) requires prior written permission (weokk2025@gmail.com).
