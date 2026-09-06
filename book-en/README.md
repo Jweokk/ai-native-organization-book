@@ -50,7 +50,7 @@ The organization and open-publishing model of this book were inspired by XDash's
 
 ## More books by the same author
 
-This book is part of Jweokk's open-source book series. Explore all books in the [AI Era Book Shelf](https://ai.fly2ai.top) — every book is free to read online with a public GitHub repository:
+This book is part of Jweokk's portfolio. Explore more open-source books and projects at [Jweokk's Portfolio](https://ai.fly2ai.top) — everything is free and public:
 
 - **AI Era Life Guide** ([read online](https://ailife.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-life-guide)): How should people live in the AI era?
 - **AI Customer Operations** (in progress): How AI is reshaping the full customer lifecycle, from acquisition to retention
