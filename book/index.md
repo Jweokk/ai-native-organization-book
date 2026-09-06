@@ -51,7 +51,7 @@
 本书是 Jweokk 作品集中的一册。作者的更多开源书与开源项目，欢迎逛逛 [Jweokk 作品集](https://ai.fly2ai.top)——全部免费公开：
 
 - **《AI 时代人生指南》**（[在线阅读](https://ailife.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-life-guide)）：AI 时代，人该怎么活？
-- **《AI 客户经营》**（写作中）：AI 如何重塑客户从开拓到留存的全生命周期
+- **《AI 客户经营》**（[在线阅读](https://ai-customer-growth.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-customer-growth-book)）：AI 如何重塑客户从开拓到留存的全生命周期
 
 ## 致谢
 
