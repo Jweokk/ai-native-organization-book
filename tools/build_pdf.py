@@ -72,6 +72,10 @@ def build():
         text = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
         m = re.search(r"^#\s+(.+)$", text, flags=re.M)
         title = m.group(1).strip() if m else name
+        if m:
+            # 移除正文里的首个 # 标题行——否则 md_to_html 会再产出一个 <h1>，
+            # 与下方插入的 .chapter-title 重复（章节标题出现两遍的 bug）
+            text = text[: m.start()] + text[m.end() :]
         body = md_to_html(text)
         chapters.append((title, body))
 
