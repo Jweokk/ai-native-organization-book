@@ -32,8 +32,8 @@ def read_key():
                 return v
     return None
 
-def call_deepseek(system, user, model="deepseek-v4-flash", key=None):
-    # deepseek-v4-flash 是推理模型：max_tokens 必须够大（推理+输出共享预算），
+def call_deepseek(system, user, model="deepseek-flash", key=None):
+    # deepseek-flash 是推理模型：max_tokens 必须够大（推理+输出共享预算），
     # 否则 content 为空（全部被推理吃掉）。4000+ 才保证 JSON 输出完整。
     payload = {
         "model": model,
@@ -77,7 +77,7 @@ def split_ch10(text):
 def main():
     targets = []
     ch_filter = None
-    model = "deepseek-v4-flash"  # 默认当前配置模型
+    model = "deepseek-flash"  # 默认当前配置模型
     if "--ch" in sys.argv:
         ch_filter = sys.argv[sys.argv.index("--ch") + 1]
     if "--model" in sys.argv:
