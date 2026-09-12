@@ -126,3 +126,32 @@ Why can't a legacy system leap forward by "adding an AI module"? Three barriers.
 How do you verify whether a system is truly "AI-native"? Four questions. Ask the AI, "Which department is Zhang from last year's campus recruiting in, what's his performance, and what internal position would he fit?" — if you must manually specify the data source, it's not integrated; a direct answer with sources is real integration. If a resume sits untouched for 48 hours, does the system react (push to the interviewer, remind, flag low intent)? After three months of continuous use, does recommendation accuracy improve with manual corrections (stuck at 40–50% = fixed algorithm; rising = learning)? Can you define enterprise rules in natural language ("tech roles must have a final interview with the CTO") instead of filing tickets and waiting for version releases?
 
 The path scales by size: organizations of 200–500 people build their first data flywheel in recruiting and reuse the tags through onboarding and probation; 500–2000 build cross-scenario collaboration by connecting the recruiting–HR–talent chain on a shared data foundation; 2000+ sink enterprise context into an organizational capability platform that speaks "management dialect." The smaller you are, the more you should start with a single point of breakthrough rather than rolling out every module at once. (The talent data cited here is vendor-reported and treated as official claims; see Appendix A.)
+
+## 2.11 The Enterprise World Model: The Cognitive Foundation of AI-Native Operations
+
+A large model possesses public common sense but lacks enterprise-specific knowledge. It knows that "when inventory runs low, you usually reorder," but not that "at this company the reorder threshold is 120% of safety stock, orders above 500,000 yuan need a VP's signature, and weekend reorders go through an emergency channel." Wei Wei and colleagues (Peking University HSBC Business School) define this absence as a missing "enterprise world model" and propose a four-layer architecture to build it<sup><a href="12-appendix-a-sources.md#8-92">[8-92]</a></sup>:
+
+- **Theory**: the business knowledge and management experience humans express in natural language — the cognitive source of the world model;
+- **Ontology**: theory translated into machine-understandable concept frameworks, rules, and operational definitions — the hub that turns what humans know into what machines understand;
+- **Instances**: the real data held in enterprise systems (transaction records, customer information, equipment parameters);
+- **Skills**: executable operations bound to the ontology, which upgrade the world model from read-only to read-write.
+
+Internally, the ontology is assembled from four atomic elements — **entity, property, relation, behavior** — which the author calls a minimal complete set: inheritance is a special relation, business rules are triggered behaviors, and permission control is a system-level behavior attached to an entity. The multi-ontology principle then surfaces an often-overlooked management truth: **many cross-departmental disagreements are not about facts but about using different ontologies to interpret the same facts** — sales says "this customer matters" (revenue-contribution ontology) while risk says "this customer is high-risk" (credit-risk ontology), and both see identical facts. The author identifies Palantir Foundry as a complete engineering implementation of this four-layer architecture. More important is the claim that the large model acts as a "universal translator" between the four layers, shifting world-model construction from top-down manual building to intelligent growth from any starting point: an enterprise can begin from a business document, a database, or a piece of existing code and let the model fill in the other layers and cross-validate them.
+
+The strategic implication is sharp: since the cost of acquiring model intelligence is trending toward zero, differentiation can only come from the enterprise's own world model — **the speed at which that world model evolves is the enterprise's moat.**
+
+## 2.12 Operating Discipline: Six Dimensions Between AI-Assisted and AI-Native
+
+The most practical way to tell "AI-assisted" from "AI-native" is not the tool stack but operating discipline<sup><a href="12-appendix-a-sources.md#8-90">[8-90]</a></sup>:
+
+| Dimension | AI-Assisted Team | AI-Native Team |
+|-----------|------------------|----------------|
+| Role of AI | Productivity add-on layered onto the existing workflow | Core participant in planning, execution, and review |
+| Specification quality | Informal; engineers fill in the gaps | Explicit; written for both humans and agents |
+| Context management | Tribal and implicit | Structured, documented, accessible at the point of work |
+| Review culture | A downstream quality gate | Continuous validation integrated into delivery |
+| What is measured | Output volume (PRs, commits, velocity) | System quality (defect escape rate, rework, stability) |
+| Learning loops | Individual; lost when people leave | Systematic; encoded in templates, standards, guardrails |
+| AI governance | Ad hoc; permissions set by default | Deliberate: bounded scope, audit trails, approval paths |
+
+In one sentence: **the AI-assisted team runs faster on the same track; the AI-native team rebuilt the track**<sup><a href="12-appendix-a-sources.md#8-90">[8-90]</a></sup>. This line also explains why point-level speedups fail to compound. ByteByteGo's interview with Meta's ads-systems architect captures the shift in the scarce resource: once generation has near-zero marginal cost, "evaluating quality, setting direction, and making hard trade-offs" become the bottleneck, and leadership capability shifts from delegation to orchestration<sup><a href="12-appendix-a-sources.md#7-75">[7-75]</a></sup> — which is exactly the gap the next chapter examines: what lies between tool ubiquity and organizational returns.

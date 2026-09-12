@@ -46,6 +46,8 @@
 - <a id="1-34"></a>[1-34] Harvard Business School AI Institute: Less Headcount, More Valuation: How AI-Native Firms Change the Game: https://aiinstitute.hbs.edu/less-headcount-more-valuation-how-ai-native-firms-change-the-game/
 - <a id="1-35"></a>[1-35] Harvard Business School AI Institute: Is GenAI Heading for a Tech Monopoly?: https://aiinstitute.hbs.edu/is-genai-heading-for-a-tech-monopoly/
 - <a id="1-36"></a>[1-36] JetBrains Developer Ecosystem Blog: AI Coding Agent Adoption Trends 2026: https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/
+- <a id="1-37"></a>[1-37] NBER: Replaceable but Employed: Automation and the Meaning of Work (Working Paper w35559, Joshua S. Gans): https://www.nber.org/papers/w35559
+- <a id="1-38"></a>[1-38] World Economic Forum × Accenture: Organizational Transformation in the Age of AI — How Organizations Maximize AI's Potential (43-page white paper, March 2026): https://www.weforum.org/publications/organizational-transformation-in-the-age-of-ai-how-organizations-maximize-ais-potential/
 
 
 ## Sources for Chapter 7 (International Case Studies)
@@ -124,6 +126,9 @@
 - <a id="7-71"></a>[7-71] themicrosoftcloudblog.com: https://themicrosoftcloudblog.com/2026/05/2026-work-trend-index-evidence-check/
 - <a id="7-72"></a>[7-72] microsoft.com: https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born
 - <a id="7-73"></a>[7-73] Sina Tech (Lenovo Zhihui Salon): Lenovo's AI-Native Organization Practice — Lexiang Super-Agent 4.0 Tops 7 Million MAU and Pulls 5 Billion Yuan in Sales, "Silicon-Carbon Symbiosis": https://finance.sina.com.cn/tech/roll/2026-07-29/doc-iniknezf0011507.shtml
+- <a id="7-74"></a>[7-74] OpenAI: How AI-Native Companies Turn Workflows into Operating Capability (Basis, Clay, Exa Labs frontline cases): https://openai.com/index/ai-native-company-workflows/
+- <a id="7-75"></a>[7-75] ByteByteGo: AI-Native Leaders — The Organizational Playbook for Engineering Transformation at Scale (interview with Shah Rahman, Meta): https://blog.bytebytego.com/p/ai-native-leaders-the-organizational
+- <a id="7-76"></a>[7-76] Fortune: OpenAI Rogue AI Agents Reached 12 More Websites: https://fortune.com/2026/09/09/openai-rogue-ai-agents-reached-12-more-websites/
 
 
 ## Sources for Chapters 8-9 (Methodology and Failure Cases)
@@ -217,6 +222,13 @@
 - <a id="8-86"></a>[8-86] Ashley Rolf More: AI Is Stopping Startups from Completing Puberty: https://ashley.rolfmore.com/ai-is-stopping-startups-from-completing-puberty/
 - <a id="8-87"></a>[8-87] Rodrigo Rosenfeld: AI Agents and the Refactoring That Never Happens: https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/
 - <a id="8-88"></a>[8-88] LeadDev: AI Coding Creates Two Kinds of Debt, and You're Only Measuring One — Cognitive Debt: https://leaddev.com/ai/ai-coding-creates-two-kinds-of-debt-youre-only-measuring-one
+- <a id="8-89"></a>[8-89] Varick / Vasuman Moza: Applied AI Doesn't Work (includes UK Department for Business and Trade Copilot pilot data): https://x.com/vasuman/status/2095999742031675738
+- <a id="8-90"></a>[8-90] Coderio: AI-Native Engineering Teams — 10 Practices That Separate the Best (2026) (includes McKinsey, DORA 2025 and Faros AI telemetry data): https://www.coderio.com/blog/biz-tech/ai-native-engineering-teams-10-practices/
+- <a id="8-91"></a>[8-91] Datawhale: FDE Case 100 (24 frontline FDE enterprise AI deployment cases; in Chinese): https://assets.datawhale.cn/Datawhale%20FDE案例100.pdf
+- <a id="8-92"></a>[8-92] Wei Wei (Peking University HSBC Business School): Enterprise World Model — How AI Agents Understand, Reason About and Change an Enterprise's Reality (via Huxiu; in Chinese): https://www.huxiu.com/article/4861106.html
+- <a id="8-93"></a>[8-93] Jiuzhang Yunji (Miao Xu): Building Professional Agents — Engineering Practice from General AI to Enterprise Applications (Zhihu / DataFun; in Chinese): https://zhuanlan.zhihu.com/p/2005349691483759992
+- <a id="8-94"></a>[8-94] Bottleneck Labs: Benchmarking 7 Autonomous Businesses (seven frontier models running real businesses for 72 hours): https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses
+- <a id="8-95"></a>[8-95] Terrible Software: AI Is Breaking This Thing We Call Trust: https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust/
 
 ---
 
@@ -398,6 +410,60 @@
 - <a id="10-144"></a>[10-144] Murata Manufacturing: Beware the "Data Traps" of the Smart Factory: https://article.murata.com/zh-cn/article/smartfactory-pitfalls-in-data
 - <a id="10-145"></a>[10-145] National Energy Administration: Computing–Electricity Synergy Moves from Concept to Reality — First Written into the Government Work Report and the 15th Five-Year Plan: https://www.nea.gov.cn/20260710/082757047b114b2798fcdeec42673e18/c.html
 - <a id="10-146"></a>[10-146] People's Daily: China Southern Power Grid "Makes Every Kilowatt-Hour AI-Powered" — Distribution-Network Planning Agent Named a WAIC Top-Ten "Treasure of the Hall": http://paper.people.com.cn/rmrb/pc/content/202607/21/content_30169986.html
+
+**Professional Services & Legal (continued)**
+-
+- <a id="10-147"></a>[10-147] Law360: The 2026 AI Survey (70% of law firm lawyers use AI at least weekly): https://www.law360.com/articles/2454764/the-2026-ai-survey
+- <a id="10-148"></a>[10-148] FTI Consulting × Relativity: The General Counsel Report (genAI adoption in corporate legal departments doubled to 87% in a year): https://www.fticonsulting.com/about/newsroom/press-releases/ai-adoption-in-corporate-legal-departments-doubles-according-to-the-general-counsel-report
+- <a id="10-149"></a>[10-149] Forbes Technology Council: How AI Is Breaking the Consulting Business Model: https://www.forbes.com/councils/forbestechcouncil/2026/04/06/how-ai-is-breaking-the-consulting-business-model/
+
+**Media, Content & Creative (continued)**
+-
+- <a id="10-150"></a>[10-150] Brookings Institution: Same Gatekeepers, New Tollbooths in the AI Content Licensing Market: https://www.brookings.edu/articles/same-gatekeepers-new-tollbooths-in-the-ai-content-licensing-market/
+- <a id="10-151"></a>[10-151] Forbes: Suno Lost to GEMA — Why the Ruling Should Worry AI Music Companies: https://www.forbes.com/sites/virginieberger/2026/08/05/suno-lost-to-gema-why-the-ruling-should-worry-ai-music-companies/
+- <a id="10-152"></a>[10-152] Nieman Lab: A New Book Looks at How AI Is Rewiring the Newsroom, for Better and Worse: https://www.niemanlab.org/2026/08/a-new-book-looks-at-how-ai-is-rewiring-the-newsroom-for-better-and-worse/
+
+**Financial Services (continued)**
+-
+- <a id="10-153"></a>[10-153] China Business Journal: AI in Finance Advances — H1 2026 Reports of 42 Listed Banks Show a Wave of Agent Deployments: https://news.qq.com/rain/a/20260905A01JNS00
+- <a id="10-154"></a>[10-154] Banking Dive (summarizing Accenture Top Banking Trends 2026): Banks Aim for Agentic AI Scale in 2026: https://www.bankingdive.com/news/banks-agentic-ai-scale-2026-accenture/809585/
+- <a id="10-155"></a>[10-155] Lloyds Banking Group: 2026 — The Year of Agentic AI, and a New Era for Finance: https://www.lloydsbankinggroup.com/insights/2026-the-year-of-agentic-ai-and-a-new-era-for-finance.html
+
+**Education (continued)**
+-
+- <a id="10-156"></a>[10-156] EDUCAUSE: The Impact of AI on Work in Higher Education (1,960 survey responses): https://www.educause.edu/research/2026/the-impact-of-ai-on-work-in-higher-education
+- <a id="10-157"></a>[10-157] Eedi: Just Launched — Our Second AI Tutor RCT (constrained AI tutoring trial with Google DeepMind): https://www.eedi.com/news/just-launched---our-second-ai-tutor-rct
+- <a id="10-158"></a>[10-158] BMC Medical Education (Springer): Effectiveness of a Blended Generative-AI Digital Tutor Model: https://link.springer.com/article/10.1186/s12909-026-09469-0
+
+**Retail & Consumer Goods (continued)**
+-
+- <a id="10-159"></a>[10-159] Shaqiu Community (citing the 2026 China Consumer & Retail LLM Application Tracking Report): China Consumer & Retail LLM Application Case Collection: https://www.shaqiu.cn/article/BGRyVEppLMJl
+- <a id="10-160"></a>[10-160] IBM Institute for Business Value: Own the Agentic Commerce Experience: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-commerce
+
+**Government & Public Services (continued)**
+-
+- <a id="10-161"></a>[10-161] ITIF Center for Data Innovation: Public Sector AI Adoption Index 2026 (survey of 3,335 public servants across 10 countries): https://datainnovation.org/2026/02/public-sector-ai-adoption-index-2026/
+- <a id="10-162"></a>[10-162] CAICT, China Academy of Information and Communications Technology (via SecRSS): Research Report on Government Agent Development (2026): https://www.secrss.com/articles/92573
+
+**Logistics & Supply Chain (continued)**
+-
+- <a id="10-163"></a>[10-163] LogClub / Wenda: H1 2026 Global Logistics AI Agent Deployment Survey (includes the C.H. Robinson case): https://news.qq.com/rain/a/20260704A08AMK00
+- <a id="10-164"></a>[10-164] FOYCOM: Agentic AI in 3PLs Can Win More Contracts: https://foycom.com/blog/ai-13/agentic-ai-in-3pls-can-win-more-contracts-95
+
+**Healthcare (continued)**
+-
+- <a id="10-165"></a>[10-165] Nature (npj series): A Novel Use of AI for Prediction of Clinical Deterioration in a Post-Acute Hospital: https://www.nature.com/articles/s44401-026-00145-5
+- <a id="10-166"></a>[10-166] AI Weekly: AI in Healthcare — 21 Real Deployments: https://aiweekly.co/ai-use-cases/industry/healthcare
+
+**Manufacturing (continued)**
+-
+- <a id="10-167"></a>[10-167] Jazzyear Think Tank: 2026 Industrial AI Agent Research Report — Building Factory-Native AI Agents: https://www.jazzyear.com/study_info.html?id=174
+- <a id="10-168"></a>[10-168] CCID, China Center for Information Industry Development: Industrial Agent Adoption — Status, Challenges and Recommendations: https://www.fxbaogao.com/detail/5116428
+
+**Energy & Utilities (continued)**
+-
+- <a id="10-169"></a>[10-169] RSM US: AI Use Cases in the Energy Sector (90% AI deployment rate in electric utilities): https://rsmus.com/insights/industries/energy/ai-use-cases-in-the-energy-sector.html
+- <a id="10-170"></a>[10-170] Utility Analytics Institute: Building Strong AI Governance in 2026: https://utilityanalytics.com/building-strong-ai-governance-in-2026/
 
 
 ## Knowledge-Base Material (One Source of This Book's Content)
