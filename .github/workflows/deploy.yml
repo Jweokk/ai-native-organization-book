@@ -16,4 +16,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -q mkdocs-material
+      # llms.txt lives at the repo root (single source); MkDocs copies
+      # non-Markdown files from docs_dir into the built site.
+      - run: cp llms.txt book/llms.txt
       - run: mkdocs gh-deploy --force

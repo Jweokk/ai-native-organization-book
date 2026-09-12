@@ -3,3 +3,5 @@ site/
 __pycache__/
 *.pyc
 .last-update.json
+# copied in by CI before the MkDocs build
+book/llms.txt
