@@ -101,7 +101,15 @@ def main():
     else:
         print("git push OK")
 
-    # 7. 完成标记
+    # 7. 清 Cloudflare 边缘缓存（站点目录被 CF 缓存 4 小时；不清理则边缘继续发旧 PDF/页面）
+    purge = os.path.expanduser("~/.hermes/scripts/purge_book_cache.py")
+    if os.path.exists(purge):
+        r = subprocess.run([sys.executable, purge, BASE], capture_output=True, text=True, timeout=120)
+        print((r.stdout or "").strip() or "purge_book_cache：无输出")
+    else:
+        print("WARN：找不到 purge_book_cache.py，跳过清缓存")
+
+    # 8. 完成标记
     with open(MARK_FILE, "w") as f:
         json.dump({"date": today, "version": new_version, "title": args.title}, f, ensure_ascii=False)
 
