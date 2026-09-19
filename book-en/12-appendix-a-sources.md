@@ -48,6 +48,7 @@
 - <a id="1-36"></a>[1-36] JetBrains Developer Ecosystem Blog: AI Coding Agent Adoption Trends 2026: https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/
 - <a id="1-37"></a>[1-37] NBER: Replaceable but Employed: Automation and the Meaning of Work (Working Paper w35559, Joshua S. Gans): https://www.nber.org/papers/w35559
 - <a id="1-38"></a>[1-38] World Economic Forum × Accenture: Organizational Transformation in the Age of AI — How Organizations Maximize AI's Potential (43-page white paper, March 2026): https://www.weforum.org/publications/organizational-transformation-in-the-age-of-ai-how-organizations-maximize-ais-potential/
+- <a id="1-39"></a>[1-39] iResearch (via 36Kr): Enterprise AI Agent Adoption Accelerates — From "Shallow Prosperity" toward a Value Loop (90.9% adoption but 67.3% stuck at L1 and only 9.1% at L3; general-assistance scenarios 83.7%; 30-40% of projects may stall within 18 months): https://www.36kr.com/p/3958434354986112
 
 
 ## Sources for Chapter 7 (International Case Studies)
@@ -129,6 +130,9 @@
 - <a id="7-74"></a>[7-74] OpenAI: How AI-Native Companies Turn Workflows into Operating Capability (Basis, Clay, Exa Labs frontline cases): https://openai.com/index/ai-native-company-workflows/
 - <a id="7-75"></a>[7-75] ByteByteGo: AI-Native Leaders — The Organizational Playbook for Engineering Transformation at Scale (interview with Shah Rahman, Meta): https://blog.bytebytego.com/p/ai-native-leaders-the-organizational
 - <a id="7-76"></a>[7-76] Fortune: OpenAI Rogue AI Agents Reached 12 More Websites: https://fortune.com/2026/09/09/openai-rogue-ai-agents-reached-12-more-websites/
+- <a id="7-77"></a>[7-77] InfoQ (Kuaishou engineering team): How a 10,000-Person Organization Shifted Its AI R&D Paradigm — From Platformization to Intelligence (AI code-generation rate above 30% with organization-level delivery efficiency essentially flat; L1 Copilot → L2 Agent → L3 Agentic): https://www.infoq.cn/article/9rX1Ov951gKtaTmQb8Jq
+- <a id="7-78"></a>[7-78] HarnessTax: How Much Does the Harness Matter for Coding Agents? (21 model-harness pairs: success-rate differences within ±2%/±5%, cost differences of 2-5x; Claude Code's initial context over 10x Pi's): https://harnesstax.github.io/
+- <a id="7-79"></a>[7-79] 53AI: AI Coding Is 10x Faster — Why Does Enterprise Delivery Slow Down? (the original framing of OpenAI's agent-first software engineering experiment; delivery is set by the slowest step): https://www.53ai.com/news/zhinenghuagaizao/2026072782435.html
 
 
 ## Sources for Chapters 8-9 (Methodology and Failure Cases)
@@ -422,28 +426,55 @@
 - <a id="10-150"></a>[10-150] Brookings Institution: Same Gatekeepers, New Tollbooths in the AI Content Licensing Market: https://www.brookings.edu/articles/same-gatekeepers-new-tollbooths-in-the-ai-content-licensing-market/
 - <a id="10-151"></a>[10-151] Forbes: Suno Lost to GEMA — Why the Ruling Should Worry AI Music Companies: https://www.forbes.com/sites/virginieberger/2026/08/05/suno-lost-to-gema-why-the-ruling-should-worry-ai-music-companies/
 - <a id="10-152"></a>[10-152] Nieman Lab: A New Book Looks at How AI Is Rewiring the Newsroom, for Better and Worse: https://www.niemanlab.org/2026/08/a-new-book-looks-at-how-ai-is-rewiring-the-newsroom-for-better-and-worse/
+- <a id="10-171"></a>[10-171] EMARKETER: AI Is Content Teams' Top Tool for Speed — Adoption Near Universal, Audience Preference Moving the Other Way (51% of content and creative professionals, 75% reporting higher output, 26% consumer preference for AI-generated content vs 60% in 2023): https://www.emarketer.com/content/ai-top-tool-content-teams-reaching-speed-up-production-2026
+- <a id="10-172"></a>[10-172] Sohu Media: AI as an Admission Requirement — 2026 Media Job Listings: https://timeline.sohu.com/news/Q6nPjKuBt2
+- <a id="10-173"></a>[10-173] TMTPost: 2026 AI Trend Outlook — Organizational Propositions (citing Gartner: 40% of enterprise workflows agent-augmented or orchestrated by end-2026): https://www.tmtpost.com/7931623.html
+- <a id="10-174"></a>[10-174] Hainan Daily: The Impact of Generative AI on Journalists' Role Perception (appraisal shifting from volume to quality, AI literacy training, wider career paths): https://hnrb.huainannet.com/content/202609/16/content_216514.html
+
 
 **Financial Services (continued)**
 -
 - <a id="10-153"></a>[10-153] China Business Journal: AI in Finance Advances — H1 2026 Reports of 42 Listed Banks Show a Wave of Agent Deployments: https://news.qq.com/rain/a/20260905A01JNS00
 - <a id="10-154"></a>[10-154] Banking Dive (summarizing Accenture Top Banking Trends 2026): Banks Aim for Agentic AI Scale in 2026: https://www.bankingdive.com/news/banks-agentic-ai-scale-2026-accenture/809585/
 - <a id="10-155"></a>[10-155] Lloyds Banking Group: 2026 — The Year of Agentic AI, and a New Era for Finance: https://www.lloydsbankinggroup.com/insights/2026-the-year-of-agentic-ai-and-a-new-era-for-finance.html
+- <a id="10-175"></a>[10-175] Zero One Think Tank (21st Century Business Herald): 2026 Financial Agent Tender Map — Banks, Brokerages and Insurers in Full Swing (97 valid tenders; banks 48.5%): https://www.21jingji.com/article/20260624/herald/adcc033a708823ffd32749bf979fc96b.html
+- <a id="10-176"></a>[10-176] China Fund News: Bank, Insurance and Asset-Management Leaders on Reshaping Multi-Asset Investment (ICBC Wealth Management's unified entry point and super-agent matrix; New China Asset Management's three-layer system): https://www.chnfund.com/article/AR68ec7cae-4c64-b2ac-6208-3a23b174072b
+- <a id="10-177"></a>[10-177] Cailianshe: Where AI Investment Research Stands — From Tool to Colleague: https://www.cls.cn/detail/2449412
+- <a id="10-178"></a>[10-178] IDC China: Agent Best-Practice Cases in Insurance and Asset Management (process-scenario results cannot be extrapolated to decision scenarios): https://my.idc.com/getdoc.jsp?containerId=prCHC53908625
+- <a id="10-179"></a>[10-179] Star Market Daily (Chinastarmarket): FinStep's Financial AI Rollout and Agent Matrix at the Bund Conference (two brokerage paths: general office collaboration vs vertical co-development): https://www.chinastarmarket.cn/detail/2478898
+
 
 **Education (continued)**
 -
 - <a id="10-156"></a>[10-156] EDUCAUSE: The Impact of AI on Work in Higher Education (1,960 survey responses): https://www.educause.edu/research/2026/the-impact-of-ai-on-work-in-higher-education
 - <a id="10-157"></a>[10-157] Eedi: Just Launched — Our Second AI Tutor RCT (constrained AI tutoring trial with Google DeepMind): https://www.eedi.com/news/just-launched---our-second-ai-tutor-rct
 - <a id="10-158"></a>[10-158] BMC Medical Education (Springer): Effectiveness of a Blended Generative-AI Digital Tutor Model: https://link.springer.com/article/10.1186/s12909-026-09469-0
+- <a id="10-180"></a>[10-180] GetPerspective: Where Universities Actually Deploy AI in 2026 (EDUCAUSE: 74% of U.S. institutions with a production-grade deployment; Pounce and summer melt; Harvard CS50 Duck, 800,000+ questions answered): https://getperspective.ai/blog/ai-applications-in-education-where-universities-deploy-ai-in-2026
+- <a id="10-181"></a>[10-181] EdTech Partners: AI Governance in Higher Education — Designing the "AI-Native University" (Coursera 2026: over 95% of students and educators use AI; institutional adoption up 17 points in a year): https://www.edtpartners.com/post/report-leading-ai-with-intention-a-guide-for-university-leaders
+- <a id="10-182"></a>[10-182] CUHK-Shenzhen, Information Technology Services Office: AI Agents (the "four unifications" university-level agent platform): http://itso.cuhk.edu.cn/page/530
+- <a id="10-183"></a>[10-183] CAICT: 2026 Enterprise Agent Technology and Application Research Report — Education Cases (Shaanxi Railway Institute campus-supervision agent: +60% response speed, -70% preparation time; three-tier review and four-dimension evaluation): https://zhuanlan.zhihu.com/p/2054232640018976867
+
 
 **Retail & Consumer Goods (continued)**
 -
 - <a id="10-159"></a>[10-159] Shaqiu Community (citing the 2026 China Consumer & Retail LLM Application Tracking Report): China Consumer & Retail LLM Application Case Collection: https://www.shaqiu.cn/article/BGRyVEppLMJl
 - <a id="10-160"></a>[10-160] IBM Institute for Business Value: Own the Agentic Commerce Experience: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-commerce
+- <a id="10-184"></a>[10-184] Deloitte: State of AI Adoption in Retail and CPG — 2026 Executive Survey (200 executives: 75% rank AI top priority, 16.5% can quantify ROI, 54% of strategy ownership with technology leaders): https://www.deloitte.com/us/en/industries/consumer/articles/state-of-ai-adoption-in-retail-cpg-executive-survey.html
+- <a id="10-185"></a>[10-185] The Frontline Factor: State of AI Readiness in Retail 2026 (IBM IBV 1,500 executives at 96% vs UKG 8,200 frontline workers at 33%): https://thefrontlinefactor.com/data-reports/state-of-ai-readiness-in-retail-2026
+- <a id="10-186"></a>[10-186] Five Restaurant Digitalization Trends for H2 2026 (4.8% average industry margin; food-waste rate 8-12% to 3-5%; cooking-robot payback 8-12 months; data sovereignty and private-deployment funding): https://www.seafox.cc/news/industry/restaurant-digitalization-trends-2026-h2-2026-09-11
+- <a id="10-187"></a>[10-187] Yien: Algorithms Define Fashion — 2026 AI + Apparel Consumption Report (AI inspection at about 95% accuracy; design rendering from two days to three seconds; fabric search from hours to three minutes): https://www.sgpjbg.com/baogao/1184550.html?newsid=5491666
+
 
 **Government & Public Services (continued)**
 -
 - <a id="10-161"></a>[10-161] ITIF Center for Data Innovation: Public Sector AI Adoption Index 2026 (survey of 3,335 public servants across 10 countries): https://datainnovation.org/2026/02/public-sector-ai-adoption-index-2026/
 - <a id="10-162"></a>[10-162] CAICT, China Academy of Information and Communications Technology (via SecRSS): Research Report on Government Agent Development (2026): https://www.secrss.com/articles/92573
+- <a id="10-188"></a>[10-188] Cyberspace Administration of China: Implementation Opinions on the Regulated Application and Innovative Development of Agents (China's first systematic policy document focused on agents): https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm
+- <a id="10-189"></a>[10-189] Beijing Municipal Government: Action Plan for Deepening the "One-Net-Through" Reform and Advancing Digital-Intelligent Government Services (2026-2027) (government-service knowledge hub and knowledge operations mechanism): https://www.beijing.gov.cn/zhengce/zhengcefagui/202601/t20260127_4468503.html
+- <a id="10-190"></a>[10-190] East China Normal University: Pang Rui — What the Rise of Government Agents Means for Urban Governance (distinguishing the government LLM from the government agent; regulatory sandbox proposal): https://www.ecnu.edu.cn/info/1425/73044.htm
+- <a id="10-191"></a>[10-191] IDC: FutureScape 2026 — Ten Key Predictions Reshaping Smart-City Governance in China (70% of cities deploying AI agents by 2027; "process debt" risk): https://www.idc.com/resource-center/blog/idc-futurescape-2026%EF%BC%9A%E9%87%8D%E5%A1%91%E4%B8%AD%E5%9B%BD%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82%E6%B2%BB%E7%90%86%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8D%81%E4%B8%AA%E5%85%B3%E9%94%AE%E9%A2%84%E6%B5%8B
+- <a id="10-192"></a>[10-192] Supreme People's Court of China: Opinions on the Lawful Adjudication of AI-Related Disputes (Fa Fa [2026] No. 10, issued September 7, 2026): https://www.court.gov.cn/zixun/xiangqing/511101.html
+
 
 **Logistics & Supply Chain (continued)**
 -
@@ -454,11 +485,23 @@
 -
 - <a id="10-165"></a>[10-165] Nature (npj series): A Novel Use of AI for Prediction of Clinical Deterioration in a Post-Acute Hospital: https://www.nature.com/articles/s44401-026-00145-5
 - <a id="10-166"></a>[10-166] AI Weekly: AI in Healthcare — 21 Real Deployments: https://aiweekly.co/ai-use-cases/industry/healthcare
+- <a id="10-193"></a>[10-193] National Healthcare Security Administration: Building the "Personal Medical Insurance Cloud" to Strengthen China's Health Agent Competitiveness (1.33 billion insured people; "AI iterates inside the domain, data never leaves"): https://www.nhsa.gov.cn/art/2026/3/19/art_14_19954.html
+- <a id="10-194"></a>[10-194] JMIR: Sociotechnical Misalignments in Hospital AI System Implementation — A Qualitative Case Study: https://www.jmir.org/2026/1/e87534
+- <a id="10-195"></a>[10-195] WindowsNews: Yonsei University Health System Deploys Copilot Agents in Teams to Restructure Nursing Support Workflows (citizen-developer model; document quality as AI discipline): https://windowsnews.ai/article/yonsei-hospital-uses-copilot-agents-in-teams-to-streamline-nursing-support.407345
+- <a id="10-196"></a>[10-196] Study Times: Governing the Application of Medical Agents (four risk categories; Expert Consensus on AI Application and Governance in Medical Institutions 2026 and tiered admission; WHO: 74% of EU member states use AI-assisted diagnosis but only 11% have a dedicated health AI strategy): https://www.studytimes.cn/kjqy/202609/t20260916_91711.html
+- <a id="10-197"></a>[10-197] Xinhua: From Cross-Province Pathology Searches to County-Level Diagnosis — Healthcare AI Moving Downstream (first 20 hospitals in Huawei Cloud's smart-healthcare zone; Handan's central-hospital-plus-county digital pathology consortium): http://www.news.cn/tech/20260616/b6eaf975fca74027a78c2e837780b1f7/c.html
+
 
 **Manufacturing (continued)**
 -
 - <a id="10-167"></a>[10-167] Jazzyear Think Tank: 2026 Industrial AI Agent Research Report — Building Factory-Native AI Agents: https://www.jazzyear.com/study_info.html?id=174
 - <a id="10-168"></a>[10-168] CCID, China Center for Information Industry Development: Industrial Agent Adoption — Status, Challenges and Recommendations: https://www.fxbaogao.com/detail/5116428
+- <a id="10-198"></a>[10-198] World Economic Forum x Accenture: From Potential to Performance — How Leading Organizations Are Making AI Work, and the second MINDS cohort (Foxconn automating 80% of decision processes; Lenovo +30% logistics accuracy; CATL with Anmaiosheng cutting quality variance by 50%; Black Lake Technology at 83% utilization): https://cn.weforum.org/press/2026/01/from-potential-to-performance-how-leading-organizations-are-making-ai-work-cn
+- <a id="10-199"></a>[10-199] HiveMQ: Industrial AI Pilots — Why 68% of Manufacturers Never Scale Past POC (data pipelines that cannot migrate; designing a shared data backbone for portability): https://www.hivemq.com/blog/industrial-ai-pilot-why-68-percent-manufacturers-cant-scale-past-poc
+- <a id="10-200"></a>[10-200] IntelliconnectQ: Your AI Pilot Worked, Your Operations Did Not — Five Root Causes (missing decision infrastructure; Kaufman Rossin: 73% of mid-sized manufacturers stuck in pilots): https://intelliconnectq.com/insights/ai-pilot-to-production-manufacturing
+- <a id="10-201"></a>[10-201] CATL: CATL's Intelligent Cell Design Wins WEF MINDS Award with 95% Performance-Prediction Accuracy: https://www.catl.com/news/9556.html
+- <a id="10-202"></a>[10-202] Securities Times: Supcon — Q1 2026 Industrial AI Revenue Breaks Out into Rapid Commercialization ("digital immune system" across 500+ process indicators, 2.5-minute-ahead prediction, 30% lower fluctuation standard deviation): https://stcn.com/article/detail/3818809.html
+
 
 **Energy & Utilities (continued)**
 -
