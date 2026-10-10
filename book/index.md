@@ -53,6 +53,7 @@
 - **《AI 时代人生指南》**（[在线阅读](https://ailife.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-life-guide)）：AI 时代，人该怎么活？
 - **《AI 客户经营》**（[在线阅读](https://ai-customer-growth.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-customer-growth-book)）：AI 如何重塑客户从开拓到留存的全生命周期
 - **《AI 获客》**（[在线阅读](https://ai-customer-acquisition.fly2ai.top) · [GitHub](https://github.com/Jweokk/ai-customer-acquisition-book)）：用 AI 拓客——把 AI 时代的新入口占住，也把老办法用 AI 跑快
+- **《变老说明书》**（[在线阅读](https://aging.fly2ai.top) · [GitHub](https://github.com/Jweokk/aging-manual-book)）：变老分阶段来，每个阶段要办的事不一样——你或你父母的下一步
 
 ## 致谢
 
