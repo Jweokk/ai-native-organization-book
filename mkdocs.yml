@@ -49,6 +49,9 @@ extra:
 
 copyright: 著作权归作者 Jweokk 所有 · 免费阅读与非商业性分享 · 联系 weokk2025@gmail.com
 
+extra_javascript:
+  - assets/shelf-counter.js   # 页脚：访问计数 + PDF 下载计数（counter.fly2ai.top）
+
 nav:
   - 首页: index.md
   - 自序: 00-自序.md
