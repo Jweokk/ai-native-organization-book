@@ -36,7 +36,11 @@ def main():
     warnings = []    # 建议人工确认
 
     appendix_zh = read(APPENDIX_ZH)
-    appendix_refs = set(re.findall(r'<a id="([\d-]+)"', appendix_zh))
+    appendix_en = read(APPENDIX_EN)
+    # 两种语言分别取编号：英文附录漏条目曾导致中文侧检查"通过"却漏掉悬空引用
+    appendix_zh_refs = set(re.findall(r'<a id="([\d-]+)"', appendix_zh))
+    appendix_en_refs = set(re.findall(r'<a id="([\d-]+)"', appendix_en))
+    appendix_refs = appendix_zh_refs | appendix_en_refs
 
     # 中英正文收集
     zh_body = "".join(read(os.path.join(BASE, "book", f)) for f in ZH_BODY)
@@ -64,10 +68,14 @@ def main():
     # 2. 悬空引用（正文引用了附录不存在的编号 = 硬错误）
     zh_refs = set(re.findall(r'<sup><a href="12-附录A-案例索引与资料出处\.md#([\d-]+)">', zh_body)) | set(re.findall(r'<sup>\[([\d-]+)\]</sup>', zh_body))
     en_refs = set(re.findall(r'<sup><a href="12-appendix-a-sources\.md#([\d-]+)">', en_body)) | set(re.findall(r'<sup>\[([\d-]+)\]</sup>', en_body))
-    for lang, refs in [("中文", zh_refs), ("英文", en_refs)]:
-        missing = sorted(r for r in refs if r not in appendix_refs)
+    for lang, refs, app in [("中文", zh_refs, appendix_zh_refs), ("英文", en_refs, appendix_en_refs)]:
+        missing = sorted(r for r in refs if r not in app)
         if missing:
-            errors.append(f"[{lang}] 悬空引用（附录A无此编号）: {missing[:10]}")
+            errors.append(f"[{lang}] 悬空引用（本语言附录A无此编号）: {missing[:10]}")
+    # 中文附录有、英文附录没有 = 英文条目漏译（硬错误，会同步发布出去）
+    zh_only = sorted(appendix_zh_refs - appendix_en_refs)
+    if zh_only:
+        errors.append(f"[英文] 附录A 缺条目（中文有、英文无）{len(zh_only)} 条: {zh_only[:10]}")
 
     # 3. 附录有条目正文未引用（警告，需人工确认是否漏标/延伸阅读）
     used = zh_refs | en_refs
