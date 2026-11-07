@@ -1,0 +1,29 @@
+# AI 原生组织（AI-Native Organization）
+
+> 免费公开、持续更新的开源书：哪些组织真的把 AI 长成了组织基因，而不是给老组织贴创可贴。
+
+Models are no longer scarce; people who can grow models into their organizations are. This free, continuously
+updated book studies "AI-native organizations" — what they are, what the empirical evidence says, and how to
+build one — with sourced cases from China and globally.
+
+- 作者 / Author：Jweokk｜在线阅读 / Read online：https://aiorg.fly2ai.top
+- 双语 / Languages：中文 10 章（站点 + `book/`）· English 10 chapters（`book-en/` + PDF）
+- 许可 / License：非商业分享（正文 CC BY-NC-SA 4.0）；商用须书面许可
+- 更新 / Updates：自动合并新素材持续增补，版本历史见附录 C / `CHANGELOG.md`
+
+## 章节目录 / Chapters
+- [自序](https://aiorg.fly2ai.top/00-自序/) / [Preface](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/00-preface.md) — 为什么写这本书 + 这本书是怎么自动写出来的
+- [第 1 章](https://aiorg.fly2ai.top/01-第1章-AI原生组织的崛起/) / [Ch.1](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/01-ch1-the-rise-of-ai-native-organizations.md) — AI 原生组织的崛起：从 95% 失败率说起
+- [第 2 章](https://aiorg.fly2ai.top/02-第2章-什么是AI原生组织/) / [Ch.2](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/02-ch2-what-is-an-ai-native-organization.md) — 什么是 AI 原生组织：贴膏药 vs 长基因
+- [第 3 章](https://aiorg.fly2ai.top/03-第3章-证据-实证研究怎么看/) / [Ch.3](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/03-ch3-the-evidence.md) — 证据：实证研究怎么看
+- [第 4 章](https://aiorg.fly2ai.top/04-第4章-组织形态重构/) / [Ch.4](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/04-ch4-rebuilding-organizational-structure.md) — 组织形态重构：从层级到网络
+- [第 5 章](https://aiorg.fly2ai.top/05-第5章-工作流与决策重构/) / [Ch.5](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/05-ch5-redesigning-workflows-and-decisions.md) — 工作流与决策重构
+- [第 6 章](https://aiorg.fly2ai.top/06-第6章-激励与人才/) / [Ch.6](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/06-ch6-incentives-and-talent.md) — 激励与人才
+- [第 7 章](https://aiorg.fly2ai.top/07-第7章-案例集/) / [Ch.7](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/07-ch7-case-studies.md) — 案例集：全球与中国的 AI 原生组织
+- [第 8 章](https://aiorg.fly2ai.top/08-第8章-打造你的AI原生组织/) / [Ch.8](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/08-ch8-building-your-ai-native-organization.md) — 打造你的 AI 原生组织：行动手册
+- [第 9 章](https://aiorg.fly2ai.top/09-第9章-挑战风险与未来/) / [Ch.9](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/09-ch9-challenges-risks-and-the-future.md) — 挑战、风险与未来
+- [第 10 章](https://aiorg.fly2ai.top/10-第10章-行业篇/) / [Ch.10](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/10-ch10-industry-guide.md) — 行业篇：十个行业的 AI 原生转型
+- [后记](https://aiorg.fly2ai.top/11-后记/) / [Afterword](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/11-afterword.md)
+- [附录 A](https://aiorg.fly2ai.top/12-附录A-案例索引与资料出处/) / [Appendix A](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/12-appendix-a-sources.md) — 全书案例索引与资料出处
+- [附录 B](https://aiorg.fly2ai.top/13-附录B-常用指标/) / [Appendix B](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/13-appendix-b-metrics.md) — AI 原生组织常用指标
+- [附录 C](https://aiorg.fly2ai.top/14-附录C-版本历史与更新说明/) / [Appendix C](https://github.com/Jweokk/ai-native-organization-book/blob/main/book-en/14-appendix-c-changelog.md) — 版本历史与更新说明
