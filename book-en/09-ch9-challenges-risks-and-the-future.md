@@ -117,7 +117,13 @@ The same pattern shows up in a service provider's post-mortem in another form. V
 
 Both accounts point to one conclusion: **agent failures rarely happen at the model layer; they happen in the true shape of the process, the location of responsibility, and the definition of acceptance.** This is also where Chapter 5's workflow redesign meets this chapter's failure causes — wiring an agent into a process nobody has mapped only automates the confusion.
 
-## 9.7 The Future: Three Directions We Can Expect
+## 9.7 Two Costs That Never Reach the Accounts: Focus Hours and Comprehension Debt
+
+**Time cost comes back as longer working days.** Behavioural observation by ActivTrak shows that employees using AI work about 90 minutes longer per day, while focused time falls 22%<sup><a href="12-appendix-a-sources.md#8-151">[8-151]</a></sup>. This is not a moral claim that "AI exhausts people" but a design problem: when generation speeds up and review and coordination do not, the saved time is refilled with new tasks and the switching cost lands on the individual. **To book it, track focus hours and delivery cycle time rather than hours saved — the latter always looks good, and it is the former that degrades.**
+
+**Comprehension debt is the kind that surfaces late.** A widely circulated first-person account describes a company that a year earlier mandated that all code go through agents, with hand-written code requiring justification. For six months delivery was unprecedented; a year later the codebase is about three times its former size, nobody can explain how most of it works, and the agents themselves keep rebuilding helper functions that already exist in four versions. What actually hurt was who left: the two people who read every pull request and pushed back departed in the spring — one quit, one was "restructured." Automatic review still comments on every PR, but nobody is left to judge which comment matters, so everything gets resolved. This month, management quietly began asking people to "write more of it ourselves," except half the team has not written anything non-trivial in a year<sup><a href="12-appendix-a-sources.md#8-152">[8-152]</a></sup>. **A single source and a personal perspective, not a general law — but it describes a reproducible failure mechanism precisely: cutting judgment roles like "review and push back" as a cost simultaneously removes the person who kept the comprehension-debt ledger. The loss never appears in the quarter's accounts; it appears two years later in the review where nobody can change that module.**
+
+## 9.8 The Future: Three Directions We Can Expect
 
 **1. Agents become a "digital workforce."** A Gartner survey: by 2030, CIOs expect 0% of IT work to be done by "humans without AI," 75% by "human + AI augmentation," and 25% by AI agents independently. Microsoft WTI 2025: 82% of leaders are confident about expanding capacity with a "digital workforce." **"Managing agents" will become a new job skill** (expected by 36% of leaders).
 
@@ -125,7 +131,7 @@ Both accounts point to one conclusion: **agent failures rarely happen at the mod
 
 **3. Pullbacks and reversals become the norm.** Klarna returning to human agents, Duolingo rescinding its memo, the Sam incident at Cursor — AI-native is not a "switch" to be flipped but a process of continuous calibration. **Organizations that can accept reversals and treat them as data are closer to reality than organizations that claim one-step arrival.**
 
-## 9.8 The Core Judgment of This Chapter
+## 9.9 The Core Judgment of This Chapter
 
 Building an AI-native organization is, in essence, a **reorganization of organizational capabilities**: hand information routing to AI, leave judgment to humans, sediment experience into assets, and shift reviews from input to output. It fails on five root causes and succeeds on five patterns (Chapter 8), and the watershed that decides success or failure is always the same question: **are you applying AI as a band-aid to a legacy organization, or growing AI into the organization's DNA?**
 

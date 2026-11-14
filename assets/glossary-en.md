@@ -50,6 +50,24 @@
 | 前沿企业 | Frontier Firm | 微软 WTI 概念 |
 | 数字劳动力 | digital workforce | |
 | 世界模型替代层级 | replacing hierarchy with a world model | |
+| 智能组织 | intelligent organization | 百度李彦宏 2026 提法；"The Intelligent Organization" |
+| 换电机 vs 重设计厂房 | swapping the motor vs redesigning the factory | 李彦宏比喻；"replacing the motor without redesigning the factory" |
+| 岗位收敛 / 职业收敛 | job convergence | Builder 与 Seller 两类 |
+| 任务网络 | network of tasks | 组织＝任务网络（industrial-age job vs intelligence-age task） |
+| 组织智能 | organizational intelligence | "organizational intelligence is the deepest moat" |
+| 人机协同团队 | human–AI collaboration team | 穆胜概念 |
+| 人机比（工时/任务口径） | human-to-AI ratio (in hours or task volume) | 与人头口径区分 |
+| token 效 | token efficiency | 生产力 ≈ 人机比 × token 效 |
+| 理解债 | comprehension debt | 与技术债并列的第二种债 |
+| 系统性转换瓶颈 | systemic conversion strain | Bird 论文提法 |
+| 前台部署工程师 / 前线部署工程师 | forward-deployed engineer (FDE) | 首次出现加注 "FDE" |
+| 数字员工（岗位化） | digital employee (as a post) | 有工号、有职责、有绩效、可解雇 |
+| 半成品重设计 | the half-finished redesign | Bain 报告标题 |
+| 企业皮层 | enterprise cortex | BCG 概念 |
+| 10-20-70 | 10-20-70 | BCG 价值拆分 |
+| 智能体广场 | agent plaza | 紫荆智康 |
+| 医生分身 | doctor twin | 同上 |
+| 多学科人机协作 | multidisciplinary human-AI collaboration (MHAC) | 同上 |
 
 ## 公司/机构官方英文名（已查证）
 
@@ -76,6 +94,22 @@
 | 童行书院 | **Tongxing Shuyuan**（无官方英文） | 首次出现加注 "a children's education initiative by Hao Jingfang" |
 | 郝景芳 | Hao Jingfang | 国际通用 |
 | 杨仁斌 | Yang Renbin | |
+| 百度 | **Baidu** | 官方英文名 |
+| 腾讯 | **Tencent** | 官方英文名 |
+| 沃尔玛 | **Walmart** | 官方英文名 |
+| 京东物流 | **JD Logistics** | 官方英文名 |
+| 顺丰 | **SF Express** | 官方英文名 |
+| 德勤 | **Deloitte** | 官方英文名 |
+| 贝恩公司 | **Bain & Company** | 官方英文名 |
+| 中国信通院 | **CAICT** (China Academy of Information and Communications Technology) | 首次出现加注全称 |
+| 紫荆智康 | **Zijing Zhikang**（无官方英文） | 首次出现加注 "incubated at Tsinghua AIR" |
+| 国网湖州供电公司 | **State Grid Huzhou Power Supply Company** | 首次出现加注中文名 |
+| 广发证券 | **GF Securities** | 官方英文名 |
+| 国信证券 | **Guosen Securities** | 官方英文名 |
+| KAIST | **KAIST** (Korea Advanced Institute of Science and Technology) | 官方英文名 |
+| 普林斯顿大学 | **Princeton University** | 官方英文名 |
+| 马士基 | **Maersk** | 官方英文名 |
+| WiseTech Global | **WiseTech Global** | 澳洲上市，官方英文名 |
 
 ## 人名（拼音直译）
 方跃 → Fang Yue（CEIBS 教授）；司晓/袁晓辉/余一 → Si Xiao, Yuan Xiaohui, Yu Yi；何恩培 → He Enpei；杨仁斌 → Yang Renbin；范冰/XDash → XDash（本人网名）；Tobi Lutke / Sebastian Siemiatkowski / Brian Chesky / Dario Amodei / Jack Dorsey / Itay Shmool / Alexander Puutio / Luis von Ahn → 保留英文原名（人名不译）。
