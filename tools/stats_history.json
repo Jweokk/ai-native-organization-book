@@ -128,5 +128,15 @@
   "views_uniq_14d": 70,
   "cf_req_7d": 61156,
   "cf_uniq_7d": 2974
+ },
+ {
+  "date": "2026-11-22",
+  "stars": 27,
+  "clones_14d": 59,
+  "clones_uniq_14d": 41,
+  "views_14d": 127,
+  "views_uniq_14d": 53,
+  "cf_req_7d": 52189,
+  "cf_uniq_7d": 3013
  }
 ]
